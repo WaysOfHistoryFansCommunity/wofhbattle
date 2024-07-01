@@ -1,9 +1,9 @@
 {
   "build": {
-    "beforeBuildCommand": "npm run build",
-    "beforeDevCommand": "npm run dev",
-    "distDir": "../dist",
-    "devPath": "http://localhost:3000"
+    "beforeBuildCommand": "",
+    "beforeDevCommand": "",
+    "devPath": "../ui",
+    "distDir": "../ui"
   },
   "package": {
     "productName": "WofhBattle",
@@ -59,7 +59,7 @@
         "resizable": true,
         "title": "WofhBattle",
         "width": 800,
-        "url": "menu.html"
+        "url": "index.html"
       }
     ]
   }
