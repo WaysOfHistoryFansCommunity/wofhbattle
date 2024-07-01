@@ -1,0 +1,17 @@
+{
+  "name": "wothbattle",
+  "version": "0.1.0",
+  "main": "index.js",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "serve": "vite preview"
+  },
+  "dependencies": {
+    "@tauri-apps/api": "^1.5.6"
+  },
+  "devDependencies": {
+    "@tauri-apps/cli": "^1.5.14",
+    "vite": "^2.9.18"
+  }
+}
