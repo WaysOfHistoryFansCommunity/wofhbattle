@@ -1,0 +1,450 @@
+<*fontFamily>Roboto-Medium
+<*font_unk>Roboto-Medium
+<*font_br>Roboto-Medium
+<*font_cn>SIMHEI
+<*font_cs>Roboto-Medium
+<*font_da>Roboto-Medium
+<*font_de>Roboto-Medium
+<*font_en>Roboto-Medium
+<*font_es>Roboto-Medium
+<*font_fr>Roboto-Medium
+<*font_nl>Roboto-Medium
+<*font_hi>mangal
+<*font_it>Roboto-Medium
+<*font_ka>hack-regular
+<*font_kr>NotoSansKR-Regular
+<*font_pl>Roboto-Medium
+<*font_ru>Roboto-Medium
+<*font_tr>Roboto-Medium
+
+<*fontFamilyLat>Roboto-Medium
+<*fontFamilyKr>NotoSansKR-Regular
+<*fontFamilyCN>SIMHEI
+<*fontFamilyHi>mangal
+<*fontFamilyKa>hack-regular
+
+<*alphabet>abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ
+<*guiLogo>gui/logo-en.png
+<*speed>Speed
+<*renderQuality>Graphics
+<*optionsVideoQuality>Very low|Low|Medium|High|Ultra
+<*battleOver>The battle is over
+<*replayNowWatch>Battle replay
+<*replayOutdated>Replay is outdated
+<*pause>PAUSE
+<*guiAlertIE>gui/alertIE-en.png
+
+<*warrior>Warrior
+<*slinger>Slinger
+<*lancer>Lance knight
+<*axeman>Axeman
+<*pikeman>Pikeman
+<*bombard>Bombard
+<*metatel>Javelin thrower
+<*warElephant>Battle elephant
+<*clubber>Maceman
+<*rider>Horseman
+<*armoredCar>Armored car
+<*dragoon>Dragoon
+<*chariot>Chariot
+<*submachine>Submachine gunner
+<*machinegunner>Machine gunner
+<*lightTank>Light tank
+<*boloThrower>Bola thrower
+<*squadronCannon>Squadron cannon
+<*soldier>Soldier
+<*longbow>Longbow
+<*cuirassier>Cuirassier
+<*musketeer>Musketeer
+<*jager>Ranger
+<*cavalryMan>Cavalryman
+<*halberdier>Halberdier
+<*crossbowMan>Crossbowman
+<*grenadier>Grenadier
+<*t90>Modern tank
+<*knight>Knight
+<*samurai>Samurai
+<*scout>Scout
+<*archer>Archer
+<*swordsman>Swordsman
+<*cannon>Cannon
+<*mortair>Mortar
+<*guardsman>Guardsman
+<*catapult>Catapult
+<*rutta>Springald
+<*settler>Settler
+<*onagr>Onager
+<*trebuchet>Trebuchet
+<*grenadethrower>Grenade launcher
+<*infantry>Infantry
+<*mountedArcher>Horse archer
+<*mountedCrossbowMan>Horse crossbowman
+<*worker>Worker
+<*militia>Militiaman
+<*rszo>Rocket artillery
+<*ifv>IFV
+<*sniper>Sniper
+<*legioner>Legionary
+<*jaguarWarrior>Jaguar-warrior
+<*chokonu>Chu-ko-nu
+<*tankJaguar>Jaguar tank
+<*doubleChariot>Two-Seat Chariot
+<*impi>Impi
+<*mamlyuck>Mamluk
+<*landsknecht>Landsknecht
+<*minomet>Trench-mortar
+<*heavyTank>Heavy tank
+<*apc1>APC
+<*bm13>Rocket launcher
+<*flamethrower>Flamethrower
+<*camp1>Bivouac
+<*camp2>Camp
+<*camp3>Fortified camp
+<*tower1>Tower
+<*tower2>Observation tower
+<*tower3>Watchtower
+<*tower4>Blockhouse
+<*tower5>Barbican
+<*tower6>Bastion
+<*blockhous1>Machine gun nest
+<*blockhous2>Earth-and-timber box
+<*blockhous3>Pillbox
+<*morgenshtern>Morgenshtern
+<*robodog>Robodog
+<*motorcyclist>Motorcyclist
+
+<*nationName0>nationName0
+<*nationName1>nationName1
+<*nationName2>nationName2
+<*nationName3>nationName3
+<*nationName4>nationName4
+<*nationName5>nationName5
+<*nationName6>nationName6
+<*nationName7>nationName7
+<*nationName8>nationName8
+<*nationName9>nationName9
+<*nationName10>nationName10
+<*nationName11>nationName11
+<*nationName12>nationName12
+<*nationName13>nationName13|1
+<*nationName14>nationName14
+<*nationName15>nationName15
+<*nationName16>nationName16
+<*nationName17>nationName17
+<*nationName18>nationName18|2
+<*nationName19>-|-
+<*nationName20>-
+
+<*unitName0>Warrior
+<*unitName1>Slinger
+<*unitName2>Lance knight
+<*unitName3>Axeman
+<*unitName4>Pikeman
+<*unitName5>Bombard
+<*unitName6>
+<*unitName7>
+<*unitName8>Javelin thrower
+<*unitName9>
+<*unitName10>
+<*unitName11>Battle elephant
+<*unitName12>Maceman
+<*unitName13>Horseman
+<*unitName14>Armored car
+<*unitName15>Dragoon
+<*unitName16>Chariot
+<*unitName17>Submachine gunner
+<*unitName18>Machine gunner
+<*unitName19>Light tank
+<*unitName20>Bola thrower
+<*unitName21>Squadron cannon
+<*unitName22>Soldier
+<*unitName23>Longbow
+<*unitName24>Cuirassier
+<*unitName25>Musketeer
+<*unitName26>Ranger
+<*unitName27>Cavalryman
+<*unitName28>Halberdier
+<*unitName29>Crossbowman
+<*unitName30>Grenadier
+<*unitName31>Modern tank
+<*unitName32>Knight
+<*unitName33>Samurai
+<*unitName34>
+<*unitName35>Scout
+<*unitName36>Archer
+<*unitName37>Swordsman
+<*unitName38>Cannon
+<*unitName39>Mortar
+<*unitName40>Guardsman
+<*unitName41>Catapult
+<*unitName42>Springald
+<*unitName43>Settler
+<*unitName44>Morgenshtern
+<*unitName45>Onager
+<*unitName46>Trebuchet
+<*unitName47>Grenade launcher
+<*unitName48>
+<*unitName49>
+<*unitName50>Infantry
+<*unitName51>Horse archer
+<*unitName52>Horse crossbowman
+<*unitName53>
+<*unitName54>
+<*unitName55>
+<*unitName56>Worker
+<*unitName57>Militiaman
+<*unitName58>Rocket artillery
+<*unitName59>IFV
+<*unitName60>
+<*unitName61>
+<*unitName62>
+<*unitName63>
+<*unitName64>
+<*unitName65>
+<*unitName66>
+<*unitName67>
+<*unitName68>
+<*unitName69>
+<*unitName70>
+<*unitName71>
+<*unitName72>
+<*unitName73>
+<*unitName74>
+<*unitName75>Robodog
+<*unitName76>Sniper
+<*unitName77>
+<*unitName78>Legionary
+<*unitName79>Jaguar-warrior
+<*unitName80>Chu-ko-nu
+<*unitName81>Motorcyclist
+<*unitName82>
+<*unitName83>
+<*unitName84>
+<*unitName85>
+<*unitName86>
+<*unitName87>
+<*unitName88>Jaguar tank
+<*unitName89>
+<*unitName90>
+<*unitName91>
+<*unitName92>Two-Seat Chariot
+<*unitName93>
+<*unitName94>
+<*unitName95>
+<*unitName96>Impi
+<*unitName97>Mamluk
+<*unitName98>
+<*unitName99>Landsknecht
+<*unitName100>Trench-mortar
+<*unitName101>Heavy tank
+<*unitName102>APC
+<*unitName103>Rocket launcher
+<*unitName104>Flamethrower
+<*unitName105>
+<*unitName106>
+<*unitName107>
+<*unitName108>
+<*unitName109>
+<*unitName110>Bivouac
+<*unitName111>Camp
+<*unitName112>Fortified camp
+<*unitName113>Tower
+<*unitName114>Observation tower
+<*unitName115>Watchtower
+<*unitName116>Blockhouse
+<*unitName117>Barbican
+<*unitName118>Bastion
+<*unitName119>Machine gun nest
+<*unitName120>Pillbox
+<*unitName121>Heavy pillbox
+<*unitName122>
+<*unitName123>
+<*unitName124>
+<*unitName125>
+<*unitName126>
+<*unitName127>
+<*unitName128>
+<*unitName129>
+<*unitName130>
+<*unitName131>
+<*unitName132>
+<*unitName133>
+<*unitName134>
+<*unitName135>
+<*unitName136>
+<*unitName137>
+<*unitName138>
+<*unitName139>
+<*unitName140>
+<*unitName141>
+<*unitName142>
+<*unitName143>
+<*unitName144>
+<*unitName145>
+<*unitName146>
+<*unitName147>
+<*unitName148>
+<*unitName149>
+<*unitName150>
+<*unitName151>
+<*unitName152>
+<*unitName153>
+<*unitName154>
+<*unitName155>
+<*unitName156>
+<*unitName157>
+<*unitName158>
+<*unitName159>
+<*unitName160>
+<*unitName161>
+<*unitName162>
+<*unitName163>
+<*unitName164>
+<*unitName165>
+<*unitName166>
+<*unitName167>
+<*unitName168>
+<*unitName169>
+<*unitName170>
+<*unitName171>
+<*unitName172>
+<*unitName173>
+<*unitName174>
+<*unitName175>
+<*unitName176>
+<*unitName177>
+<*unitName178>
+<*unitName179>
+<*unitName180>
+<*unitName181>
+<*unitName182>
+<*unitName183>
+<*unitName184>
+<*unitName185>
+<*unitName186>
+<*unitName187>
+<*unitName188>
+<*unitName189>
+<*unitName190>
+<*unitName191>
+<*unitName192>
+<*unitName193>
+<*unitName194>
+<*unitName195>
+<*unitName196>
+<*unitName197>
+<*unitName198>
+<*unitName199>
+<*unitName200>
+<*unitName201>
+<*unitName202>
+<*unitName203>
+<*unitName204>
+<*unitName205>
+<*unitName206>
+<*unitName207>
+<*unitName208>
+<*unitName209>
+<*unitName210>
+<*unitName211>
+<*unitName212>
+<*unitName213>
+<*unitName214>
+<*unitName215>
+<*unitName216>
+<*unitName217>
+<*unitName218>
+<*unitName219>
+<*unitName220>
+<*unitName221>
+<*unitName222>
+<*unitName223>
+<*unitName224>
+<*unitName225>
+<*unitName226>
+<*unitName227>
+<*unitName228>
+<*unitName229>
+<*unitName230>
+<*unitName231>
+<*unitName232>
+<*unitName233>
+<*unitName234>
+<*unitName235>
+<*unitName236>
+<*unitName237>
+<*unitName238>
+<*unitName239>
+<*unitName240>
+<*unitName241>
+<*unitName242>
+<*unitName243>
+<*unitName244>
+<*unitName245>
+<*unitName246>
+<*unitName247>
+<*unitName248p
+<*unitName248>
+<*unitName249>
+<*unitName250>
+<*unitName251>
+<*unitName252>
+<*unitName253>
+<*unitName254>
+<*unitName255>
+<*unitName256>
+<*unitName257>
+<*unitName258>
+<*unitName259>
+<*unitName260>
+<*unitName261>
+<*unitName262>
+<*unitName263>
+<*unitName264>
+<*unitName265>
+<*unitName266>
+<*unitName267>
+<*unitName268>
+<*unitName269>
+<*unitName270>
+<*unitName271>
+<*unitName272>
+<*unitName273>
+<*unitName274>
+<*unitName275>
+<*unitName276>
+<*unitName277>
+<*unitName278>
+<*unitName279>
+<*unitName280>
+<*unitName281>
+<*unitName282>
+<*unitName283>
+<*unitName284>
+<*unitName285>
+<*unitName286>
+<*unitName287>
+<*unitName288>
+<*unitName289>
+<*unitName290>
+<*unitName291>
+<*unitName292>
+<*unitName293>
+<*unitName294>
+<*unitName295>
+<*unitName296>
+<*unitName297>
+<*unitName298>
+<*unitName299>
+
+<*envTag>-|-|-|-|-|-|-|-|-|-|
+<*envSearchTag>-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|
+<*unitTag>-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|
+<*unitSearchTag>-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|
+<*passabilityLevel0>-
+<*passabilityLevel1>-
+<*passabilityLevel2>-
+<*passabilityLevel3>-
+<*passabilityLevel4>-
+<*passabilityLevel5>-
+<*passabilityLevel6>-

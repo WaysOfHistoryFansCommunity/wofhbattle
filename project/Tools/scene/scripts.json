@@ -1,0 +1,89 @@
+{
+	"scriptedEvents" : 
+	{
+		"resize" : 1,
+		"start" : 0
+	},
+	"scripts" : 
+	{
+		"folderName" : "Tools",
+		"list" : 
+		[
+			[
+				0,
+				{
+					"crc" : 4274180453,
+					"file" : "init.lua"
+				}
+			],
+			[
+				1,
+				{
+					"crc" : 2603014326,
+					"file" : "onResize.lua"
+				}
+			],
+			[
+				3,
+				{
+					"crc" : 3968623918,
+					"file" : "onCursorLeft.lua"
+				}
+			],
+			[
+				4,
+				{
+					"crc" : 3510118032,
+					"file" : "onCursorRight.lua"
+				}
+			],
+			[
+				5,
+				{
+					"crc" : 1392798532,
+					"file" : "onCursorWheel.lua"
+				}
+			],
+			[
+				6,
+				{
+					"crc" : 2163922306,
+					"file" : "changeOffsets.lua"
+				}
+			],
+			[
+				7,
+				{
+					"crc" : 2153621336,
+					"file" : "mouseLeftDoubleClick.lua"
+				}
+			]
+		],
+		"path" : "scene"
+	},
+	"widgetsScripts" : 
+	[
+		[
+			1,
+			[
+				{
+					"event" : 5,
+					"script" : 3
+				},
+				{
+					"event" : 5,
+					"key" : 16777217,
+					"script" : 4
+				},
+				{
+					"event" : 6,
+					"script" : 5
+				},
+				{
+					"event" : 11,
+					"script" : 7
+				}
+			]
+		]
+	]
+}

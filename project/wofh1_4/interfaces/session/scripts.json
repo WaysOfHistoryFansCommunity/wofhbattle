@@ -1,0 +1,62 @@
+{
+	"scriptedEvents" : 
+	{
+		"start" : 1,
+		"work" : 2
+	},
+	"scripts" : 
+	{
+		"list" : 
+		[
+			[
+				0,
+				{
+					"crc" : 2356124001,
+					"file" : "interface/changeReplaySpeed.lua"
+				}
+			],
+			[
+				1,
+				{
+					"crc" : 1055585656,
+					"file" : "interface/init.lua"
+				}
+			],
+			[
+				2,
+				{
+					"crc" : 38578561,
+					"file" : "interface/work.lua"
+				}
+			],
+			[
+				3,
+				{
+					"crc" : 1737503502,
+					"file" : "interface/changeGraphicsLevel.lua"
+				}
+			]
+		]
+	},
+	"widgetsScripts" : 
+	[
+		[
+			71,
+			[
+				{
+					"event" : 2,
+					"script" : 0
+				}
+			]
+		],
+		[
+			211,
+			[
+				{
+					"event" : 2,
+					"script" : 3
+				}
+			]
+		]
+	]
+}

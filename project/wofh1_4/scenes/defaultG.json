@@ -1,0 +1,10 @@
+{
+	"gravity" : 128,
+	"atmosphereDensity" : 65536,
+	"bsp":
+	{
+		"projectiles" : 5,
+		"units" : 6,
+		"envs" : 6,
+	}
+}

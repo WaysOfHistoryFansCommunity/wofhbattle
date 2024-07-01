@@ -1,0 +1,108 @@
+{
+	"content" : 
+	{
+		"images" : 
+		[
+			[
+				0,
+				{
+					"size" : 
+					[
+						1.0,
+						1.0
+					],
+					"texture" : 0
+				}
+			]
+		],
+		"targets" : 
+		[
+			[
+				0,
+				{
+					"alpha" : false,
+					"name" : "viewport",
+					"size" : 
+					[
+						128,
+						128
+					]
+				}
+			]
+		],
+		"textures" : 
+		[
+			[
+				0,
+				{
+					"mipmap" : false,
+					"purpose" : 1,
+					"smooth" : false,
+					"source" : 2,
+					"target" : 0
+				}
+			]
+		]
+	},
+	"hotKeys" : 
+	[
+		[
+			0,
+			{
+				"keys" : 
+				[
+					341
+				]
+			}
+		]
+	],
+	"widgets" : 
+	{
+		"nodes" : 
+		[
+			[
+				0,
+				{
+					"bounds" : 
+					{
+						"horizontalAlign" : 2,
+						"size" : 
+						[
+							1920,
+							1017
+						],
+						"verticalAlign" : 2
+					},
+					"eventTransparent" : true,
+					"nodes" : 
+					[
+						1
+					],
+					"type" : 14,
+					"widget" : null
+				}
+			],
+			[
+				1,
+				{
+					"bounds" : 
+					{
+						"bottom" : -39,
+						"horizontalAlign" : 4,
+						"size" : 
+						[
+							1286,
+							789
+						],
+						"verticalAlign" : 4
+					},
+					"type" : 16,
+					"widget" : 
+					{
+						"image" : 0
+					}
+				}
+			]
+		]
+	}
+}

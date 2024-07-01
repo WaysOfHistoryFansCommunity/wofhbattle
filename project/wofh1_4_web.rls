@@ -1,0 +1,12 @@
+{
+	"regions" : [
+		{
+			"name": "Wofh",
+			"server": "wss://battle2.waysofhistory.com/lobby1/"
+		}
+	],
+	"lobby":"wss://battle2.waysofhistory.com/lobby1/",
+	"contentUrl": "",
+	"project":"wofh1_4",
+	"version":42
+}

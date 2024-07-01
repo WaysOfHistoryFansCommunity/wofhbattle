@@ -1,0 +1,37 @@
+body {
+    margin: 0;
+    padding: 0;
+    overflow-y: hidden;
+    height : 100%;
+}
+
+#gameSpace {
+    position: relative;
+}
+
+#game {
+    /*position: absolute;*/
+
+}
+
+#gameBg {
+    position: absolute;
+
+}
+
+#gui {
+    position: absolute;
+    display: block;
+}
+
+#miniMap {
+    position: absolute;
+    display: block;
+}
+
+#canvas1 {
+	position: absolute;
+	left: 800px;
+	top: 200px;
+}
+

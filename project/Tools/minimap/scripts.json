@@ -1,0 +1,94 @@
+{
+	"scriptedEvents" : 
+	{
+		"activate" : 6,
+		"event" : 7,
+		"init" : 5,
+		"start" : 0
+	},
+	"scripts" : 
+	{
+		"folderName" : "Tools",
+		"list" : 
+		[
+			[
+				0,
+				{
+					"crc" : 1242811931,
+					"file" : "gen/_start.lua"
+				}
+			],
+			[
+				1,
+				{
+					"crc" : 2858083238,
+					"file" : "move.lua"
+				}
+			],
+			[
+				2,
+				{
+					"crc" : 2135465149,
+					"file" : "pressL.lua"
+				}
+			],
+			[
+				3,
+				{
+					"crc" : 1894477702,
+					"file" : "pressR.lua"
+				}
+			],
+			[
+				4,
+				{
+					"crc" : 3578705078,
+					"file" : "switchLayer.lua"
+				}
+			],
+			[
+				5,
+				{
+					"crc" : 1636385528,
+					"file" : "gen/_init.lua"
+				}
+			],
+			[
+				6,
+				{
+					"crc" : 1807072725,
+					"file" : "gen/_activate.lua"
+				}
+			],
+			[
+				7,
+				{
+					"crc" : 3730933925,
+					"file" : "gen/_event.lua"
+				}
+			]
+		],
+		"path" : "minimap"
+	},
+	"widgetsScripts" : 
+	[
+		[
+			5,
+			[
+				{
+					"event" : 4,
+					"script" : 1
+				},
+				{
+					"event" : 5,
+					"script" : 2
+				},
+				{
+					"event" : 5,
+					"key" : 16777217,
+					"script" : 3
+				}
+			]
+		]
+	]
+}

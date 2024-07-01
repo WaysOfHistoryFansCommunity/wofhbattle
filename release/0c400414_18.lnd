@@ -1,0 +1,17 @@
+{
+	"cellsize" : 4096,
+	"passability" : 
+	{
+		"cellsize" : 12,
+		"size" : 
+		[
+			683,
+			683
+		]
+	},
+	"size" : 
+	[
+		513,
+		513
+	]
+}

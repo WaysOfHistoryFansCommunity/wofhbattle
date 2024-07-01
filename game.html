@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <title></title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+
+	<script>
+		function init()
+		{
+			window.ge = {};
+			window.ge.releaseUrl = "project/wofh1_4_web.rls";
+			window.ge.version = "109";
+			window.ge.scriptPrefix = "";
+			window.ge.urlParams=new URLSearchParams(window.location.search);
+			window.ge.namedConst = {};
+			window.ge.namedConst.defaultWindowWidth = window.innerWidth;
+			window.ge.namedConst.defaultWindowHeight = window.innerHeight;
+			window.ge.namedConst.renderPlatform = window.ge.pickedRenderPlatform;
+			window.ge.namedConst.release = window.ge.releaseUrl;
+			window.ge.namedConst.lang = window.ge.urlParams.get("lang");
+			window.ge.namedConst.originalScripts = false;
+			window.ge.namedConst.secret = window.ge.urlParams.get("secret");
+			window.ge.namedConst.replay = window.ge.urlParams.get("replay");
+			window.ge.namedConst["extPlat"] = "fake";
+			window.ge.namedConst["extAcc"] = "spectator";
+			window.ge.namedConst["extSig"] = "fakeSig";
+			window.ge.namedConst["extNick"] = "spectator";
+
+			load();
+		}
+	</script>
+	<script src="js/yepnope.1.5.4-min.js"></script>
+	<script src="js/scriptsLoader.js"></script>
+</head>
+<body  bgcolor="#00000000" onload="init()";>
+<div id="gameSpace">
+    <canvas id="game" width = "800" height = "600" bgcolor="#00000000" oncontextmenu="return false;">Canvas not supported</canvas>
+</div>
+	
+</body>
+
+</html>

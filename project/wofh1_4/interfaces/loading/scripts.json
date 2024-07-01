@@ -1,0 +1,15 @@
+{
+	"scripts" : 
+	{
+		"list" : 
+		[
+			[
+				0,
+				{
+					"crc" : 2629289068,
+					"file" : "loading/onWork.lua"
+				}
+			]
+		]
+	}
+}
