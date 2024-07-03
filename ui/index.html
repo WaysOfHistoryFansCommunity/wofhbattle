@@ -7,7 +7,7 @@
         <title>Wofh Battle</title>
     </head>
     <body>
-        <div class="wnd-wrp wnd-simbattle-wrp ui-draggable" style="width: 100%;height: 100%;">
+        <div class="wnd-wrp wnd-simbattle-wrp" style="width: 100%;height: 100%;">
             <div class="wnd wnd-simbattle -type-moving -active" style="width: 100%;height: 100%;">
                 <div class="wnd-borders-wrp">
                     <div class="wnd-brd wnd-brd-t"></div>
@@ -25,76 +25,63 @@
                     <form class="view-simbattle">
                         <div class="simbattle-simhead-wrp">
                             <div class="simbattle-simhead-alert-wrp"><div class="simbattle-simhead-alert"></div></div>
-                            <table class="simbattle-simhead">
-                                <tbody>
-                                    <tr>
-                                        <td class="aL">
-                                            <div class="imgDefence"></div>
-                                            <div class="simbattle-settings">
-                                                <div>
-                                                    <div class="simbattle-setting-icon"></div>
-                                                    Военный бонус
-                                                    <div class="spinbox-wrp">
-                                                        <input type="number" class="sh input1 spinbox" name="b2" value="0" />
-                                                        <div class="spinbox-spin -type-more"></div>
-                                                        <div class="spinbox-spin -type-less"></div>
-                                                    </div>
-                                                    %
-                                                </div>
-                                                <div class="simbattle-setTactic-wrp">
-                                                    <div class="simbattle-setting-icon"><span class="iconTactics"></span></div>
-                                                    <a class="simbattle-setTactic link -lenLim js-setTactic" data-member="0"><span class="-nobr -snip-tactic -warn -type-red">Выбрать тактику</span></a>
-                                                </div>
-                                                <div>
-                                                    <div class="simbattle-setting-icon"><div class="build-tabIcon-wrp build-tabIcon -type-defence"></div></div>
-                                                    <div class="smplSelect select1"><input type="hidden" class="smplSelect-input" name="dt" value="0" /><span class="smplSelect-text">Без укреплений</span></div>
-                                                    <span class="simbattle-defLevel-wrp -hidden">
-                                                        <div class="spinbox-wrp">
-                                                            <input type="number" class="input1 spinbox" name="dl" value="1" />
-                                                            <div class="spinbox-spin -type-more"></div>
-                                                            <div class="spinbox-spin -type-less"></div>
-                                                        </div>
-                                                        ур.
-                                                    </span>
-                                                </div>
+                            <div class="simbattle-simhead">
+                                <div class="simbattle-simhead-imgDefence">
+                                    <div class="imgDefence"></div>
+                                    <div class="simbattle-settings">
+                                        <div>
+                                            <div class="simbattle-setting-icon"></div>
+                                            Военный бонус
+                                            <div class="spinbox-wrp">
+                                                <input type="number" class="sh input1 spinbox" name="b2" value="0" />
+                                                <div class="spinbox-spin -type-more"></div>
+                                                <div class="spinbox-spin -type-less"></div>
                                             </div>
-                                        </td>
-                                        <td class="aR">
-                                            <div class="simbattle-settings">
-                                                <div>
-                                                    <div class="simbattle-setting-icon"></div>
-                                                    Военный бонус
-                                                    <div class="spinbox-wrp">
-                                                        <input type="number" class="sh input1 spinbox" name="b1" value="0" />
-                                                        <div class="spinbox-spin -type-more"></div>
-                                                        <div class="spinbox-spin -type-less"></div>
-                                                    </div>
-                                                    %
+                                            %
+                                        </div>
+                                        <div class="simbattle-setTactic-wrp">
+                                            <div class="simbattle-setting-icon"><span class="iconTactics"></span></div>
+                                            <a class="simbattle-setTactic link -lenLim js-setTactic" data-member="0"><span class="-nobr -snip-tactic -warn -type-red">Выбрать тактику</span></a>
+                                        </div>
+                                        <div>
+                                            <div class="simbattle-setting-icon"><div class="build-tabIcon-wrp build-tabIcon -type-defence"></div></div>
+                                            <div class="smplSelect select1"><input type="hidden" class="smplSelect-input" name="dt" value="0" /><span class="smplSelect-text">Без укреплений</span></div>
+                                            <span class="simbattle-defLevel-wrp -hidden">
+                                                <div class="spinbox-wrp">
+                                                    <input type="number" class="input1 spinbox" name="dl" value="1" />
+                                                    <div class="spinbox-spin -type-more"></div>
+                                                    <div class="spinbox-spin -type-less"></div>
                                                 </div>
-                                                <div class="simbattle-setTactic-wrp">
-                                                    <div class="simbattle-setting-icon"><span class="iconTactics"></span></div>
-                                                    <a class="simbattle-setTactic js-setTactic link -lenLim" data-member="1"><span class="-nobr -snip-tactic -warn -type-red">Выбрать тактику</span></a>
-                                                </div>
-                                            </div>
-                                            <div class="imgAttack"></div>
-                                        </td>
-                                    </tr>
-                                </tbody>
-                            </table>
-                        </div>
-                        <div class="js-scroll-wrp __scrollWrp" style="max-height: 648px;" data-isbc-id="5">
-                            <div class="__scroll" data-isbc-y-lay="outside" data-isbc-y-pos="right" data-isbc-y-hidden="">
-                                <div class="__scrollbar-y">
-                                    <div data-isbc-btn="inc"></div>
-                                    <div class="__scrollbarTrack"></div>
-                                    <div class="__scrollbarThumb" style="height: 0px;"></div>
-                                    <div data-isbc-btn="dec"></div>
+                                                ур.
+                                            </span>
+                                        </div>
+                                    </div>
+                                    <div class="imgDefence"></div>
                                 </div>
-                                <div class="__scrollArea">
-                                    <table class="__scrollCont">
-                                        <tbody>
-                                            <tr class="lh">
-                                                <td class="simbattle-army">
+                                <div class="simbattle-simhead-imgAttack">
+                                    <div class="imgAttack"></div>
+                                    <div class="simbattle-settings">
+                                        <div>
+                                            <div class="simbattle-setting-icon"></div>
+                                            Военный бонус
+                                            <div class="spinbox-wrp">
+                                                <input type="number" class="sh input1 spinbox" name="b1" value="0" />
+                                                <div class="spinbox-spin -type-more"></div>
+                                                <div class="spinbox-spin -type-less"></div>
+                                            </div>
+                                            %
+                                        </div>
+                                        <div class="simbattle-setTactic-wrp">
+                                            <div class="simbattle-setting-icon"><span class="iconTactics"></span></div>
+                                            <a class="simbattle-setTactic js-setTactic link -lenLim" data-member="1"><span class="-nobr -snip-tactic -warn -type-red">Выбрать тактику</span></a>
+                                        </div>
+                                    </div>
+                                    <div class="imgAttack"></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="simbattle-army-wrp">
+                            <div class="simbattle-army">
                                                     <div class="mb10">
                                                         <div class="simbattle-unitval-wrp">
                                                             <a href="/#/unitinfo/0" class="simbattle-unit -type-empty" tabindex="-1"><span class="unit u0"></span></a><br />
@@ -641,9 +628,9 @@
                                                             </div>
                                                         </div>
                                                     </div>
-                                                </td>
-                                                <td class="simbattle-army">
-                                                    <div class="mb10">
+                            </div>
+                            <div class="simbattle-army">
+                                            <div class="mb10">
                                                         <div class="simbattle-unitval-wrp">
                                                             <a href="/#/unitinfo/0" class="simbattle-unit -type-empty" tabindex="-1"><span class="unit u0"></span></a><br />
                                                             <div class="spinbox-wrp">
@@ -1186,14 +1173,9 @@
                                                                 <input type="number" value="" name="a58" class="simbattle-unitval -sim-army-attack input1 spinbox" data-id="58" autocomplete="off" />
                                                                 <div class="spinbox-spin -type-more"></div>
                                                                 <div class="spinbox-spin -type-less"></div>
-                                                            </div>
-                                                        </div>
                                                     </div>
-                                                </td>
-                                            </tr>
-                                        </tbody>
-                                    </table>
-                                </div>
+                                                </div>
+                                            </div>
                             </div>
                         </div>
                         <div class="simbattle-footer com-footer">

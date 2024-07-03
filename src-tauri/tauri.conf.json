@@ -55,7 +55,7 @@
     "windows": [
       {
         "fullscreen": false,
-        "height": 855,
+        "height": 770,
         "resizable": true,
         "title": "WofhBattle",
         "width": 960,
