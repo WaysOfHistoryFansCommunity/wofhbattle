@@ -44,7 +44,7 @@ function onTypeMoreClick(event)
     } 
     else 
     {
-        spinbox.value = spinboxValue + 1;
+        spinbox.value = spinboxValue++;
     }
 
     checkSimbattleUnitval(spinbox);
@@ -57,19 +57,17 @@ function onTypeLessClick(event)
     const spinbox = spinboxWrp.querySelector(".spinbox");
     let spinboxValue = parseInt(spinbox.value);
 
-    if (spinbox.value.length === 0 || spinboxValue == 1) 
+    if (spinbox.value.length === 0 || spinboxValue <= 1) 
     {
         spinbox.value = "";
     } 
     else 
     {
-        spinbox.value = spinboxValue - 1;
+        spinbox.value = spinboxValue--;
     }
 
     checkSimbattleUnitval(spinbox);
 }
-
-
 
 const spinboxWrpElements = document.querySelectorAll('.spinbox-wrp');
 
@@ -87,7 +85,6 @@ spinboxWrpElements.forEach((spinboxWrp) =>
 });
 
 const simbattleResetArmy = document.querySelector('.simbattle-resetArmy');
-
 simbattleResetArmy.addEventListener("click", () =>
 {
     spinboxWrpElements.forEach((spinboxWrp) =>
@@ -99,6 +96,56 @@ simbattleResetArmy.addEventListener("click", () =>
     });
 });
 
+const defenseArmy = document.querySelector('.defense-army');
+const attackArmy = document.querySelector('.attack-army');
+
+const simbattleSimheadWarBonusDefense = document.querySelector('.simbattle-simhead-warBonusDefense');
+const simbattleSimheadWarBonusAttack = document.querySelector('.simbattle-simhead-warBonusAttack');
+
+const simbattleСhangeArmy = document.querySelector('.simbattle-changeArmy');
+
+simbattleСhangeArmy.addEventListener("click", () =>
+{
+    const units = defenseArmy.querySelectorAll('.-sim-army-defense');
+    
+    units.forEach((defenseUnit) =>
+    {
+        const defenseUnitId = defenseUnit.dataset.id;
+        const defenseUnitValue = defenseUnit.value;
+
+        if(defenseUnitId)
+        {
+            const attackUnit = attackArmy.querySelector(".-sim-army-attack[data-id='"+ defenseUnitId +"']");
+            if(attackUnit)
+            {
+                const attackUnitValue = attackUnit.value;
+                attackUnit.value = defenseUnitValue;
+                defenseUnit.value = attackUnitValue;
+                
+                checkSimbattleUnitval(attackUnit);
+                checkSimbattleUnitval(defenseUnit);
+            }
+            else
+            {
+                defenseUnit.value = "";
+                checkSimbattleUnitval(defenseUnit);
+            }
+        }
+        else
+        {
+            defenseUnit.value = "";
+            checkSimbattleUnitval(defenseUnit);
+        }
+    });
+
+    
+    const simbattleSimheadWarBonusDefenseValue = simbattleSimheadWarBonusDefense.value;
+    const simbattleSimheadWarBonusAttackValue = simbattleSimheadWarBonusAttack.value;
+    
+    simbattleSimheadWarBonusDefense.value = simbattleSimheadWarBonusAttackValue;
+    simbattleSimheadWarBonusAttack.value = simbattleSimheadWarBonusDefenseValue;
+});
+
 const reportBattleView = document.querySelector('.report-battleView');
 const simbattleSimhead = document.querySelector('.simbattle-simhead');
 const simbattleArmyWrp = document.querySelector('.simbattle-army-wrp');
@@ -107,12 +154,36 @@ reportBattleView.addEventListener("change", () =>
 {
     if(reportBattleView.checked)
     {
-        simbattleSimhead.classList.remove('reverse');
-        simbattleArmyWrp.classList.remove('reverse');
+        simbattleSimhead.classList.add('reverse');
+        simbattleArmyWrp.classList.add('reverse');
     }
     else
     {
-        simbattleSimhead.classList.add('reverse');
-        simbattleArmyWrp.classList.add('reverse');
+        simbattleSimhead.classList.remove('reverse');
+        simbattleArmyWrp.classList.remove('reverse');
+    }
+});
+
+const smplSelectInput = document.querySelector('.smplSelect');
+const smplSelectText = smplSelectInput.querySelector('.smplSelect-text');
+
+const smplSelectInputValues = [0, 3, 19, 38, 57];
+const smplSelectInputStrValues = ['Без укреплений', 'Ров', 'Частокол', 'Стена', 'Укрепрайон'];
+
+const smplSelectInputCurrentValue = 0;
+
+smplSelectInput.addEventListener("click", () =>
+{
+    console.log(smplSelectInputCurrentValue);
+    if(smplSelectInputCurrentValue < smplSelectInputValues.length)
+    {
+        smplSelectInputCurrentValue++;
+        smplSelectInput.value = smplSelectInputStrValues[smplSelectInputCurrentValue];
+
+    }
+    else
+    {
+        smplSelectInputCurrentValue = 0;
+        smplSelectInput.value = smplSelectInputStrValues[smplSelectInputCurrentValue];
     }
 });

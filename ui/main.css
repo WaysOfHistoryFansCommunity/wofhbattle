@@ -56,7 +56,6 @@ a [data-title] {
   cursor:pointer
 }
 
-
 input[type=number]::-webkit-outer-spin-button,
 input[type=number]::-webkit-inner-spin-button {
   -webkit-appearance: none;
@@ -348,10 +347,12 @@ table .-defVal {
   color:#000
 }
 .bgLight .fakelink:hover,
-.bgLight.fakelink:hover {
+.bgLight.fakelink:hover 
+{
   color:#000
 }
-@keyframes _blink {
+@keyframes _blink 
+{
   0% {
     opacity:1
   }
@@ -362,7 +363,8 @@ table .-defVal {
     opacity:1
   }
 }
-@-webkit-keyframes _blink {
+@-webkit-keyframes _blink 
+{
   0% {
     opacity:1
   }
@@ -861,7 +863,7 @@ link.button1:hover {
   text-align:center;
   font-size:12px;
   color:#fff !important;
-  background:url(/img/gui/buttons/buttons_type1-a.png) 0 -80px
+  background: url(/img/gui/buttons/buttons_type1-a.png) 0 -80px
 }
 button.button1s {
   line-height:18px
