@@ -44,7 +44,21 @@ function onTypeMoreClick(event)
     } 
     else 
     {
-        spinbox.value = spinboxValue++;
+        if(spinbox.dataset.max)
+        {
+            if(spinboxValue < spinbox.dataset.max)
+            {
+                spinbox.value = spinboxValue + 1;
+            }
+            else
+            {
+                spinbox.value = spinboxValue;
+            }
+        }
+        else
+        {
+            spinbox.value = spinboxValue + 1;
+        }
     }
 
     checkSimbattleUnitval(spinbox);
@@ -57,13 +71,30 @@ function onTypeLessClick(event)
     const spinbox = spinboxWrp.querySelector(".spinbox");
     let spinboxValue = parseInt(spinbox.value);
 
-    if (spinbox.value.length === 0 || spinboxValue <= 1) 
+    let spinboxMinValue = 0;
+    if(typeof spinbox.dataset.min !== 'undefined') spinboxMinValue = parseInt(spinbox.dataset.min);
+
+    if (spinbox.value.length === 0 || spinboxValue <= spinboxMinValue + 1) 
     {
-        spinbox.value = "";
+        if(spinbox.value.length === 0 || spinboxMinValue == 0)
+        {
+            if(typeof spinbox.dataset.min !== 'undefined')
+            {
+                spinbox.value = 0;
+            }
+            else
+            {
+                spinbox.value = "";
+            }
+        }
+        else
+        {
+            spinbox.value = spinboxMinValue;
+        }
     } 
     else 
     {
-        spinbox.value = spinboxValue--;
+        spinbox.value = spinboxValue - 1;
     }
 
     checkSimbattleUnitval(spinbox);
@@ -82,18 +113,6 @@ spinboxWrpElements.forEach((spinboxWrp) =>
 
     typeMore.addEventListener("click", onTypeMoreClick);
     typeLess.addEventListener("click", onTypeLessClick);
-});
-
-const simbattleResetArmy = document.querySelector('.simbattle-resetArmy');
-simbattleResetArmy.addEventListener("click", () =>
-{
-    spinboxWrpElements.forEach((spinboxWrp) =>
-    {
-        const spinbox = spinboxWrp.querySelector(".spinbox");
-        spinbox.value = "";
-
-        checkSimbattleUnitval(spinbox);
-    });
 });
 
 const defenseArmy = document.querySelector('.defense-army');
@@ -164,26 +183,54 @@ reportBattleView.addEventListener("change", () =>
     }
 });
 
-const smplSelectInput = document.querySelector('.smplSelect');
-const smplSelectText = smplSelectInput.querySelector('.smplSelect-text');
+const smplSelectSelect = document.querySelector('.selectDefenseBuilding');
+const simbattleDefLevelWrp = document.querySelector('.simbattle-defLevel-wrp');
+const smplSelectInput = smplSelectSelect.querySelector('.smplSelect-input');
+const smplSelectText = smplSelectSelect.querySelector('.smplSelect-text');
 
 const smplSelectInputValues = [0, 3, 19, 38, 57];
-const smplSelectInputStrValues = ['Без укреплений', 'Ров', 'Частокол', 'Стена', 'Укрепрайон'];
+const smplSelectTextValues = ['Без укреплений', 'Ров', 'Частокол', 'Стена', 'Укрепрайон'];
 
-const smplSelectInputCurrentValue = 0;
+let smplSelectSelectCurrentValue = 0;
 
-smplSelectInput.addEventListener("click", () =>
+smplSelectSelect.addEventListener("click", () =>
 {
-    console.log(smplSelectInputCurrentValue);
-    if(smplSelectInputCurrentValue < smplSelectInputValues.length)
+    if(smplSelectSelectCurrentValue < smplSelectTextValues.length - 1)
     {
-        smplSelectInputCurrentValue++;
-        smplSelectInput.value = smplSelectInputStrValues[smplSelectInputCurrentValue];
-
+        smplSelectSelectCurrentValue++;
+        smplSelectInput.value = smplSelectInputValues[smplSelectSelectCurrentValue];
+        smplSelectText.textContent = smplSelectTextValues[smplSelectSelectCurrentValue];
+        simbattleDefLevelWrp.classList.remove('-hidden');
     }
     else
     {
-        smplSelectInputCurrentValue = 0;
-        smplSelectInput.value = smplSelectInputStrValues[smplSelectInputCurrentValue];
+        smplSelectSelectCurrentValue = 0;
+        smplSelectInput.value = smplSelectInputValues[smplSelectSelectCurrentValue];
+        smplSelectText.textContent = smplSelectTextValues[smplSelectSelectCurrentValue];
+        simbattleDefLevelWrp.classList.add('-hidden');
     }
+});
+
+const simbattleResetArmy = document.querySelector('.simbattle-resetArmy');
+simbattleResetArmy.addEventListener("click", () =>
+{
+    spinboxWrpElements.forEach((spinboxWrp) =>
+    {
+        const spinbox = spinboxWrp.querySelector(".spinbox");
+        if(spinbox.dataset.min)
+        {
+            spinbox.value = spinbox.dataset.min;
+        }
+        else
+        {
+            spinbox.value = "";
+        }
+
+        smplSelectSelectCurrentValue = 0;
+        smplSelectInput.value = smplSelectInputValues[smplSelectSelectCurrentValue];
+        smplSelectText.textContent = smplSelectTextValues[smplSelectSelectCurrentValue];
+        simbattleDefLevelWrp.classList.add('-hidden');
+
+        checkSimbattleUnitval(spinbox);
+    });
 });
