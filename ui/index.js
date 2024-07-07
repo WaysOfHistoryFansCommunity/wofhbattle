@@ -1,3 +1,24 @@
+const { invoke } = window.__TAURI__.tauri;
+
+function getRandomInt(max) 
+{
+    return Math.floor(Math.random() * max);
+}
+
+function createSimulationUrl(lang, simulation, replay, project, domain) 
+{
+    const baseUrl = 'simulator.html';
+    const params = new URLSearchParams();
+
+    params.append('lang', lang);
+    params.append('simulation', JSON.stringify(simulation));
+    params.append('replay', replay);
+    params.append('project', project);
+    params.append('domain', domain);
+
+    return `${baseUrl}?${params.toString()}`;
+}
+
 function checkSimbattleUnitval(simbattleUnitval) 
 {
     const simbattleUnitvalWrp = simbattleUnitval.parentElement.parentElement;
@@ -233,4 +254,45 @@ simbattleResetArmy.addEventListener("click", () =>
 
         checkSimbattleUnitval(spinbox);
     });
+});
+
+const simbattleRun = document.querySelector('.simbattle-run');
+
+simbattleRun.addEventListener('click', () => 
+{
+    console.log("Simulator battle run");
+    
+    const lang = 'ru';
+    const simulation = {
+        buildings: [1, 1, 1, 1, 1, 1, 1, 1, 1],
+        members: 
+        {
+            "0": 
+            {
+                army: {"26": 1},
+                damageBonus: 100,
+                fraction: 0,
+                faction: 0
+            },
+            "1": 
+            {
+                army: {"14": 1},
+                damageBonus: 100,
+                fraction: 1,
+                faction: 1
+            }
+        },
+        map: 'map1'
+    };
+
+    const replay = getRandomInt(999999999);
+    const project = 'wofh1_4';
+    const domain = 'int22.waysofhistory.com';
+    const windowTitle = `Simulation Window ${windowCount}`;
+    const windowId = `window_${windowCount}`;
+    windowCount++;
+
+    const url = createSimulationUrl(lang, simulation, replay, project, domain);
+
+    invoke('open_new_window', { url: url, title: windowTitle, id: windowId });
 });
