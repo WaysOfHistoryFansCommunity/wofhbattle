@@ -1,5 +1,3 @@
-const { invoke } = window.__TAURI__.tauri;
-
 function getRandomInt(max) 
 {
     return Math.floor(Math.random() * max);
@@ -256,12 +254,15 @@ simbattleResetArmy.addEventListener("click", () =>
     });
 });
 
+const invoke = window.__TAURI__.invoke;
+let windowCount = 0;
+
 const simbattleRun = document.querySelector('.simbattle-run');
 
 simbattleRun.addEventListener('click', () => 
 {
     console.log("Simulator battle run");
-    
+
     const lang = 'ru';
     const simulation = {
         buildings: [1, 1, 1, 1, 1, 1, 1, 1, 1],
