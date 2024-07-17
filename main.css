@@ -536,7 +536,7 @@ table .-defVal {
   line-height:29px;
   text-align:center;
   vertical-align:top;
-  background:url(/img/gui/buttons/buttons-s-1.png);
+  background:url(./img/gui/buttons/buttons-s-1.png);
   color:#fff !important;
   font-size:12px;
   text-decoration:none
@@ -562,7 +562,7 @@ link.button1:hover {
   top:0px;
   display:inline-block;
   height:33px;
-  background:url(/img/gui/buttons/buttons-s-1.png)
+  background:url(./img/gui/buttons/buttons-s-1.png)
 }
 .button1:before {
   width:15px;
@@ -863,7 +863,7 @@ link.button1:hover {
   text-align:center;
   font-size:12px;
   color:#fff !important;
-  background: url(/img/gui/buttons/buttons_type1-a.png) 0 -80px
+  background: url(./img/gui/buttons/buttons_type1-a.png) 0 -80px
 }
 button.button1s {
   line-height:18px
@@ -883,7 +883,7 @@ link.button1s:hover {
   top:0;
   display:inline-block;
   height:18px;
-  background:url(/img/gui/buttons/buttons_type1-a.png)
+  background:url(./img/gui/buttons/buttons_type1-a.png)
 }
 .button1s:before {
   width:15px;
@@ -1070,7 +1070,7 @@ link.button1s:hover {
   display:inline-block;
   width:29px;
   height:29px;
-  background-image:url(/img/gui/buttons/window_buttons-a-2.png)
+  background-image:url(./img/gui/buttons/window_buttons-a-2.png)
 }
 .button2.-disabled {
   cursor:default
@@ -1207,7 +1207,7 @@ link.button1s:hover {
   display:inline-block;
   width:19px;
   height:19px;
-  background:url(/img/gui/buttons/window_buttons-a-2.png);
+  background:url(./img/gui/buttons/window_buttons-a-2.png);
   cursor:pointer
 }
 .button2-small.-type-empty {
@@ -1269,7 +1269,7 @@ link.button1s:hover {
   display:inline-block;
   width:30px;
   height:30px;
-  background-image:url(/img/gui/buttons/button_30x30-sprite.png);
+  background-image:url(./img/gui/buttons/button_30x30-sprite.png);
   text-align:center;
   line-height:30px
 }
@@ -1293,7 +1293,7 @@ link.button1s:hover {
   display:inline-block;
   width:21px;
   height:22px;
-  background:url(/img/gui/etc-s-3.png) -36px -84px;
+  background:url(./img/gui/etc-s-3.png) -36px -84px;
   text-align:center
 }
 .button4:hover {
@@ -1325,7 +1325,7 @@ link.button1s:hover {
   width:137px;
   height:30px;
   padding:17px 15px;
-  background:url(/img/gui/quests/quest_gui-a-1.png);
+  background:url(./img/gui/quests/quest_gui-a-1.png);
   text-align:center
 }
 .button5 {
@@ -1363,7 +1363,7 @@ link.button1s:hover {
   display:inline-block;
   width:52px;
   height:47px;
-  background:url(/img/gui/buttons/button_square-s.png)
+  background:url(./img/gui/buttons/button_square-s.png)
 }
 .button6.-type-blue {
   background-position:0px 0px
@@ -1405,7 +1405,7 @@ link.button1s:hover {
   display:inline-block;
   width:52px;
   height:47px;
-  background:url(/img/gui/icons/for_button_square-s.png)
+  background:url(./img/gui/icons/for_button_square-s.png)
 }
 .iconButton6.-type-ok {
   background-position:0px 0px
@@ -1488,7 +1488,7 @@ link.button1s:hover {
   z-index:-1;
   top:0;
   height:31px;
-  background:url(/img/gui/buttons/preeskey_brown-sprite.png)
+  background:url(./img/gui/buttons/preeskey_brown-sprite.png)
 }
 .btnTbl-back {
   left:16px;
@@ -1539,7 +1539,7 @@ link.button1s:hover {
   display:inline-block;
   width:17px;
   height:9px;
-  background:url(/img/gui/buttons/preeskey_brown-sprite.png) 0 -193px
+  background:url(./img/gui/buttons/preeskey_brown-sprite.png) 0 -193px
 }
 .btnTbl.-dir-down .btnTbl-sort {
   background-position:0 -193px
@@ -1577,7 +1577,7 @@ link.button1s:hover {
   width:41px;
   height:40px;
   border:none;
-  background:url(/img/gui/map2/map_mode-s.png);
+  background:url(./img/gui/map2/map_mode-s.png);
   position:relative;
   z-index:51
 }
@@ -1638,7 +1638,7 @@ link.button1s:hover {
   display:inline-block;
   width:35px;
   height:35px;
-  background:url(/img/gui/buttons/buttons_build_building-a-2.png) -103px -175px
+  background:url(./img/gui/buttons/buttons_build_building-a-2.png) -103px -175px
 }
 .btnAddBonus:hover {
   background-position:-138px -175px
@@ -1653,7 +1653,7 @@ link.button1s:hover {
   display:inline-block;
   width:15px;
   height:15px;
-  background:url(/img/gui/town/toppanel-s-5.png) -293px -53px
+  background:url(./img/gui/town/toppanel-s-5.png) -293px -53px
 }
 .btnAddBonus-small:hover {
   background-position:-308px -53px
@@ -1669,7 +1669,7 @@ link.button1s:hover {
   display:inline-block;
   margin:0 5px 5px 0;
   padding:6px 7px 5px;
-  background:url(/img/gui/trash/gui/tbl/tblrow1.png);
+  background:url(./img/gui/trash/gui/tbl/tblrow1.png);
   border-radius:5px;
   -webkit-box-shadow:1px 1px 4px #ab7129,inset 0 0 3px #dbac72;
   -moz-box-shadow:1px 1px 4px #ab7129,inset 0 0 3px #dbac72;
@@ -1854,7 +1854,7 @@ link.button1s:hover {
   height:13px;
   float:left;
   cursor:pointer;
-  background:url(/img/gui/buttons/check-a-2.png) no-repeat
+  background:url(./img/gui/buttons/check-a-2.png) no-repeat
 }
 .switcher-helperText {
   display:inline-block;
@@ -1954,7 +1954,7 @@ link.button1s:hover {
   position:relative;
   width:28px;
   height:26px;
-  background:url(/img/gui/icons/icons_sections-a-1.png) 0px 0px no-repeat
+  background:url(./img/gui/icons/icons_sections-a-1.png) 0px 0px no-repeat
 }
 .checkboxBarter .switcher-helper:before {
   content:"";
@@ -2008,7 +2008,7 @@ link.button1s:hover {
 }
 .block1 {
   padding:10px 0;
-  background:url(/img/gui/trash/e0/pauh.jpg)
+  background:url(./img/gui/trash/e0/pauh.jpg)
 }
 .block1:before,
 .block1:after {
@@ -2017,13 +2017,13 @@ link.button1s:hover {
   height:5px
 }
 .block1:before {
-  background:url(/img/gui/trash/e0/pauh_v_sh.jpg)
+  background:url(./img/gui/trash/e0/pauh_v_sh.jpg)
 }
 .block1:after {
-  background:url(/img/gui/trash/e0/pauh_b_sh.jpg)
+  background:url(./img/gui/trash/e0/pauh_b_sh.jpg)
 }
 .block1-cont {
-  background:url(/img/gui/trash/bg1.jpg)
+  background:url(./img/gui/trash/bg1.jpg)
 }
 .smplSelect {
   -moz-user-select:none;
@@ -2107,7 +2107,7 @@ link.button1s:hover {
   display:inline-block;
   width:28px;
   height:26px;
-  background:url(/img/gui/icons/icons_sections-a-1.png) no-repeat
+  background:url(./img/gui/icons/icons_sections-a-1.png) no-repeat
 }
 .iconTab.-type-tab {
   vertical-align:top;
@@ -2198,7 +2198,7 @@ link.button1s:hover {
   width:15px;
   height:15px;
   vertical-align:baseline;
-  background:url(/img/gui/icons/icons_tgwetc-a-5.png)
+  background:url(./img/gui/icons/icons_tgwetc-a-5.png)
 }
 .iconMount {
   background-position:-48px -52px
@@ -2255,7 +2255,7 @@ link.button1s:hover {
   width:15px;
   height:15px;
   vertical-align:baseline;
-  background:url(/img/gui/icons/icons_tgwetc-a-5.png)
+  background:url(./img/gui/icons/icons_tgwetc-a-5.png)
 }
 .iconComments {
   width:11px;
@@ -2377,17 +2377,17 @@ link.button1s:hover {
   width:13px;
   height:11px;
   vertical-align:baseline;
-  background:url(/img/gui/icons/icons_tgwetc-a-5.png) -110px -25px
+  background:url(./img/gui/icons/icons_tgwetc-a-5.png) -110px -25px
 }
 .iconReinforce {
   display:inline-block;
   width:14px;
   height:14px;
-  background:url(/img/gui/buttons/armyback.png)
+  background:url(./img/gui/buttons/armyback.png)
 }
 .iconTactics {
   display:inline-block;
-  background:url(/img/gui/icons/icons_tgwetc-a-5.png) -148px -25px;
+  background:url(./img/gui/icons/icons_tgwetc-a-5.png) -148px -25px;
   width:13px;
   height:11px;
   vertical-align:baseline
@@ -2396,19 +2396,19 @@ link.button1s:hover {
   display:inline-block;
   width:15px;
   height:12px;
-  background:url(/img/gui/icons/resources_small.png) no-repeat;
+  background:url(./img/gui/icons/resources_small.png) no-repeat;
   vertical-align:baseline
 }
 .iconGrow {
   display:inline-block;
-  background:url(/img/gui/icons/resources_big-transparent.png) -570px 0px;
+  background:url(./img/gui/icons/resources_big-transparent.png) -570px 0px;
   width:16px;
   height:18px;
   vertical-align:baseline
 }
 .iconCult {
   display:inline-block;
-  background:url(/img/gui/icons/resources_big-transparent.png) -555px 0px;
+  background:url(./img/gui/icons/resources_big-transparent.png) -555px 0px;
   width:16px;
   height:18px;
   vertical-align:baseline
@@ -2417,7 +2417,7 @@ link.button1s:hover {
   display:inline-block;
   width:17px;
   height:12px;
-  background:url(/img/gui/icons/resources_small.png) -340px 0;
+  background:url(./img/gui/icons/resources_small.png) -340px 0;
   vertical-align:baseline;
   margin-right:4px
 }
@@ -2425,27 +2425,27 @@ link.button1s:hover {
   display:inline-block;
   width:51px;
   height:45px;
-  background:url(/img/gui/town/tambourines-s-3.png) -149px -276px;
+  background:url(./img/gui/town/tambourines-s-3.png) -149px -276px;
   vertical-align:baseline
 }
 .iconTrader {
   display:inline-block;
   width:18px;
   height:13px;
-  background:url(/img/gui/icons/resources_big-transparent.png) -537px -2px
+  background:url(./img/gui/icons/resources_big-transparent.png) -537px -2px
 }
 .iconTime {
   display:inline-block;
   width:13px;
   height:13px;
-  background:url(/img/gui/icons/stimer.gif);
+  background:url(./img/gui/icons/stimer.gif);
   vertical-align:baseline
 }
 .iconTime2 {
   display:inline-block;
   width:19px;
   height:19px;
-  background:url(/img/gui/bonus/shop/elements-action.png) -1px -37px;
+  background:url(./img/gui/bonus/shop/elements-action.png) -1px -37px;
   margin-bottom:-6px;
   vertical-align:baseline
 }
@@ -2453,14 +2453,14 @@ link.button1s:hover {
   display:inline-block;
   width:20px;
   height:15px;
-  background:url(/img/gui/icons/icons-a-7.png) -180px -15px;
+  background:url(./img/gui/icons/icons-a-7.png) -180px -15px;
   vertical-align:baseline
 }
 .iconMapImp {
   display:inline-block;
   height:15px;
   width:15px;
-  background:url(/img/gui/icons/icons_tgwetc-a-5.png) 0px -52px;
+  background:url(./img/gui/icons/icons_tgwetc-a-5.png) 0px -52px;
   vertical-align:baseline
 }
 .iconMapImp.-type-blue {
@@ -2476,7 +2476,7 @@ link.button1s:hover {
   display:inline-block;
   height:11px;
   width:13px;
-  background:url(/img/gui/icons/icons_tgwetc-a-5.png) -17px -54px;
+  background:url(./img/gui/icons/icons_tgwetc-a-5.png) -17px -54px;
   vertical-align:baseline
 }
 .iconDeposit.-type-blue {
@@ -2492,7 +2492,7 @@ link.button1s:hover {
   display:inline-block;
   height:12px;
   width:15px;
-  background:url(/img/gui/icons/icons_tgwetc-a-5.png) -128px -53px;
+  background:url(./img/gui/icons/icons_tgwetc-a-5.png) -128px -53px;
   vertical-align:baseline
 }
 .iconWonder.-type-blue {
@@ -2506,47 +2506,47 @@ link.button1s:hover {
   height:12px;
   width:12px;
   vertical-align:baseline;
-  background:url(/img/gui/icons/icons-a-7.png) -61px -90px
+  background:url(./img/gui/icons/icons-a-7.png) -61px -90px
 }
 .iconAlert.-anim-blink2 {
   position:relative
 }
 .iconAlert.-anim-blink2:after {
-  background:url(/img/gui/icons/icons-a-7.png) -74px -90px
+  background:url(./img/gui/icons/icons-a-7.png) -74px -90px
 }
 .iconOk {
   display:inline-block;
   width:16px;
   height:16px;
-  background:url(/img/gui/icons/icons-a-7.png) -139px -124px;
+  background:url(./img/gui/icons/icons-a-7.png) -139px -124px;
   vertical-align:baseline
 }
 .iconCancel {
   display:inline-block;
   width:16px;
   height:16px;
-  background:url(/img/gui/icons/icons-a-7.png) -156px -124px;
+  background:url(./img/gui/icons/icons-a-7.png) -156px -124px;
   vertical-align:baseline
 }
 .iconCapacity {
   display:inline-block;
   width:15px;
   height:16px;
-  background:url(/img/gui/icons/icons-a-7.png) 0px -184px;
+  background:url(./img/gui/icons/icons-a-7.png) 0px -184px;
   vertical-align:baseline
 }
 .iconSend {
   display:inline-block;
   width:16px;
   height:14px;
-  background:url(/img/gui/icons/icons-a-7.png) -182px -1px;
+  background:url(./img/gui/icons/icons-a-7.png) -182px -1px;
   vertical-align:baseline
 }
 .iconPedia {
   display:inline-block;
   width:22px;
   height:22px;
-  background:url(/img/gui/superatlas-3.png) -660px -159px;
+  background:url(./img/gui/superatlas-3.png) -660px -159px;
   vertical-align:baseline
 }
 .iconPedia.-type-compact {
@@ -2562,26 +2562,26 @@ link.button1s:hover {
   margin-top:3px
 }
 .iconSocial.-type-vk {
-  background:url(/img/gui/social/vk_com-logo.png)
+  background:url(./img/gui/social/vk_com-logo.png)
 }
 .iconSocial.-type-fb {
-  background:url(/img/gui/social/fb_com-logo.png)
+  background:url(./img/gui/social/fb_com-logo.png)
 }
 .iconSocial.-type-rt {
-  background:url(/img/gui/social/rt_com-logo.png)
+  background:url(./img/gui/social/rt_com-logo.png)
 }
 .iconSocial.-small {
   width:20px;
   height:19px
 }
 .iconSocial.-small.-type-vk {
-  background:url(/img/gui/social/vk_com-logo2.png)
+  background:url(./img/gui/social/vk_com-logo2.png)
 }
 .iconSocial.-small.-type-fb {
-  background:url(/img/gui/social/fb_com-logo2.png)
+  background:url(./img/gui/social/fb_com-logo2.png)
 }
 .iconSocial.-small.-type-rt {
-  background:url(/img/gui/social/rt_com-logo2.png)
+  background:url(./img/gui/social/rt_com-logo2.png)
 }
 .iconUp,
 .iconDown {
@@ -2589,7 +2589,7 @@ link.button1s:hover {
   width:11px;
   height:10px;
   vertical-align:baseline;
-  background:url(/img/gui/icons/icons-a-7.png) no-repeat
+  background:url(./img/gui/icons/icons-a-7.png) no-repeat
 }
 .iconUp {
   background-position:-77px -169px
@@ -2601,7 +2601,7 @@ link.button1s:hover {
   display:inline-block;
   width:13px;
   height:12px;
-  background:url(/img/gui/superatlas-3.png) -559px -132px;
+  background:url(./img/gui/superatlas-3.png) -559px -132px;
   vertical-align:baseline
 }
 .iconSettings:hover {
@@ -2614,7 +2614,7 @@ link.button1s:hover {
   margin-left:5px;
   width:14px;
   height:14px;
-  background:url(/img/gui/buttons/redcross.png) no-repeat;
+  background:url(./img/gui/buttons/redcross.png) no-repeat;
   display:inline-block;
   vertical-align:top
 }
@@ -2622,11 +2622,11 @@ link.button1s:hover {
   display:inline-block;
   height:15px;
   width:15px;
-  background:url(/img/gui/icons/icons_tgwetc-a-5.png) -80px -52px
+  background:url(./img/gui/icons/icons_tgwetc-a-5.png) -80px -52px
 }
 .iconTownSlot {
   display:inline-block;
-  background-image:url(/img/gui/icons/icons_tgwetc-a-5.png);
+  background-image:url(./img/gui/icons/icons_tgwetc-a-5.png);
   width:10px;
   height:10px
 }
@@ -2642,7 +2642,7 @@ link.button1s:hover {
 .iconPost {
   width:11px;
   height:11px;
-  background:url(/img/gui/icons/icons-a-7.png) no-repeat;
+  background:url(./img/gui/icons/icons-a-7.png) no-repeat;
   border:none;
   vertical-align:baseline
 }
@@ -2686,7 +2686,7 @@ link.button1s:hover {
   display:inline-block;
   width:21px;
   height:21px;
-  background:url(/img/gui/icons/sliders-a-1.png) no-repeat
+  background:url(./img/gui/icons/sliders-a-1.png) no-repeat
 }
 .resProdtype.-type-0 {
   background-position:0 0
@@ -2706,7 +2706,7 @@ link.button1s:hover {
   height:23px;
   line-height:22px;
   padding-left:25px;
-  background:url(/img/gui/superatlas-3.png);
+  background:url(./img/gui/superatlas-3.png);
   color:#fff
 }
 .iconAttacks.-type-attackIn {
@@ -2743,7 +2743,7 @@ link.button1s:hover {
   width:34px;
   height:31px;
   color:#000;
-  background:url(/img/gui/town/toppanel-s-5.png)
+  background:url(./img/gui/town/toppanel-s-5.png)
 }
 .iconMarket.-type-market {
   background-position:-511px 0px
@@ -2788,7 +2788,7 @@ link.button1s:hover {
   display:inline-block;
   width:44px;
   height:46px;
-  background:url(/img/gui/superatlas-3.png) -944px -103px
+  background:url(./img/gui/superatlas-3.png) -944px -103px
 }
 .buttonBuildSlot:hover {
   background-position:-989px -103px
@@ -2804,7 +2804,7 @@ link.button1s:hover {
   width:35px;
   height:35px;
   margin:4px 5px 7px 4px;
-  background-image:url(/img/gui/buttons/buttons_build_building-a-2.png)
+  background-image:url(./img/gui/buttons/buttons_build_building-a-2.png)
 }
 .buttonBuildSlot:active .buttonBuildSlot-icon:not(.-disabled) {
   width:33px;
@@ -2941,7 +2941,7 @@ link.button1s:hover {
   width:35px;
   height:35px;
   margin:4px 5px 7px 4px;
-  background-image:url(/img/gui/buttons/buttons_build_building-a-2.png)
+  background-image:url(./img/gui/buttons/buttons_build_building-a-2.png)
 }
 .iconBuildSlot:active {
   width:33px;
@@ -3011,7 +3011,7 @@ link.button1s:hover {
   left:-4px;
   width:44px;
   height:46px;
-  background:url(/img/gui/superatlas-3.png) -944px -103px
+  background:url(./img/gui/superatlas-3.png) -944px -103px
 }
 .iconBuildSlot:hover:before {
   background-position:-989px -103px
@@ -3025,7 +3025,7 @@ link.button1s:hover {
   display:inline-block;
   width:43px;
   height:43px;
-  background:url(/img/gui/buttons/button_sound_onoff-s.png) 0 -43px
+  background:url(./img/gui/buttons/button_sound_onoff-s.png) 0 -43px
 }
 .buttonMute:hover {
   background-position:-44px -43px
@@ -3047,7 +3047,7 @@ link.button1s:hover {
 .imgSpy {
   display:inline-block;
   height:65px;
-  background:url(/img/gui/sword_shield_spyglass-a.png) no-repeat
+  background:url(./img/gui/sword_shield_spyglass-a.png) no-repeat
 }
 .imgAttack {
   width:65px;
@@ -3121,7 +3121,7 @@ body.-mode-subscription .-type-immediate {
 }
 .panel-status {
   height:26px;
-  background:url(/img/gui/main/window/window-supersprite.png) 0 -426px
+  background:url(./img/gui/main/window/window-supersprite.png) 0 -426px
 }
 .main-layer {
   position:absolute;
@@ -3145,7 +3145,7 @@ body.-mode-subscription .-type-immediate {
   text-align:center;
   color:#000;
   box-shadow:0 0 20px #000;
-  background:url(/img/gui/main/window/window-bg0.png)
+  background:url(./img/gui/main/window/window-bg0.png)
 }
 .wnd-wrp.-state-minimized .wnd {
   padding-bottom:0
@@ -3169,14 +3169,14 @@ body.-mode-subscription .-type-immediate {
 .wnd-brd-br,
 .wnd-brd-t,
 .wnd-brd-b {
-  background:url(/img/gui/main/window/window-mainbody.png)
+  background:url(./img/gui/main/window/window-mainbody.png)
 }
 .wnd-brd-l,
 .wnd-brd-r {
-  background:url(/img/gui/main/window/window-mainbody-vertical.png)
+  background:url(./img/gui/main/window/window-mainbody-vertical.png)
 }
 .wnd-brd-c {
-  background:url(/img/gui/main/window/window-bg0.png)
+  background:url(./img/gui/main/window/window-bg0.png)
 }
 .wnd-brd-t,
 .wnd-brd-b {
@@ -3262,7 +3262,7 @@ body.-mode-subscription .-type-immediate {
   font-size:20px;
   text-shadow:1px 1px 5px #000;
   color:#feb;
-  background:url(/img/gui/main/window/window-supersprite.png) 0 -218px
+  background:url(./img/gui/main/window/window-supersprite.png) 0 -218px
 }
 .wnd-header-wrp a,
 .wnd-header-wrp a:hover {
@@ -3276,7 +3276,7 @@ body.-mode-subscription .-type-immediate {
   width:30px;
   height:30px;
   line-height:30px;
-  background:url(/img/gui/main/window/window-supersprite.png)
+  background:url(./img/gui/main/window/window-supersprite.png)
 }
 .wnd-header-wrp:before {
   left:0px;
@@ -3446,7 +3446,7 @@ body.-mode-subscription .-type-immediate {
   line-height:22px;
   text-align:center;
   color:#edc;
-  background:url(/img/gui/superatlas-3.png) -710px 0
+  background:url(./img/gui/superatlas-3.png) -710px 0
 }
 .panel-header.-type-active {
   cursor:pointer
@@ -3461,7 +3461,7 @@ body.-mode-subscription .-type-immediate {
   z-index:1;
   margin:auto 0;
   cursor:pointer;
-  background:url(/img/gui/etc-s-3.png)
+  background:url(./img/gui/etc-s-3.png)
 }
 .panel-hidden-button {
   transform:rotate(-180deg);
@@ -3488,7 +3488,7 @@ body.-mode-subscription .-type-immediate {
   width:9px;
   height:11px;
   cursor:pointer;
-  background:url(/img/gui/superatlas-3.png)
+  background:url(./img/gui/superatlas-3.png)
 }
 .panel-expand-button[data-dir=togdown] {
   display:none;
@@ -3517,17 +3517,17 @@ body.-mode-subscription .-type-immediate {
 }
 .panel-cont-wrp {
   padding:3px 6px 0;
-  background:url(/img/gui/superatlas-3.png)
+  background:url(./img/gui/superatlas-3.png)
 }
 .panel-bottom {
   height:7px;
   margin:-1px 0;
-  background:url(/img/gui/superatlas-3.png) -714px -34px
+  background:url(./img/gui/superatlas-3.png) -714px -34px
 }
 .panel-footer-wrp {
   height:24px;
   text-align:center;
-  background:url(/img/gui/superatlas-3.png) -714px -44px
+  background:url(./img/gui/superatlas-3.png) -714px -44px
 }
 .panel-footer-wrp.-type-large {
   height:36px;
@@ -3554,7 +3554,7 @@ body.-mode-subscription .-type-immediate {
   white-space:nowrap;
   text-align:left;
   color:#fff;
-  background:url(/img/gui/trash/e0/plate_8.png)
+  background:url(./img/gui/trash/e0/plate_8.png)
 }
 .panel.-type-mini .panel-header:before,
 .panel.-type-mini .panel-header:after {
@@ -3563,7 +3563,7 @@ body.-mode-subscription .-type-immediate {
   top:-1px;
   z-index:0;
   height:27px;
-  background:url(/img/gui/trash/e0/plate_79.png)
+  background:url(./img/gui/trash/e0/plate_79.png)
 }
 .panel.-type-mini .panel-header:before {
   left:-15px;
@@ -3591,7 +3591,7 @@ body.-mode-subscription .-type-immediate {
   z-index:-1;
   width:15px;
   height:28px;
-  background:url(/img/gui/map2/auras_b.png)
+  background:url(./img/gui/map2/auras_b.png)
 }
 .panel.-type-mini.-type-hidden .panel-header:before {
   left:1px
@@ -3607,10 +3607,10 @@ body.-mode-subscription .-type-immediate {
 .panel.-type-mini .panel-cont-wrp {
   width:104px;
   padding:3px 10px 5px;
-  background:url(/img/gui/trash/e0/plate_5.png)
+  background:url(./img/gui/trash/e0/plate_5.png)
 }
 .wnd-panelLR {
-  background:url(/img/gui/main/window/window-supersprite.png);
+  background:url(./img/gui/main/window/window-supersprite.png);
   position:relative;
   z-index:1
 }
@@ -3619,7 +3619,7 @@ body.-mode-subscription .-type-immediate {
   content:"";
   display:inline-block;
   position:absolute;
-  background:url(/img/gui/main/window/window-supersprite.png);
+  background:url(./img/gui/main/window/window-supersprite.png);
   width:30px
 }
 .wnd-panelLR:before {
@@ -3649,12 +3649,12 @@ body.-mode-subscription .-type-immediate {
 .PANEL-panel-br,
 .PANEL-panel-t,
 .PANEL-panel-b {
-  background:url(/img/gui/main/window/window-supersprite.png);
+  background:url(./img/gui/main/window/window-supersprite.png);
   height:27px
 }
 .PANEL-panel-l,
 .PANEL-panel-r {
-  background:url(/img/gui/main/window/window-vertical.png)
+  background:url(./img/gui/main/window/window-vertical.png)
 }
 .PANEL-panel-tl,
 .PANEL-panel-tr,
@@ -3764,7 +3764,7 @@ body.-mode-subscription .-type-immediate {
   background-position:-94px 0
 }
 .PANEL-panel.-type-footer .PANEL-panel-c {
-  background:url(/img/gui/main/window/window-bg2.png)
+  background:url(./img/gui/main/window/window-bg2.png)
 }
 .wnd-panelLR.-type-infoTtl,
 .wnd-panelLR.-type-infoTtl:before,
@@ -3806,11 +3806,11 @@ body.-mode-subscription .-type-immediate {
   background-position:-32px 0
 }
 .PANEL-panel.-type-panel .PANEL-panel-c {
-  background:url(/img/gui/main/window/window-bg1.png)
+  background:url(./img/gui/main/window/window-bg1.png)
 }
 .wnd-textEdit {
   padding-bottom:5px;
-  background:url(/img/gui/country/country_bg2.png)
+  background:url(./img/gui/country/country_bg2.png)
 }
 .wnd-textEdit-textarea {
   width:500px;
@@ -3849,21 +3849,21 @@ body.-mode-subscription .-type-immediate {
 .tooltip .tooltip-brd-tr,
 .tooltip .tooltip-brd-bl,
 .tooltip .tooltip-brd-br {
-  background:url(/img/gui/main/tooltip1_1793.png)
+  background:url(./img/gui/main/tooltip1_1793.png)
 }
 .tooltip .tooltip-brd-t,
 .tooltip .tooltip-brd-b {
   left:15px;
   right:15px;
   width:auto;
-  background:url(/img/gui/main/tooltip1_28.png)
+  background:url(./img/gui/main/tooltip1_28.png)
 }
 .tooltip .tooltip-brd-l,
 .tooltip .tooltip-brd-r {
   top:15px;
   bottom:15px;
   height:auto;
-  background:url(/img/gui/main/tooltip1_46.png)
+  background:url(./img/gui/main/tooltip1_46.png)
 }
 .tooltip .tooltip-brd-tl,
 .tooltip .tooltip-brd-tr,
@@ -3917,7 +3917,7 @@ body.-mode-subscription .-type-immediate {
   right:15px;
   width:auto;
   height:auto;
-  background:url(/img/gui/main/tooltip1_5.png)
+  background:url(./img/gui/main/tooltip1_5.png)
 }
 .tooltip .tooltip-cnt {
   position:relative !important;
@@ -4034,7 +4034,7 @@ body.-mode-subscription .-type-immediate {
 .tooltip-divider {
   display:block;
   height:2px;
-  background:url(/img/gui/main/tooltip1_hr.png);
+  background:url(./img/gui/main/tooltip1_hr.png);
   margin:5px 0
 }
 .tooltip-param-icon,
@@ -4068,7 +4068,7 @@ body.-mode-subscription .-type-immediate {
   display:inline-block;
   width:23px;
   height:23px;
-  background:url(/img/gui/icons/icons_units-color-a-6.png) no-repeat;
+  background:url(./img/gui/icons/icons_units-color-a-6.png) no-repeat;
   border:solid 1px #000;
   vertical-align:baseline
 }
@@ -4388,19 +4388,19 @@ body.-mode-subscription .-type-immediate {
   background-position:-2438px 0px
 }
 .u93 {
-  background:url(/img/gui/events/ng-rat.gif) 0 0 !important
+  background:url(./img/gui/events/ng-rat.gif) 0 0 !important
 }
 .u106 {
-  background:url(/img/gui/events/u106.png) -1px -1px !important
+  background:url(./img/gui/events/u106.png) -1px -1px !important
 }
 .u107 {
-  background:url(/img/gui/events/u107.gif) -1px -1px !important
+  background:url(./img/gui/events/u107.gif) -1px -1px !important
 }
 .u108 {
-  background:url(/img/gui/events/u108.png) -1px -1px !important
+  background:url(./img/gui/events/u108.png) -1px -1px !important
 }
 .u109 {
-  background:url(/img/gui/events/u109.png) -1px -1px !important
+  background:url(./img/gui/events/u109.png) -1px -1px !important
 }
 .u110 {
   background-position:-2553px 0px
@@ -4412,7 +4412,7 @@ body.-mode-subscription .-type-immediate {
   background-position:-2691px 0px
 }
 .unit.-type-grey {
-  background-image:url(/img/gui/icons/icons_units-gray-a-6.png)
+  background-image:url(./img/gui/icons/icons_units-gray-a-6.png)
 }
 .unit.-unit-small {
   background-size:1755px;
@@ -4749,13 +4749,13 @@ body.-mode-subscription .-type-immediate {
   background-position:-1665px 0px
 }
 .u111 {
-  background:url(/img/gui/events/ny-s.png) -1px
+  background:url(./img/gui/events/ny-s.png) -1px
 }
 .u112 {
-  background:url(/img/gui/events/ny-v.png) -1px
+  background:url(./img/gui/events/ny-v.png) -1px
 }
 .u113 {
-  background:url(/img/gui/events/ny-l.png) -1px
+  background:url(./img/gui/events/ny-l.png) -1px
 }
 .unitCount {
   font-size:18px
@@ -4785,10 +4785,10 @@ body.-mode-subscription .-type-immediate {
   bottom:0;
   width:14px;
   height:14px;
-  background:url(/img/gui/icons/icons-a-7.png) -16px -167px
+  background:url(./img/gui/icons/icons-a-7.png) -16px -167px
 }
 .-uTmpl {
-  background:url(/img/gui/tactic/template_units-a.png) no-repeat
+  background:url(./img/gui/tactic/template_units-a.png) no-repeat
 }
 .-uTmpl.-clean {
   opacity:.5;
@@ -4861,7 +4861,7 @@ body.-mode-subscription .-type-immediate {
   right:0px;
   width:23px;
   height:23px;
-  background:url(/img/gui/tactic/template_units-a.png) no-repeat
+  background:url(./img/gui/tactic/template_units-a.png) no-repeat
 }
 .uf-eq:after {
   background-position:0px -23px
@@ -5005,7 +5005,7 @@ body.-mode-subscription .-type-immediate {
   display:inline-block;
   width:20px;
   height:20px;
-  background:url(/img/gui/icons/icons_characteristics-a-4.png);
+  background:url(./img/gui/icons/icons_characteristics-a-4.png);
   vertical-align:baseline
 }
 .resEffect.-r0 {
@@ -5301,33 +5301,33 @@ body.-mode-subscription .-type-immediate {
   height:6px;
   width:13px;
   margin:0 1px;
-  background:url(/img/gui/icons/icons_tgwetc-a-5.png) -31px -41px
+  background:url(./img/gui/icons/icons_tgwetc-a-5.png) -31px -41px
 }
 .pathIcon {
   display:inline-block;
   height:10px;
   width:13px;
   margin:0 1px;
-  background:url(/img/gui/icons/icons_tgwetc-a-5.png) -45px -41px
+  background:url(./img/gui/icons/icons_tgwetc-a-5.png) -45px -41px
 }
 .iconTradeUnionCountry {
   display:inline-block;
   width:11px;
   height:11px;
-  background:url(/img/gui/icons/icons_tgwetc-a-5.png) -72px -25px
+  background:url(./img/gui/icons/icons_tgwetc-a-5.png) -72px -25px
 }
 .iconCrown {
   display:inline-block;
   width:9px;
   height:8px;
-  background:url(/img/gui/trade/trade_streams-a-1.png) -24px 0
+  background:url(./img/gui/trade/trade_streams-a-1.png) -24px 0
 }
 .unitTagIcon,
 .battlePanelIcon {
   display:inline-block;
   width:18px;
   height:18px;
-  background:url(/img/gui/icons/unit_info_icons-a-3.png);
+  background:url(./img/gui/icons/unit_info_icons-a-3.png);
   vertical-align:middle
 }
 .unitTagIcon.-type-organic {
@@ -5397,7 +5397,7 @@ body.-mode-subscription .-type-immediate {
   display:inline-block;
   height:18px;
   width:19px;
-  background:url(/img/gui/icons/icons_mentor-s.png)
+  background:url(./img/gui/icons/icons_mentor-s.png)
 }
 .iconTownSpec.-type-0 {
   background-position:-272px 0
@@ -5452,7 +5452,7 @@ body.-mode-subscription .-type-immediate {
   height:27px;
   line-height:27px;
   margin-bottom:2px;
-  background:url(/img/gui/trash/e0/new_building_topic_head_v3.png) 0 -152px;
+  background:url(./img/gui/trash/e0/new_building_topic_head_v3.png) 0 -152px;
   text-align:left
 }
 .buildTabs-tab {
@@ -5461,7 +5461,7 @@ body.-mode-subscription .-type-immediate {
   width:29px;
   height:19px;
   margin:0 7px;
-  background:url(/img/gui/superatlas-3.png);
+  background:url(./img/gui/superatlas-3.png);
   vertical-align:bottom
 }
 .buildTabs-tab.-type-science {
@@ -5575,7 +5575,7 @@ body.-mode-subscription .-type-immediate {
   right:0;
   bottom:0;
   margin:auto;
-  background:url(/img/gui/icons/icons-a-7.png)
+  background:url(./img/gui/icons/icons-a-7.png)
 }
 .button4.build-tabIcon:before {
   left:1px
@@ -5670,7 +5670,7 @@ body.-mode-subscription .-type-immediate {
   top:0;
   width:100%;
   height:100%;
-  background:url(/img/gui/help/buildings_border-a.png) no-repeat
+  background:url(./img/gui/help/buildings_border-a.png) no-repeat
 }
 .slotFrame.-type-wonder:after {
   width:60px;
@@ -5717,7 +5717,7 @@ body.-mode-subscription .-type-immediate {
   width:19px;
   height:15px;
   padding-top:5px;
-  background:url(/img/gui/superatlas-3.png);
+  background:url(./img/gui/superatlas-3.png);
   font-size:10px;
   text-align:center;
   bottom:0;
@@ -5877,7 +5877,7 @@ body.-mode-subscription .-type-immediate {
   display:inline-block;
   width:45px;
   height:46px;
-  background:url(/img/gui/town/slots_buttons-s.png)
+  background:url(./img/gui/town/slots_buttons-s.png)
 }
 .emptySlot2.-terr-0 {
   background-position:0px 0px
@@ -6120,11 +6120,11 @@ input.sh {
 }
 
 .wnd-help .wnd-brd-t:before {
-  background:url(/img/gui/help/sp_hor_s.png)
+  background:url(./img/gui/help/sp_hor_s.png)
 }
 .wnd-help .wnd-brd-tl:before,
 .wnd-help .wnd-brd-tr:before {
-  background:url(/img/gui/help/sp_vert_s.png)
+  background:url(./img/gui/help/sp_vert_s.png)
 }
 .wnd-help .wnd-brd-tr:before {
   background-position:-30px 0
@@ -6133,16 +6133,16 @@ input.sh {
   background-position:-158px -7px
 }
 .wnd-help .wnd-brd-b {
-  background:url(/img/gui/help/sp_hor_s.png)
+  background:url(./img/gui/help/sp_hor_s.png)
 }
 .wnd-help .wnd-brd-l,
 .wnd-help .wnd-brd-r,
 .wnd-help .wnd-brd-bl,
 .wnd-help .wnd-brd-br {
-  background:url(/img/gui/help/sp_vert_s.png)
+  background:url(./img/gui/help/sp_vert_s.png)
 }
 .wnd-help .wnd-brd-c {
-  background:url(/img/gui/help/en_bg.png)
+  background:url(./img/gui/help/en_bg.png)
 }
 .wnd-help .wnd-brd-l {
   background-position:-178px 0
