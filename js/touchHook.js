@@ -1,10 +1,9 @@
-(function(){
-	console.log("test");
+(function() {
     __initTouch = function(){
 		if( !window.GLFW || !window.Browser || !Browser.calculateMouseEvent )
 			return;
 		
-		{//do FN keys rebinding
+		{
 			function disableFunctionKeys(e) {
 				var functionKeys = new Array(112, 113, 114, 115, 116, 117, 118, 119, 120, 121, 122, 123);
 				if (functionKeys.indexOf(e.keyCode) > -1 || functionKeys.indexOf(e.which) > -1) {
@@ -168,7 +167,6 @@
         Module['canvas'].addEventListener('touchend', GLFW.__onTouchEnd, true);
 		
 		GLFW.__touchInited = true;
-		
     };
 	
 	setTimeout(__initTouch, 1000);
