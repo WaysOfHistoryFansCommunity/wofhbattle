@@ -29,8 +29,6 @@ function load()
 {
     "use strict";
 
-    console.log("Test");
-
     yepnope({
         load: scriptsForCheck,
 
@@ -41,12 +39,8 @@ function load()
         	    if (EnvTester.checkAll()){
             	    console.log("All checks passed");
                 	yepnope({
-                    	load: toolsScripts,
-                        complete: function () {
-                            console.log("COSTYL");
-                        }
+                    	load: toolsScripts
                 	});
-                    console.log("All checks passed 2");
             	}
 	            else{
     	            EnvTester.notSupportImpl(EnvTester.customNotSupportImpl);

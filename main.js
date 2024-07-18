@@ -55,14 +55,6 @@ function createNewWindow(url, title, id)
         id: id
     });
 
-    win.webContents.openDevTools();
-
-    win.webContents.on("render-process-gone", (event, details) => 
-    {
-        console.error("gone", details)
-    })
-
-    console.log(`file://${path.join(__dirname, url)}`);
     win.loadURL(`file://${path.join(__dirname, url)}`);
 }
 

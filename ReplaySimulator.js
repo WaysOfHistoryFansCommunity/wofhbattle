@@ -10,8 +10,6 @@ var Module = {
     arguments: [],
 };
 
-console.log(Module);
-
 if (window.ge.httpReqHelper === undefined) window.ge.httpReqHelper = new HttpReqHelper();
 window.ge.r_parsingTextures = [];
 window.ge.fonts = [];
@@ -48,8 +46,6 @@ function logExceptionOnExit(e)
 }
 
     scriptDirectory = __dirname + "/";
-
-    console.log(scriptDirectory);
 {
     read_ = (url) => {
         var xhr = new XMLHttpRequest();
@@ -330,7 +326,6 @@ function removeRunDependency(id)
 }
 function abort(what) 
 {
-    console.log("ABORT");
     {
         if (Module["onAbort"]) {
             Module["onAbort"](what);
@@ -372,7 +367,6 @@ function getBinary(file)
 
 function getBinaryPromise() 
 {
-    console.log("TEST BINMR :3");
     if (!wasmBinary && (ENVIRONMENT_IS_WEB || ENVIRONMENT_IS_WORKER)) 
     {
         if (typeof fetch == "function" && !isFileURI(wasmBinaryFile)) 
@@ -411,7 +405,6 @@ function getBinaryPromise()
 
 function createWasm() 
 {
-    console.log("TEST WASM :3");
     var info = { a: asmLibraryArg };
     function receiveInstance(instance, module) 
     {
@@ -2560,8 +2553,6 @@ var asmLibraryArg = {
 };
 var asm = createWasm();
 
-console.log(asm);
-
 var ___wasm_call_ctors = (Module["___wasm_call_ctors"] = function () {
     return (___wasm_call_ctors = Module["___wasm_call_ctors"] = Module["asm"]["O"]).apply(null, arguments);
 });
@@ -2626,9 +2617,6 @@ function callMain(args) {
 }
 function run(args) 
 {
-    console.log("Runned");
-    console.log(Module["setStatus"]);
-    console.log(runDependencies);
     args = args || arguments_;
     if (runDependencies > 0) 
     {
@@ -2641,7 +2629,6 @@ function run(args)
     }
     function doRun() 
     {
-        console.log("doRunned");
         if (calledRun) return;
         calledRun = true;
         Module["calledRun"] = true;
@@ -2661,7 +2648,9 @@ function run(args)
             }, 1);
             doRun();
         }, 1);
-    } else {
+    } 
+    else 
+    {
         doRun();
     }
 }
@@ -2673,7 +2662,5 @@ if (Module["preInit"]) {
 }
 var shouldRunNow = true;
 if (Module["noInitialRun"]) shouldRunNow = false;
-
-console.log(Module);
 
 run();
