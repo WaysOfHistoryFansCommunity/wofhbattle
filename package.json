@@ -4,5 +4,8 @@
   },
   "devDependencies": {
     "electron": "^31.2.1"
+  },
+  "dependencies": {
+    "@electron/remote": "^2.1.2"
   }
 }

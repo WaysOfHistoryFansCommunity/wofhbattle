@@ -1,4 +1,3 @@
-
 var scriptsForCheck = [
     "js/HttpReqHelper.js",
     "js/exceptionInterceptor.js",
@@ -21,23 +20,16 @@ function selectMainScript()
 
 function loadAndRunMainScript()
 {
-	calledRun = false;//___hack to correct this issue: https://github.com/emscripten-core/emscripten/issues/10785
+	calledRun = false;
 	var mainScript = window.ge.scriptPrefix + selectMainScript() + "?v=" + window.ge.version;
 	yepnope({ load: mainScript });
 }
 
-function load(){
+function load()
+{
     "use strict";
 
-    var v = "?v=" + window.ge.version;
-
-    for(var i in scriptsForCheck){
-        scriptsForCheck[i] = window.ge.scriptPrefix + scriptsForCheck[i] + v;
-    }
-
-    for(var j in toolsScripts){
-        toolsScripts[j] = window.ge.scriptPrefix + toolsScripts[j] + v;
-    }
+    console.log("Test");
 
     yepnope({
         load: scriptsForCheck,
@@ -49,8 +41,12 @@ function load(){
         	    if (EnvTester.checkAll()){
             	    console.log("All checks passed");
                 	yepnope({
-                    	load: toolsScripts
+                    	load: toolsScripts,
+                        complete: function () {
+                            console.log("COSTYL");
+                        }
                 	});
+                    console.log("All checks passed 2");
             	}
 	            else{
     	            EnvTester.notSupportImpl(EnvTester.customNotSupportImpl);

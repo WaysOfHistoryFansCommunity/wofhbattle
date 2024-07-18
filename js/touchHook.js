@@ -1,8 +1,5 @@
 (function(){
-	try{
-        document.domain = location.host.split('.').splice(1, 2).join('.');
-	} catch(e){}
-
+	console.log("test");
     __initTouch = function(){
 		if( !window.GLFW || !window.Browser || !Browser.calculateMouseEvent )
 			return;
@@ -171,6 +168,7 @@
         Module['canvas'].addEventListener('touchend', GLFW.__onTouchEnd, true);
 		
 		GLFW.__touchInited = true;
+		
     };
 	
 	setTimeout(__initTouch, 1000);

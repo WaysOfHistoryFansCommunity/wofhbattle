@@ -5,6 +5,8 @@
     <title></title>
 	<link rel="stylesheet" type="text/css" href="style.css">
 
+	<script src="js/yepnope.1.5.4-min.js"></script>
+	<script src="js/simulatorScriptsLoader.js"></script>
 	<script>
 		function init()
 		{
@@ -12,7 +14,7 @@
 			window.ge.releaseUrl = "project/wofh1_4_web.rls";
 			window.ge.version = "109";
 			window.ge.scriptPrefix = "";
-			window.ge.urlParams=new URLSearchParams(window.location.search);
+			window.ge.urlParams = new URLSearchParams(window.location.search);
 			window.ge.namedConst = {};
 			window.ge.namedConst.defaultWindowWidth = window.innerWidth;
 			window.ge.namedConst.defaultWindowHeight = window.innerHeight;
@@ -32,10 +34,8 @@
 			load();
 		}
 	</script>
-	<script src="js/yepnope.1.5.4-min.js"></script>
-	<script src="js/simulatorScriptsLoader.js"></script>
 </head>
-<body  bgcolor="#00000000" onload="init()";>
+<body bgcolor="#00000000" onload="init()";>
 <div id="gameSpace">
     <canvas id="game" width = "800" height = "600" bgcolor="#00000000" oncontextmenu="return false;">Canvas not supported</canvas>
 </div>

@@ -76,6 +76,12 @@ function HttpReqHelper()
 
 	this.makeRequest = function(url, postData, contentType)
 	{
+		console.log(url);
+		if(url.startsWith(`/`) && !url.startsWith(__dirname))
+		{
+			url = url.substring(1);
+		}
+		
 		var id = this.requests.length;
 		for (var i = 0; i < this.requests.length; ++i){
 			if (this.requests[i] !== null) continue;
