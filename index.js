@@ -254,40 +254,65 @@ function createSimulationUrl(lang, simulation, replay, project, domain)
 
 document.querySelector('.simbattle-run').addEventListener('click', () => 
 {
-    console.log("Simulator battle run");
-
     const lang = 'ru';
-    const simulation = 
+    const simArmyAttackUnits = document.querySelectorAll('.-sim-army-attack');
+    const simArmyDefenseUnits = document.querySelectorAll('.-sim-army-defense');
+
+    const simArmyAttack = {};
+    const simArmyDefense = {};
+
+    simArmyAttackUnits.forEach((simArmyAttackUnit) => 
     {
-        buildings: [1, 1, 1, 1, 1, 1, 1, 1, 1],
-        members:
+        if(simArmyAttackUnit.value)
         {
-            "0": 
+            simArmyAttack[`${simArmyAttackUnit.dataset.id}`] = Number(simArmyAttackUnit.value);
+        }
+    });
+
+    simArmyDefenseUnits.forEach((simArmyDefenseUnit) => 
+    {
+        if(simArmyDefenseUnit.value)
+        {
+            simArmyDefense[`${simArmyDefenseUnit.dataset.id}`] = Number(simArmyDefenseUnit.value);
+        }
+    });
+
+    if(Object.keys(simArmyAttack).length && Object.keys(simArmyDefense).length)
+    {
+        const simulation = 
+        {
+            buildings: [1, 1, 1, 1, 1, 1, 1, 1, 1],
+            members:
             {
-                army: { "26": 1 },
-                damageBonus: 100,
-                fraction: 0,
-                faction: 0
+                "0": 
+                {
+                    army: simArmyAttack,
+                    damageBonus: 100+Number(document.querySelector(".simbattle-simhead-warBonusAttack").value),
+                    fraction: 0,
+                    faction: 0
+                },
+                "1": 
+                {
+                    army: simArmyDefense,
+                    damageBonus: 100+Number(document.querySelector(".simbattle-simhead-warBonusDefense").value),
+                    fraction: 1,
+                    faction: 1
+                }
             },
-            "1": 
-            {
-                army: { "14": 1 },
-                damageBonus: 100,
-                fraction: 1,
-                faction: 1
-            }
-        },
-        map: 'map1'
-    };
+            map: 'map1'
+        };
+    
+        const replay = Math.floor(Math.random() * 999999999);
+        const project = 'wofh1_4';
+        const domain = 'int22.waysofhistory.com';
+        const windowTitle = `Simulation Window ${windowCount}`;
+        const windowId = `window_${windowCount}`;
+        windowCount++;
+    
+        const url = createSimulationUrl(lang, simulation, replay, project, domain);
+    
+        getGlobal('createNewWindow')(url, windowTitle, windowId);
+    }
 
-    const replay = Math.floor(Math.random() * 999999999);
-    const project = 'wofh1_4';
-    const domain = 'int22.waysofhistory.com';
-    const windowTitle = `Simulation Window ${windowCount}`;
-    const windowId = `window_${windowCount}`;
-    windowCount++;
-
-    const url = createSimulationUrl(lang, simulation, replay, project, domain);
-
-    getGlobal('createNewWindow')(url, windowTitle, windowId);
+    
 });

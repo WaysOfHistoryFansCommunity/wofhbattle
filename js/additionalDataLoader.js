@@ -101,14 +101,16 @@ var addDataLoader = {
 	},
 };
 
-addDataLoader.tryLoadTactics = function(){
+addDataLoader.tryLoadTactics = function()
+{
 	var self = this;
 	
 	tactics = this.data.simulation.tactics;
 	
 	if( !tactics ) return;
 	
-	if( tactics.tactics0 ){
+	if(tactics.tactics0)
+	{
 		this.waiting++;
 		
 		request.send('aj_tacticsdata', tactics.tactics0, {callback:function(tacticData){
@@ -118,7 +120,8 @@ addDataLoader.tryLoadTactics = function(){
 		}});
 	}
 	
-	if( tactics.tactics1 ){
+	if(tactics.tactics1)
+	{
 		this.waiting++;
 		
 		request.send('aj_tacticsdata', tactics.tactics1, {callback:function(tacticData){
@@ -129,7 +132,8 @@ addDataLoader.tryLoadTactics = function(){
 	}
 }
 
-addDataLoader.tryLoadTactics.addConvert = function(tacticData){
+addDataLoader.tryLoadTactics.addConvert = function(tacticData)
+{
 	if( tacticData ){
 		tacticData.data = JSON.parse(tacticData.data);
 		
