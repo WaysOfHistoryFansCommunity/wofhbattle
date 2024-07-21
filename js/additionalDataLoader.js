@@ -6,9 +6,12 @@ var utils = {
 		var arr = url.split('&');
 		var params = {};
 		for (var i in arr) {
-			if (arr[i].indexOf('=') == -1){
+			if (arr[i].indexOf('=') == -1)
+			{
 				params[arr[i]] = true;
-			} else {
+			} 
+			else 
+			{
 				var part = arr[i].split('=');
 				params[part[0]] = decodeURIComponent(part[1].replace(/[+]/g, ' '));
 			}
@@ -16,17 +19,21 @@ var utils = {
 		return params;
 	},
 	
-	objToUrl: function(obj){
+	objToUrl: function(obj)
+	{
 		var url = [];
-		for(var param in obj){
+		for(var param in obj)
+		{
 			url.push(param+'='+obj[param]);
 		}
 		return url.join('&');
 	},
 	
-	sizeOf: function(obj){
+	sizeOf: function(obj)
+	{
 		var count = 0;
-		for(var i in obj){
+		for(var i in obj)
+		{
 			count++;
 		}
 		return count;
@@ -38,7 +45,8 @@ var request = {
 	
 	domain: '',
 	
-	send: function(comand, search, params){
+	send: function(comand, search, params)
+	{
 		params = params||{};
 		params.method = params.method||'GET';
 		params.domain = params.domain||this.domain;
@@ -72,7 +80,8 @@ var request = {
 var addDataLoader = {
 	data: {},
 	
-	load: function(afterLoad){
+	load: function(afterLoad)
+	{
 		this.afterLoad = afterLoad||function(){};
 		
 		this.waiting = 1;
@@ -84,7 +93,8 @@ var addDataLoader = {
 		addDataLoader.onLoaded();
 	},
 	
-	getDataForLoad: function(){
+	getDataForLoad: function()
+	{
 		var data = utils.urlToObj();
 		
 		request.domain = data.domain;
@@ -94,7 +104,8 @@ var addDataLoader = {
 		return data;
 	},
 	
-	onLoaded: function(){
+	onLoaded: function()
+	{
 		if ( --this.waiting != 0 ) return;
 		
 		addDataLoader.afterLoad(JSON.stringify(this.data));
@@ -134,7 +145,8 @@ addDataLoader.tryLoadTactics = function()
 
 addDataLoader.tryLoadTactics.addConvert = function(tacticData)
 {
-	if( tacticData ){
+	if( tacticData )
+	{
 		tacticData.data = JSON.parse(tacticData.data);
 		
 		if( tacticData.data.data )
