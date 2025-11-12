@@ -1,0 +1,1 @@
+setGraphicsQuality(getParameter("value"))

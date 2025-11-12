@@ -1,0 +1,1353 @@
+.view-replays 
+{
+    position:relative;
+    min-width:970px;
+    overflow:hidden
+}
+.view-replays-addIcon 
+{
+    position:absolute;
+    top:0;
+    left:0;
+    width:24px;
+    height:23px;
+    cursor:pointer;
+    background:url(../../img/gui/superatlas-3.png);
+    background-position:-1052px -153px
+}
+.view-replays-addIconBig 
+{
+    position:absolute;
+    top:0;
+    left:0;
+    width:39px;
+    height:39px;
+    cursor:pointer;
+    background:url(../../img/gui/superatlas-3.png);
+    background-position:-1077px -153px
+}
+.view-replays-common.-com-fsize-16 
+{
+    font-size:16px
+}
+.view-replays-common.-com-bg 
+{
+    background:url(../../img/gui/trash/gui/tbl/tblrow1.png)
+}
+.view-replays-common.-com-bg-light 
+{
+    background:url(../../img/gui/trash/gui/tbl/tblrow0.png)
+}
+.view-replays-common.-com-rounded 
+{
+    -webkit-border-radius:5px;
+    -moz-border-radius:5px;
+    border-radius:5px
+}
+.view-replays-common.-com-shadow 
+{
+    -webkit-box-shadow:1px 1px 4px #ab7129,inset 0 0 3px #dbac72;
+    -moz-box-shadow:1px 1px 4px #ab7129,inset 0 0 3px #dbac72;
+    box-shadow:1px 1px 4px #ab7129,inset 0 0 3px #dbac72
+}
+.view-replays-common.-com-shadow.-com-shadowEffect:hover 
+{
+    -webkit-box-shadow:1px 1px 4px #c58230,inset 0 0 3px #e0b785;
+    -moz-box-shadow:1px 1px 4px #c58230,inset 0 0 3px #e0b785;
+    box-shadow:1px 1px 4px #c58230,inset 0 0 3px #e0b785
+}
+.view-replays-common.-com-shadow.-com-shadowEffect:active 
+{
+    -webkit-box-shadow:0 0 4px #c58230,inset 0 0 3px #e0b785;
+    -moz-box-shadow:0 0 4px #c58230,inset 0 0 3px #e0b785;
+    box-shadow:0 0 4px #c58230,inset 0 0 3px #e0b785
+}
+.view-replays-common.-com-shadow.-com-shadowEffect.-active:hover,
+.view-replays-common.-com-shadow.-com-shadowEffect.-active:active 
+{
+    -webkit-box-shadow:1px 1px 4px #ab7129,inset 0 0 3px #dbac72;
+    -moz-box-shadow:1px 1px 4px #ab7129,inset 0 0 3px #dbac72;
+    box-shadow:1px 1px 4px #ab7129,inset 0 0 3px #dbac72
+}
+.view-replays-common.-com-shadow-red 
+{
+    -webkit-box-shadow:1px 1px 4px #c72222,inset 0 0 3px #cc1b1b;
+    -moz-box-shadow:1px 1px 4px #c72222,inset 0 0 3px #cc1b1b;
+    box-shadow:1px 1px 4px #c72222,inset 0 0 3px #cc1b1b
+}
+.view-replays-common.-com-shadow-red.-com-shadowEffect:hover 
+{
+    -webkit-box-shadow:1px 1px 4px #ec3333,inset 0 0 3px #ff0202;
+    -moz-box-shadow:1px 1px 4px #ec3333,inset 0 0 3px #ff0202;
+    box-shadow:1px 1px 4px #ec3333,inset 0 0 3px #ff0202
+}
+.view-replays-common.-com-shadow-red.-com-shadowEffect:active 
+{
+    -webkit-box-shadow:0 0 4px #ec3333,inset 0 0 3px #ff0202;
+    -moz-box-shadow:0 0 4px #ec3333,inset 0 0 3px #ff0202;
+    box-shadow:0 0 4px #ec3333,inset 0 0 3px #ff0202
+}
+.view-replays-common.-com-shadow-black 
+{
+    -webkit-box-shadow:1px 1px 4px #998b7a,inset 0 0 3px #ccc3b9;
+    -moz-box-shadow:1px 1px 4px #998b7a,inset 0 0 3px #ccc3b9;
+    box-shadow:1px 1px 4px #998b7a,inset 0 0 3px #ccc3b9
+}
+.view-replays-common.-com-shadow-black.-com-shadowEffect:hover 
+{
+    -webkit-box-shadow:1px 1px 4px #b39c81,inset 0 0 3px #d1cecc;
+    -moz-box-shadow:1px 1px 4px #b39c81,inset 0 0 3px #d1cecc;
+    box-shadow:1px 1px 4px #b39c81,inset 0 0 3px #d1cecc
+}
+.view-replays-common.-com-shadow-black.-com-shadowEffect:active 
+{
+    -webkit-box-shadow:0 0 4px #b39c81,inset 0 0 3px #d1cecc;
+    -moz-box-shadow:0 0 4px #b39c81,inset 0 0 3px #d1cecc;
+    box-shadow:0 0 4px #b39c81,inset 0 0 3px #d1cecc
+}
+.replays-edit-wrp 
+{
+    margin-left:5px
+}
+.view-replays-editWrp 
+{
+    position:relative;
+    padding:5px;
+    overflow:hidden
+}
+.view-replays-editShadow 
+{
+    display:none;
+    position:absolute;
+    top:0;
+    left:0;
+    width:100%;
+    height:101%;
+    margin-top:-2px;
+    z-index:10;
+    background:rgba(0,0,0,.4)
+}
+.view-replays-editShadow.-active 
+{
+    display:block
+}
+.view-replays-editSaving 
+{
+    display:none;
+    position:absolute;
+    top:0;
+    left:0;
+    width:100%;
+    height:100%;
+    z-index:10000;
+    background:rgba(0,0,0,.1)
+}
+.view-replays-editSaving.-active 
+{
+    display:block
+}
+.view-replays-editMain {
+    width:790px;
+    float:left
+}
+.view-replays-editMain-tacticListWrp 
+{
+    height:30px;
+    position:relative
+}
+.view-replays-editMain-addNewTactic 
+{
+    position:absolute;
+    top:3px;
+    left:3px;
+    width:24px;
+    height:23px;
+    cursor:pointer;
+    background:url(../../img/gui/superatlas-3.png);
+    background-position:-1052px -153px
+}
+.view-replays-editMain-addNewTactic.-adding 
+{
+    cursor:default;
+    opacity:.7
+}
+.view-replays-editMain-tacticListScroll 
+{
+    position:relative;
+    width:755px;
+    margin-left:35px
+}
+.view-replays-editMain-tacticListScroll.__scrollWrp 
+{
+    padding:0 25px;
+    box-sizing:border-box
+}
+.view-replays-editMain-tacticList 
+{
+    display:inline-block;
+    line-height:30px;
+    text-align:left;
+    white-space:nowrap
+}
+.view-replays-editMain-tacticNameWrp 
+{
+    display:inline-block;
+    position:relative;
+    margin:0 30px 0 0;
+    cursor:pointer
+}
+.view-replays-editMain-tacticNameWrp.-active 
+{
+    margin:0 35px 0 0
+}
+.view-replays-editMain-tacticNameWrp.-nameEditing 
+{
+    margin:0 65px 0 0
+}
+.view-replays-editMain-tacticName 
+{
+    border-bottom:1px dotted #000;
+    font-size:13px;
+    color:#726354;
+    background:rgba(255,255,255,.2)
+}
+.view-replays-editMain-tacticNameEdit 
+{
+    width:100px
+}
+.view-replays-editMain-tacticNameWrp.-active .view-replays-editMain-tacticName 
+{
+    font-weight:bold;
+    color:#000
+}
+.view-replays-editMain-deleteTactic,
+.view-replays-editMain-saveTacticName,
+.view-replays-editMain-cancelTacticName {
+  display:none;
+  position:absolute;
+  top:0;
+  right:-30px;
+  width:29px;
+  height:29px;
+  cursor:pointer
+}
+.view-replays-editMain-cancelTacticName {
+  right:-60px
+}
+.view-replays-editMain-tacticNameWrp:hover .view-replays-editMain-deleteTactic,
+.view-replays-editMain-tacticNameWrp.-nameEditing .view-replays-editMain-saveTacticName,
+.view-replays-editMain-tacticNameWrp.-nameEditing .view-replays-editMain-cancelTacticName {
+  display:block
+}
+.view-replays-editMain-tacticNameWrp.-active.-nameEditing .view-replays-editMain-deleteTactic,
+.view-replays-editMain-oneTactic+.view-replays-editMain-tacticNameWrp.-active .view-replays-editMain-deleteTactic {
+  display:none
+}
+.view-replays-editMain-tacticData {
+  padding-right:3px
+}
+.view-replays-editMain-wave {
+  transform:scale(1);
+  -webkit-transform:scale(1);
+  -webkit-transition:.1s transform;
+  transition:.1s transform
+}
+.view-replays-editMain-wave.ui-sortable-helper {
+  transform:scale(0.9)
+}
+.view-replays-editMain-wave,
+.view-replays-editMain-addNewWave {
+  position:relative;
+  min-height:100px;
+  margin:5px 0
+}
+.view-replays-editMain-addNewWave {
+  margin-top:10px;
+  cursor:pointer;
+  background:rgba(200,200,200,.5)
+}
+.view-replays-editMain-addNewWaveTitle {
+  text-align:left;
+  padding:5px 0 0 5px;
+  font-size:14px
+}
+.view-replays-editMain-addNewWaveIcon {
+  top:30px;
+  left:5px
+}
+.view-replays-editMain-waveRange {
+  position:absolute;
+  top:0;
+  left:0;
+  cursor:pointer;
+  text-decoration:underline;
+  padding:4px 5px;
+  z-index:2
+}
+.view-replays-editMain-waveUpls-wrp {
+  position:absolute;
+  top:0;
+  left:40px;
+  z-index:2;
+  height:25px;
+  line-height:25px
+}
+.view-replays-editMain-waveUpls-wrp .cl-grey .view-replays-editMain-upls {
+  color:gray
+}
+.view-replays-editMain-upls {
+  width:49px;
+  text-align:center
+}
+.view-replays-editMain-appendToTemplate {
+  position:absolute;
+  top:5px;
+  right:30px;
+  width:130px;
+  height:15px;
+  z-index:2
+}
+.view-replays-editMain-deleteWave {
+  display:none;
+  position:absolute;
+  top:0;
+  right:0;
+  cursor:pointer;
+  z-index:2
+}
+.view-replays-editMain-wavesWrp:hover .view-replays-editMain-deleteWave {
+  display:inline-block
+}
+.view-replays-editMain-waveData {
+  position:absolute;
+  width:100%;
+  height:100%;
+  cursor:pointer
+}
+.view-replays-editMain-waveArmy {
+  position:absolute;
+  top:25px;
+  width:100%;
+  z-index:1;
+  cursor:pointer
+}
+.view-replays-editMain-saveTacticWrp {
+  padding:5px 0 5px
+}
+.view-replays-editMain-saveTacticAlertWrp,
+.view-replays-list-alertOverflow {
+  color:red
+}
+.view-replays-editMain-saveTacticAlertWrp.-type-active,
+.view-replays-list-alertOverflow {
+  margin-bottom:10px
+}
+.view-replays-editMain-saveTacticWrp>.button1 {
+  margin:0 25px
+}
+.view-replays-editMain-rulesWrp,
+.view-replays-editMain-reserve2Wrp {
+  position:relative;
+  margin:10px 0;
+  padding-bottom:5px;
+  background:rgba(255,255,255,.4)
+}
+.view-replays-editMain-rulesWrp {
+  overflow:hidden
+}
+.view-replays-editMain-rulesTitle,
+.view-replays-editMain-reserve2Title {
+  padding:5px 0;
+  font-size:16px
+}
+.view-replays-editMain-rules {
+  overflow:hidden;
+  min-height:120px;
+  padding:0 15px;
+  text-align:left
+}
+.view-replays-editMain-addNewRule,
+.view-replays-editMain-rule {
+  display:inline-block;
+  position:relative;
+  width:110px;
+  vertical-align:top;
+  margin:5px 40px 5px 0;
+  cursor:pointer;
+  transform:scale(1);
+  -webkit-transform:scale(1);
+  -webkit-transition:.1s transform;
+  transition:.1s transform
+}
+.view-replays-editMain-rule.ui-sortable-helper {
+  transform:scale(0.9)
+}
+.view-replays-editMain-addNewRule {
+  background:rgba(200,200,200,.5)
+}
+.view-replays-editMain-addNewRuleTitle {
+  text-align:center;
+  margin-top:10px
+}
+.view-replays-editMain-addNewRuleIcon {
+  top:0;
+  left:0;
+  right:0;
+  bottom:0;
+  margin:auto
+}
+.view-replays-editMain-rule.-active .view-replays-editMain-ruleOption,
+.view-replays-editMain-rule:hover .view-replays-editMain-ruleOption.-deleteRule {
+  display:block
+}
+.view-replays-editMain-ruleOption {
+  display:none;
+  position:absolute;
+  cursor:pointer
+}
+.view-replays-editMain-ruleOption.-editRule {
+  top:0;
+  left:0
+}
+.view-replays-editMain-ruleOption.-deleteRule {
+  top:0;
+  right:0
+}
+.view-replays-editMain-ruleSorter {
+  position:relative;
+  height:30px
+}
+.view-replays-editMain-ruleSorter:before {
+  content:"";
+  position:absolute;
+  top:0;
+  left:0;
+  bottom:0;
+  right:0;
+  margin:auto;
+  width:48px;
+  height:10px;
+  background:url(../../img/gui/superatlas-3.png);
+  background-position:-929px -185px
+}
+.view-replays-editMain-ruleSorter:after {
+  content:"";
+  position:absolute;
+  left:0;
+  bottom:0;
+  width:100%;
+  height:1px;
+  background:#bba46a
+}
+.view-replays-editMain-ruleSorter:hover:before,
+.view-replays-editMain-rule.-dragging .view-replays-editMain-ruleSorter:before {
+  background-position:-929px -203px
+}
+.view-replays-editMain-ruleSorter:hover:after,
+.view-replays-editMain-rule.-dragging .view-replays-editMain-ruleSorter:after {
+  background:#80694e
+}
+.view-replays-editMain-ruleData {
+  min-height:110px;
+  transition:height .7s ease .3s
+}
+.view-replays-editMain-ruleData-units {
+  min-height:60px;
+  margin-top:5px;
+  padding-left:5px;
+  text-align:center;
+  white-space:normal
+}
+.view-replays-editMain-ruleData-unit {
+  display:inline-block;
+  margin-left:-5px
+}
+.view-replays-editMain-ruleData-rule {
+  width:100%;
+  text-align:center
+}
+.view-replays-editMain-ruleArrow {
+  position:absolute;
+  top:0;
+  bottom:0;
+  right:-35px;
+  width:29px;
+  height:32px;
+  margin:auto 0;
+  background:url(../../img/gui/superatlas-3.png);
+  background-position:-1117px -153px
+}
+.view-replays-editMain-reserve2Wrp {
+  cursor:pointer;
+  background:rgba(220,255,220,.4)
+}
+.view-replays-editMain-reserve2 {
+  min-height:70px;
+  overflow:hidden
+}
+.view-replays-editMain-reserve2AddWrp {
+  display:inline-block;
+  width:80px;
+  height:70px;
+  float:left
+}
+.view-replays-editMain-reserve2Add {
+  display:inline-block;
+  position:relative;
+  width:28px;
+  height:28px;
+  margin:15px 0 2px 0;
+  background:rgba(200,200,200,.5)
+}
+.view-replays-editMain-reserve2AddIcon {
+  top:3px;
+  left:2px
+}
+.view-replays-editMain-army-unitWrp {
+  display:inline-block;
+  height:70px;
+  vertical-align:top;
+  text-align:center
+}
+.view-replays-editMain-army-unitWrp.-reserve2Unit {
+  width:80px;
+  float:left
+}
+.view-replays-editMain-army-unitWrp.-separator {
+  border-right:2px solid #b89463;
+  -moz-box-sizing:border-box;
+  -webkit-box-sizing:border-box;
+  box-sizing:border-box
+}
+.view-replays-editMain-army-unit {
+  position:relative;
+  display:inline-block;
+  width:35px;
+  height:45px;
+  margin-top:5px;
+  text-align:center;
+  cursor:pointer
+}
+.view-replays-editMain-army-unitPercent {
+  text-align:center
+}
+.view-replays-editMain-waveRangeWrp {
+  padding:35px 20px 10px
+}
+.view-replays-editMain-waveRangeSlider {
+  margin-top:10px;
+  margin-bottom:25px;
+  width:200px
+}
+.view-replays-editMain-waveRangeCounter {
+  position:absolute;
+  top:25px;
+  left:0px;
+  min-width:21px
+}
+.view-replays-editWaveCont {
+  width:930px;
+  margin:0 10px 0
+}
+.view-replays-editWaveCont .__scroll[data-dir=right][data-pos=outside]>.__scrollBar {
+  right:-30px
+}
+.view-replays-editWaveCont .__scroll[data-dir=left][data-pos=outside]>.__scrollBar {
+  left:-30px
+}
+.view-replays-editWaveCont .__scroll[data-isbc-y-pos=right][data-isbc-y-lay=outside]>.__scrollbar-y {
+  right:-30px
+}
+.view-replays-editWaveCont .__scroll[data-isbc-y-pos=left][data-isbc-y-lay=outside]>.__scrollbar-y {
+  left:-30px
+}
+.view-replays-editWaveTitle {
+  position:relative;
+  height:30px;
+  margin:10px 0;
+  line-height:30px;
+  font-weight:bold
+}
+.view-replays-editWaveShowBattleCost {
+  position:absolute;
+  top:0;
+  bottom:0;
+  right:0;
+  margin:auto 0;
+  font-weight:normal
+}
+.view-replays-editWave-upls {
+  width:49px;
+  text-align:center
+}
+.view-replays-editWave-armyWrp {
+  position:relative;
+  min-height:100px;
+  margin-bottom:5px;
+  text-align:center;
+  padding:5px
+}
+.view-replays-editWave-army {
+  min-height:90px;
+  margin-top:10px;
+  text-align:left
+}
+.view-replays-editWave-armyUnitWrp {
+  display:inline-block;
+  height:80px;
+  vertical-align:top;
+  text-align:center
+}
+.view-replays-editWave-armyUnitWrp.-separator {
+  border-right:2px solid #b89463;
+  -moz-box-sizing:border-box;
+  -webkit-box-sizing:border-box;
+  box-sizing:border-box
+}
+.view-replays-editWave-armyUnit {
+  position:relative;
+  display:inline-block;
+  width:35px;
+  height:55px;
+  margin-top:15px;
+  text-align:center;
+  cursor:pointer
+}
+.view-replays-editWave-armyUnitPercent,
+.view-replays-editWave-armyUnitPlaces {
+  height:15px;
+  text-align:center
+}
+.view-replays-editWave-armyUnitPercent {
+  width:35px;
+  height:18px
+}
+.view-replays-editWave-armyUnitPlaces {
+  margin-top:5px;
+  color:gray
+}
+.view-replays-editWave-armyUnitPercentSet {
+  width:33px;
+  height:16px;
+  padding-left:1px;
+  border:none;
+  font-family:Tahoma;
+  font-size:10px
+}
+.view-replays-editWave-armyUnitPercent .spinbox-spin {
+  right:0;
+  height:8px
+}
+.view-replays-editWave-armyUnitPercent .spinbox-spin.-type-more {
+  top:0
+}
+.view-replays-editWave-armyUnitPercent .spinbox-spin.-type-less {
+  bottom:0
+}
+.view-replays-editWave-armyUnitPercent .spinbox-spin.-type-more:before {
+  top:-3px
+}
+.view-replays-editWave-armyUnitPercent .spinbox-spin.-type-less:before {
+  bottom:-3px
+}
+.view-replays-editWave-armyUnit.-active .view-replays-editWave-armyUnitOption {
+  display:block
+}
+.view-replays-editWave-armyUnit.-active.-cantChange .view-replays-editWave-armyUnitOption.-reduce,
+.view-replays-editWave-armyUnit.-active.-cantChange .view-replays-editWave-armyUnitOption.-increase {
+  display:none
+}
+.view-replays-editWave-armyUnitOption {
+  display:none;
+  position:absolute;
+  width:35px;
+  height:35px;
+  line-height:35px;
+  font-size:20px;
+  z-index:1;
+  -webkit-user-select:none;
+  -moz-user-select:none;
+  -ms-user-select:none;
+  user-select:none;
+  background:rgba(255,255,255,.6);
+  border:1px solid #000;
+  cursor:pointer
+}
+.view-replays-editWave-armyUnitOption.-increase {
+  top:5px;
+  right:-38px
+}
+.view-replays-editWave-armyUnitOption.-reduce {
+  top:5px;
+  left:-38px
+}
+.view-replays-editWave-armyUnitOption.-deleteArmyUnit {
+  top:-27px;
+  left:4px;
+  width:29px;
+  height:29px;
+  background:url(../../img/gui/buttons/window_buttons-a-2.png);
+  background-position:-3px -64px;
+  border:none
+}
+.view-replays-editWave-armyUnitDrop,
+.view-replays-editWave-armyTemplateDrop {
+  position:absolute;
+  width:79px;
+  height:46px;
+  left:210px;
+  bottom:15px;
+  background:url(../../img/gui/tactic/arrows_to_units.png)
+}
+.view-replays-editWave-armyTemplateDrop {
+  left:650px;
+  background-position:79px 0px
+}
+.view-replays-editWave-armyUnitDropText {
+  position:absolute;
+  right:-172px;
+  top:-4px
+}
+.view-replays-editWave-armyTemplateDropText {
+  position:absolute;
+  left:-130px;
+  top:-4px
+}
+.view-replays-editWave-armyDelimiterp {
+  height:5px
+}
+.view-replays-editWave-ruleWrp {
+  min-height:50px;
+  margin:5px 0;
+  padding:5px;
+  font-size:14px
+}
+.view-replays-editWave-ruleWrp.-noRule {
+  color:red
+}
+.view-replays-editWave-condList {
+  margin-bottom:5px
+}
+.view-replays-editWave-rule {
+  display:inline-block;
+  position:relative;
+  margin-top:7px;
+  margin-left:35px
+}
+.view-replays-editWave-rule .select1,
+.view-replays-editWave-rule .input1 {
+  height:19px;
+  vertical-align:middle
+}
+.view-replays-editWave-ruleUnit {
+  display:inline-block;
+  position:relative;
+  vertical-align:-7px
+}
+.view-replays-editWave-ruleCountWrp {
+  display:inline-block;
+  min-width:75px;
+  text-align:left
+}
+.view-replays-editWave-ruleCount {
+  width:40px;
+  text-align:right
+}
+.view-replays-editWave-ruleCountType {
+  display:inline-block;
+  width:30px;
+  margin-left:5px
+}
+.view-replays-editWave-ruleCountType.-type-fixCountType {
+  border-color:transparent;
+  cursor:default
+}
+.view-replays-editWave-rule .button2-small.-type-delete {
+  position:absolute;
+  top:0;
+  right:-25px;
+  bottom:0;
+  margin:auto 0
+}
+.view-replays-editWave-addRuleCond {
+  border-bottom:1px dotted;
+  cursor:pointer
+}
+.view-replays-editWave-ruleWrp.-noRule .view-replays-editWave-addRuleCond {
+  border-bottom:none;
+  opacity:.5;
+  cursor:default
+}
+.view-replays-editWave-unitsWrp {
+  width:407px;
+  min-height:115px;
+  margin-bottom:5px;
+  padding:5px;
+  float:left;
+  background:rgba(255,255,255,.4)
+}
+.view-replays-editWave-unitsTitle {
+  font-size:14px;
+  margin-bottom:5px
+}
+.view-replays-editWave-units {
+  min-height:100px;
+  text-align:left
+}
+.view-replays-editWave-unit {
+  position:relative;
+  display:inline-block;
+  font-size:0;
+  margin:2px
+}
+.view-replays-editWave-unitBattleCost {
+  height:0;
+  overflow:hidden;
+  text-align:center;
+  font-size:12px;
+  -webkit-transition:height .5s;
+  -moz-transition:height .5s;
+  -o-transition:height .5s;
+  transition:height .5s
+}
+.view-replays-editWave-units.-type-showBattleCost .view-replays-editWave-unitBattleCost {
+  height:15px
+}
+.view-replays-editWave-unit.-unitLongFiltered,
+.view-replays-editWave-ruleUnit.-unitLongFiltered {
+  opacity:.5
+}
+.view-replays-editWave-unit.-unitFiltered,
+.view-replays-editWave-ruleUnit.-unitFiltered {
+  opacity:.3
+}
+.view-replays-editWave-unit.-selected .unit:before,
+.view-replays-editWave-unit.-type-noDrag .unit:before {
+  content:"";
+  position:absolute;
+  top:0;
+  left:0;
+  width:100%;
+  height:100%;
+  z-index:1;
+  cursor:pointer;
+  background:rgba(0,0,0,.5)
+}
+.view-replays-editWave-unit.-type-noDrag {
+  cursor:default
+}
+.view-replays-editWave-unit span[data-title] {
+  cursor:pointer
+}
+.view-replays-editWave-unitsWrp.-unitsLegend {
+  width:92px;
+  padding:0;
+  margin-left:5px;
+  background:brown
+}
+.view-replays-editWave-unitsWrp.-unitsTemplates {
+  float:right;
+  padding:5px 0 5px 5px
+}
+.view-replays-editWave-unitsWrp.-unitsTemplates.-editMode {
+  border:1px solid #000
+}
+.view-replays-editWave-unitsTemplates,
+.view-replays-editWave-unitsSetting {
+  position:relative;
+  width:406px;
+  min-height:320px;
+  float:left;
+  text-align:left;
+  padding:0px 0px 40px 0px
+}
+.view-replays-editWave-unitsTemplates {
+  min-height:290px
+}
+.view-replays-editWave-unitsTemplates.-editMode .-unitTemplate {
+  opacity:.5
+}
+.view-replays-editWave-unitsTemplates .-unitTemplate.-addUnitTemplate {
+  opacity:1
+}
+.view-replays-editWave-unitsTemplates .-unitTemplate.-editing {
+  opacity:1;
+  outline:2px solid #000
+}
+.view-replays-editWave-unitsTemplatesEditMode {
+  position:absolute;
+  width:100%;
+  bottom:5px;
+  text-align:center
+}
+.view-replays-editWave-unitsTemplatesEditModeOn {
+  width:150px
+}
+.view-replays-editWave-unitsTemplatesEditModeOff {
+  width:120px;
+  margin-right:15px
+}
+.view-replays-editWave-unitTemplate {
+  display:inline-block;
+  width:23px;
+  height:23px;
+  border:1px solid #000;
+  margin:0 2px;
+  cursor:pointer
+}
+.view-replays-editWave-unitTemplate.-noRule {
+  margin:0
+}
+.view-replays-editWave-addUnitTemplateIcon {
+  top:-4px;
+  left:2px
+}
+.view-replays-editWave-addUnitTemplateHint {
+  position:absolute;
+  width:79px;
+  height:46px;
+  top:8px;
+  left:30px;
+  background:url(../../img/gui/tactic/arrows_to_units.png) 79px 0px
+}
+.view-replays-editWave-addUnitTemplateHintText {
+  position:absolute;
+  top:50px;
+  left:15px;
+  font-size:12px
+}
+.view-replays-editWave-unitTemplate.-clean {
+  opacity:.5;
+  background:#fff
+}
+.view-replays-editWave-unitTemplate.-noRule {
+  border:1px solid red
+}
+.view-replays-editWave-unitTemplate.-editing {
+  opacity:1;
+  border:3px solid #000
+}
+.view-replays-editWave-unitsSettingWrp {
+  display:none;
+  width:225px;
+  float:right;
+  background:#f4ebda
+}
+.view-replays-editWave-unitsSetting {
+  position:relative;
+  width:225px;
+  text-align:center;
+  margin:0;
+  padding:5px 0;
+  background:none
+}
+.view-replays-editWave-unitsSetting-view {
+  padding:0 4px;
+  overflow:hidden
+}
+.view-replays-editWave-unitsSetting-preview {
+  position:absolute;
+  top:44px;
+  left:0;
+  bottom:0;
+  right:2px;
+  margin:0 auto;
+  width:25px;
+  height:25px;
+  z-index:1
+}
+.view-replays-editWave-unitsSetting-tagsSelected {
+  min-height:33px
+}
+.view-replays-editWave-unitsSetting-tagsSelected-necessarily,
+.view-replays-editWave-unitsSetting-tagsSelected-desirable {
+  width:50%;
+  height:33px
+}
+.view-replays-editWave-unitsSetting-tagsSelected-necessarily.-negativeTemplate,
+.view-replays-editWave-unitsSetting-tagsSelected-desirable.-negativeTemplate {
+  height:18px
+}
+.view-replays-editWave-unitsSetting-tagsSelected-necessarily {
+  float:left
+}
+.view-replays-editWave-unitsSetting-tagsSelected-desirable {
+  float:right
+}
+.view-replays-editWave-unitsSetting-tagsSelected-empty {
+  position:relative;
+  width:100%;
+  height:33px;
+  -moz-box-sizing:border-box;
+  -webkit-box-sizing:border-box;
+  box-sizing:border-box;
+  border:1px solid gray;
+  background:#fff
+}
+.view-replays-editWave-unitsSetting-tagsSelected-addIcon {
+  top:0;
+  left:0;
+  right:0;
+  bottom:0;
+  margin:auto;
+  cursor:default
+}
+.view-replays-editWave-unitsSetting-tagsPriority {
+  height:33px;
+  line-height:33px
+}
+.view-replays-editWave-unitsSetting-tagsPriority-necessarily,
+.view-replays-editWave-unitsSetting-tagsPriority-desirable {
+  width:50%;
+  height:inherit;
+  border:1px solid gray;
+  text-align:center;
+  -moz-box-sizing:border-box;
+  -webkit-box-sizing:border-box;
+  box-sizing:border-box
+}
+.view-replays-editWave-unitsSetting-tagsPriority-necessarily {
+  float:left;
+  color:gray;
+  background:rgba(200,200,200,.7)
+}
+.view-replays-editWave-unitsSetting-tagsPriority-desirable {
+  float:right
+}
+.view-replays-editWave-unitsSetting-tagsChangePriority {
+  text-decoration:underline;
+  cursor:pointer
+}
+.view-replays-editWave-unitsSetting-tags {
+  margin:5px 0 13px;
+  min-height:20px
+}
+.view-replays-editWave-unitsSetting-tag {
+  position:relative;
+  display:inline-block;
+  width:100px;
+  height:25px;
+  line-height:25px;
+  margin:1px 0;
+  padding:4px 2px;
+  font-size:10px;
+  color:#fff;
+  cursor:pointer;
+  background:url(../../img/gui/tactic/template_units_bg-a.png) repeat
+}
+.replays-editWave-tagName {
+  display:inline-block
+}
+.view-replays-editWave-unitsSetting-tag.-tagFiltering {
+  outline:2px solid #000;
+  outline-offset:-2px
+}
+.view-replays-editWave-unitsSetting-tag.-tagFilter {
+  width:88px
+}
+.view-replays-editWave-unitsSetting-tag.-tagFilter .replays-editWave-tagName {
+  vertical-align:middle
+}
+.view-replays-editWave-unitsSetting-tag.-tagBig {
+  height:25px;
+  line-height:25px;
+  margin:2px 4px;
+  cursor:pointer
+}
+.view-replays-editWave-unitsSetting-tag.-tagBig .replays-editWave-tagName {
+  text-decoration:underline
+}
+.view-replays-editWave-unitsSetting-tag.-tagBig.-selected {
+  width:100%;
+  margin:0;
+  padding:4px 0
+}
+.view-replays-editWave-unitsSetting-tag.-selectedInList {
+  text-decoration:none
+}
+.view-replays-editWave-unitsSetting-tag.-selectedInList:before {
+  content:"";
+  position:absolute;
+  top:0;
+  left:0;
+  width:100%;
+  height:100%;
+  z-index:1;
+  cursor:default;
+  background:rgba(0,0,0,.4)
+}
+.view-replays-editWave-unitsSetting-tag .unitTagIcon {
+  background-position-x:0px
+}
+.view-replays-editWave-unitsSetting-tag[data-code=f] {
+  background-position:0px 0px
+}
+.view-replays-editWave-unitsSetting-tag[data-code=g] {
+  background-position:0px -50px;
+  color:#000
+}
+.view-replays-editWave-unitsSetting-tag[data-code=g] .unitTagIcon {
+  background-position-x:-18px
+}
+.view-replays-editWave-unitsSetting-tag[data-code=h] {
+  background-position:0px -100px
+}
+.view-replays-editWave-unitsSetting-tag[data-code=i] {
+  background-position:0px -150px
+}
+.view-replays-editWave-unitsSetting-tag[data-code=j] {
+  background-position:0px -200px
+}
+.view-replays-editWave-unitsSetting-tag[data-code=k] {
+  background-position:0px -250px
+}
+.view-replays-editWave-unitsSetting-tag[data-code=l] {
+  background-position:0px -300px
+}
+.view-replays-editWave-unitsSetting-tag[data-code=m] {
+  background-position:0px -350px
+}
+.view-replays-editWave-unitsSetting-tag[data-code=s] {
+  background-position:0px -400px
+}
+.view-replays-editWave-unitsSetting-tag[data-code=n] {
+  background-position:0px -450px
+}
+.editWave-actionDelimiter {
+  padding:0 10px
+}
+.view-replays-editTemplates {
+  width:150px;
+  float:right;
+  padding:5px 0 5px 5px;
+  -moz-box-sizing:border-box;
+  -webkit-box-sizing:border-box;
+  box-sizing:border-box;
+  text-align:center
+}
+.view-replays-editTemplates-title {
+  font-size:14px;
+  margin-bottom:10px;
+  text-align:center;
+  font-size:16px
+}
+.replays-templateList-wrp {
+  -webkit-box-sizing:border-box;
+  box-sizing:border-box;
+  padding:0 2px;
+  -webkit-border-radius:5px;
+  border-radius:5px;
+  background:rgba(255,255,255,.4)
+}
+.view-replays-editTemplates-templateList {
+  display:inline-block;
+  width:120px;
+  position:relative;
+  overflow:hidden;
+  min-height:125px
+}
+.view-replays-editTemplates-template,
+.view-replays-editTemplates-emptyTemplate {
+  position:relative;
+  width:114px;
+  display:inline-block;
+  margin:5px auto;
+  cursor:pointer
+}
+.view-replays-editTemplates-emptyTemplate {
+  cursor:default
+}
+.view-replays-editTemplates-template.-active .view-replays-editTemplates-templateOption,
+.view-replays-editTemplates-template:hover .view-replays-editTemplates-templateOption.-deleteTemplate {
+  display:block
+}
+.view-replays-editTemplates-templateOption {
+  display:none;
+  position:absolute;
+  cursor:pointer
+}
+.view-replays-editTemplates-templateOption.-editTemplate {
+  top:0;
+  left:0
+}
+.view-replays-editTemplates-templateOption.-deleteTemplate {
+  top:0;
+  right:0
+}
+.view-replays-editTemplates-templateData {
+  height:110px;
+  margin-top:30px
+}
+.view-replays-editTemplates-templateData-units {
+  min-height:60px;
+  margin-top:5px;
+  padding-left:5px;
+  text-align:center
+}
+.view-replays-editTemplates-templateData-unit {
+  display:inline-block;
+  margin-left:-5px
+}
+.view-replays-editTemplates-templateData-rule {
+  width:100%;
+  text-align:center
+}
+.replays-list-wrp {
+  padding:5px
+}
+.view-replays-list {
+  width:940px;
+  margin:0 auto
+}
+.view-replays-list .__scroll[data-isbc-y-pos=right][data-isbc-y-lay=outside]>.__scrollbar-y {
+  right:-12px
+}
+.view-replays-list .__scroll[data-isbc-y-pos=left][data-isbc-y-lay=outside]>.__scrollbar-y {
+  left:-12px
+}
+.view-replays-list .__scroll[data-dir=right][data-pos=outside]>.__scrollBar {
+  right:-12px
+}
+.view-replays-list .__scroll[data-dir=left][data-pos=outside]>.__scrollBar {
+  left:-12px
+}
+.view-replays-listItem {
+  position:relative;
+  display:inline-block;
+  width:214px;
+  height:80px;
+  margin:5px;
+  padding:5px;
+  text-align:center;
+  float:left;
+  cursor:pointer
+}
+.view-replays-listItem.-active {
+  cursor:default
+}
+.view-replays-listItemInfo {
+  display:inline-block;
+  margin-bottom:5px
+}
+.view-replays-listItemName {
+  display:inline-block;
+  width:160px;
+  height:18px;
+  font-size:14px
+}
+.view-replays-listItemRules,
+.view-replays-listItemRulesArmy {
+  font-size:11px
+}
+.view-replays-listItemNameTag {
+  display:none
+}
+.view-replays-listItemName:hover .view-replays-listItemNameTag {
+  display:block
+}
+.view-replays-listItemName:hover .view-replays-listItemNameText {
+  display:none
+}
+.view-replays-listItemName .clipboard-wrp {
+  text-align:center;
+  color:#000
+}
+.view-replays-listItemRulesArmy {
+  margin-top:2px
+}
+.view-replays-listItem.-active .view-replays-listItemRulesArmy.-canHide {
+  display:none
+}
+.view-replays-listItemRulesArmy>.unit {
+  margin:0 1px
+}
+.view-replays-listItemOption {
+  display:none;
+  position:absolute;
+  cursor:pointer
+}
+.view-replays-listItemOption.-deleteTactic {
+  top:0;
+  right:0
+}
+.view-replays-listItemOption.-editTactic {
+  top:0;
+  left:1px
+}
+.view-replays-listItemOption.-useTactic {
+  bottom:2px;
+  width:inherit;
+  cursor:default
+}
+.view-replays-listItem.-active .view-replays-listItemOption {
+  display:block
+}
+.view-replays-editMain-oneTactic+.view-replays-listItem.-active .view-replays-listItemOption.-deleteTactic {
+  display:none
+}
+.view-replays-listItem.-addNewTactic {
+  font-size:14px;
+  cursor:pointer;
+  background:rgba(200,200,200,.5)
+}
+.view-replays-listItem .-addNewTactic.view-replays-addIcon {
+  top:0;
+  left:0;
+  right:0;
+  bottom:0;
+  margin:auto
+}
+.view-replays-editMain-ruleData-spoiler {
+  max-height:42px;
+  overflow:hidden;
+  -webkit-transition:max-height .5s 20s;
+  -moz-transition:max-height .5s 20s;
+  -o-transition:max-height .5s 20s;
+  transition:max-height .5s 20s
+}
+.view-replays-editMain-rules:hover .view-replays-editMain-ruleData-spoiler {
+  max-height:120px;
+  -webkit-transition:max-height .5s .5s;
+  -moz-transition:max-height .5s .5s;
+  -o-transition:max-height .5s .5s;
+  transition:max-height .5s .5s
+}
+.view-replays-ruleCondSpoiler {
+  height:8px;
+  line-height:0;
+  opacity:1;
+  transition:opacity .5s ease-in-out .5s
+}
+.view-replays-editMain-rules:hover .view-replays-ruleCondSpoiler {
+  opacity:0
+}
+.view-replays-ruleOtherCond {
+  display:inline-block;
+  padding-top:5px
+}
+.view-replays-ruleCond {
+  display:inline-block;
+  margin:0 2px
+}
+.view-replays-ruleCond .unit {
+  border-width:2px
+}
+.view-replays-ruleCond.-type-my .unit {
+  border-color:green
+}
+.view-replays-ruleCond.-type-enemy .unit {
+  border-color:red
+}
+.view-replays-ruleCondInfo {
+  font-size:.8em
+}
+.view-replays-ruleCondPercent {
+  font-size:.8em
+}
+.view-replays-ruleCondType {
+  display:inline-block;
+  vertical-align:top;
+  padding-top:8px;
+  font-size:.8em;
+  font-weight:bold
+}

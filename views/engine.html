@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <title>БОЙ</title>
+    <link rel="stylesheet" href="css/engine.css">
+	<script src="js/engineView.js"></script>
+	<script>
+		function init()
+		{
+			window.ge = {};
+			window.ge.releaseUrl = "project/wofh1_4_web.rls";
+			window.ge.version = "109";
+			window.ge.scriptPrefix = "";
+			window.ge.urlParams = new URLSearchParams(window.location.search);
+			window.ge.namedConst = {};
+			window.ge.namedConst.defaultWindowWidth = window.innerWidth;
+			window.ge.namedConst.defaultWindowHeight = window.innerHeight;
+			window.ge.namedConst.renderPlatform = window.ge.pickedRenderPlatform;
+			window.ge.namedConst.release = window.ge.releaseUrl;
+			window.ge.namedConst.lang = window.ge.urlParams.get("lang");
+			window.ge.namedConst.ignoreVersion = true;
+			
+			const type = window.ge.urlParams.get("type");
+
+			console.log(type);
+
+			if(type == 'replay')
+			{
+				window.ge.namedConst.originalScripts = false;
+				window.ge.namedConst.replay = window.ge.urlParams.get("replay");
+				console.log(window.ge.namedConst);
+			}
+			else if(type == 'simulation')
+			{
+				
+				window.ge.namedConst.editor = window.ge.urlParams.get("editor");
+				window.ge.namedConst.originalScripts = window.ge.urlParams.get("originalScripts");
+				window.ge.namedConst.simulation = window.ge.urlParams.get("simulation");
+				window.ge.namedConst.replay = window.ge.urlParams.get("replay");
+				console.log(window.ge.namedConst);
+			}
+			else
+			{
+				window.ge.namedConst.originalScripts = false;
+				window.ge.namedConst.secret = window.ge.urlParams.get("secret");
+			}
+			
+		    window.ge.namedConst["extPlat"] = "fake";
+		    window.ge.namedConst["extAcc"] = "spectator";
+		    window.ge.namedConst["extSig"] = "fakeSig";
+		    window.ge.namedConst["extNick"] = "spectator";
+			
+			//load(type);
+		}
+	</script>
+</head>
+	<body background="#00000000" onload="init()";>
+		<div id="gameSpace">
+			<canvas id="game" width = "800" height = "600" background="#00000000" oncontextmenu="return false;">Canvas not supported</canvas>
+		</div>
+	</body>
+</html>

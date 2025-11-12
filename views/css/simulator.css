@@ -1,0 +1,62 @@
+.wnd-cont-footer 
+{
+    position: relative;
+    background: url(../../img/gui/main/window/window-bg1.png);
+}
+
+.wnd-cont-footer::before, .wnd-cont-footer::after 
+{
+  content: "";
+  position: absolute;
+  width: 15px;
+  height: 100%;
+  top: 0;
+  background: url(../../img/gui/main/window/window-vertical.png);
+}
+
+.wnd-cont-footer::before 
+{
+    left: 0;
+}
+
+.wnd-cont-footer::after 
+{
+    right: 0;
+    background-position: -44px 0;
+}
+
+.build-tabIcon {
+    position: relative;
+}
+
+.build-tabIcon.-type-defence::before {
+    width: 15px;
+    height: 11px;
+    background-position: -106px -149px;
+}
+
+.build-tabIcon.-type-warbonus::before {
+    width: 15px;
+    height: 12px;
+    background-position: -106px -149px;
+}
+
+.build-tabIcon-wrp {
+    display: inline-block;
+    width: 15px;
+    height: 12px;
+}
+
+.build-tabIcon::before 
+{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    background: url(../../img/gui/icons/icons-a-7.png);
+    background-position-x: 0%;
+    background-position-y: 0%;
+}

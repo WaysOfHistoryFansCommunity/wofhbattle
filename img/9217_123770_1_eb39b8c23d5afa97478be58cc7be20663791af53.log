@@ -1,0 +1,555 @@
+11.11.2025 19:10:03 Trap damage: 3/82/2/82
+11.11.2025 19:10:03 Trap kills: 'bg5-bm1-by5-dv10-ao1-'
+11.11.2025 19:10:03 Initialize battle: '{"buildings":[1,1,1,10,1,10,1,1,9],"data":{"account":[248,"\u0424\u0430\u043d\u0442\u0430\u0437\u0435\u0440",1,3,11],"country":[11,"\u0411\u0435\u0441\u043f\u043e\u043b\u0435\u0437\u043d\u0430\u044f","e25aalloloaraaaaaaag"],"domain":"ru69.waysofhistory.com","town":[9217,"3. \u041e\u0442\u0448\u043b\u0435\u043f\u0430\u044e \u043f\u043e \u043f\u043e\u043f\u043a\u0435"]},"map":"map1","speed":1.0'
+11.11.2025 19:10:03 Battle started: 658257
+11.11.2025 19:10:13 Battle state '3)' / '3)'
+11.11.2025 19:10:13 Try reinforce 1 (side=1,group=5575,units=75,initial='ao88-ap1751-bm3187-by4332-bb260-ay2884-bn566-ba782-bc1051-bo15-dv3045-bg1605-aw5-bu18-',reserve='ao87-ap1751-bm3186-by4327-bb260-ay2884-bn566-ba782-bc1051-bo15-dv3035-bg1600-aw5-bu18-')
+11.11.2025 19:10:13 Reinforce result: 'ao2-by63-'
+11.11.2025 19:10:13 Try reinforce 1 (side=0,units=75)
+11.11.2025 19:10:13 Reinforce result: 'by65-dv10-'
+11.11.2025 19:10:13 Reinforced
+11.11.2025 19:10:15 Update battle state
+11.11.2025 19:10:30 Update battle state
+11.11.2025 19:10:43 Battle state '3)by65-dv10-' / '3)ao2-by63-'
+11.11.2025 19:10:43 Try reinforce 2 (side=1,group=5575,units=75,initial='ao88-ap1751-bm3187-by4332-bb260-ay2884-bn566-ba782-bc1051-bo15-dv3045-bg1605-aw5-bu18-',reserve='ao85-ap1751-bm3186-by4264-bb260-ay2884-bn566-ba782-bc1051-bo15-dv3035-bg1600-aw5-bu18-')
+11.11.2025 19:10:43 Reinforce result: 'ao12-'
+11.11.2025 19:10:43 Try reinforce 2 (side=0,units=75)
+11.11.2025 19:10:43 Reinforce result: 'by54-dv20-bc1-'
+11.11.2025 19:10:43 Reinforced
+11.11.2025 19:10:45 Update battle state
+11.11.2025 19:11:00 Update battle state
+11.11.2025 19:11:13 Battle state '3)by118-dv29-bc1-' / '3)ao13-by63-'
+11.11.2025 19:11:13 Try reinforce 3 (side=1,group=5575,units=78,initial='ap1751-bm3187-by4332-bb260-ay2884-bn566-ba782-bc1051-bo15-dv3045-ao88-bg1605-aw5-bu18-',reserve='ap1751-bm3186-by4264-bb260-ay2884-bn566-ba782-bc1051-bo15-dv3035-ao73-bg1600-aw5-bu18-')
+11.11.2025 19:11:13 Reinforce result: 'ao5-by48-'
+11.11.2025 19:11:13 Try reinforce 3 (side=0,units=75)
+11.11.2025 19:11:13 Reinforce result: 'by55-dv12-ay4-'
+11.11.2025 19:11:14 Reinforced
+11.11.2025 19:11:16 Update battle state
+11.11.2025 19:11:31 Update battle state
+11.11.2025 19:11:44 Battle state '3)by167-dv32-bc1-ay4-' / '3)ao17-by111-'
+11.11.2025 19:11:44 Try reinforce 4 (side=1,group=5575,units=75,initial='ap1751-bm3187-by4332-bb260-ay2884-bn566-ba782-bc1051-bo15-dv3045-ao88-bg1605-aw5-bu18-',reserve='ap1751-bm3186-by4216-bb260-ay2884-bn566-ba782-bc1051-bo15-dv3035-ao68-bg1600-aw5-bu18-')
+11.11.2025 19:11:44 Reinforce result: 'ao4-by51-'
+11.11.2025 19:11:44 Try reinforce 4 (side=0,units=75)
+11.11.2025 19:11:44 Reinforce result: 'by55-dv12-ay3-bb1-'
+11.11.2025 19:11:44 Reinforced
+11.11.2025 19:11:46 Update battle state
+11.11.2025 19:12:01 Update battle state
+11.11.2025 19:12:14 Battle state '3)by209-dv41-ay3-bb1-' / '3)ao20-by162-'
+11.11.2025 19:12:14 Try reinforce 5 (side=1,group=5575,units=75,initial='ap1751-bm3187-by4332-bb260-ay2884-bn566-ba782-bc1051-bo15-dv3045-ao88-bg1605-aw5-bu18-',reserve='ap1751-bm3186-by4165-bb260-ay2884-bn566-ba782-bc1051-bo15-dv3035-ao64-bg1600-aw5-bu18-')
+11.11.2025 19:12:14 Reinforce result: 'ao4-by51-'
+11.11.2025 19:12:14 Try reinforce 5 (side=0,units=75)
+11.11.2025 19:12:14 Reinforce result: 'by48-dv18-ay4-bc1-'
+11.11.2025 19:12:14 Reinforced
+11.11.2025 19:12:16 Update battle state
+11.11.2025 19:12:31 Update battle state
+11.11.2025 19:12:44 Battle state '3)by244-dv36-bc1-ay4-' / '3)by212-ao18-'
+11.11.2025 19:12:44 Try reinforce 6 (side=1,group=5575,units=75,initial='ap1751-bm3187-by4332-bb260-ay2884-bn566-ba782-bc1051-bo15-dv3045-ao88-bg1605-aw5-bu18-',reserve='ap1751-bm3186-by4114-bb260-ay2884-bn566-ba782-bc1051-bo15-dv3035-ao60-bg1600-aw5-bu18-')
+11.11.2025 19:12:44 Reinforce result: 'ao4-by51-'
+11.11.2025 19:12:44 Try reinforce 6 (side=0,units=75)
+11.11.2025 19:12:44 Reinforce result: 'by49-dv19-ay2-bb1-bc1-'
+11.11.2025 19:12:44 Reinforced
+11.11.2025 19:12:46 Update battle state
+11.11.2025 19:13:01 Update battle state
+11.11.2025 19:13:14 Battle state '3)by272-dv43-bc1-ay2-bb1-' / '3)by256-ao20-'
+11.11.2025 19:13:14 Try reinforce 7 (side=1,group=5575,units=75,initial='ap1751-bm3187-by4332-bb260-ay2884-bn566-ba782-bc1051-bo15-dv3045-ao88-bg1605-aw5-bu18-',reserve='ap1751-bm3186-by4063-bb260-ay2884-bn566-ba782-bc1051-bo15-dv3035-ao56-bg1600-aw5-bu18-')
+11.11.2025 19:13:14 Reinforce result: 'ao4-by51-'
+11.11.2025 19:13:14 Try reinforce 7 (side=0,units=75)
+11.11.2025 19:13:14 Reinforce result: 'by48-dv18-ay4-bc1-'
+11.11.2025 19:13:14 Reinforced
+11.11.2025 19:13:16 Update battle state
+11.11.2025 19:13:31 Update battle state
+11.11.2025 19:13:44 Battle state '3)by300-dv44-bc1-ay4-' / '3)by292-ao19-'
+11.11.2025 19:13:44 Try reinforce 8 (side=1,group=5575,units=75,initial='ap1751-bm3187-by4332-bb260-ay2884-bn566-ba782-bc1051-bo15-dv3045-ao88-bg1605-aw5-bu18-',reserve='ap1751-bm3186-by4012-bb260-ay2884-bn566-ba782-bc1051-bo15-dv3035-ao52-bg1600-aw5-bu18-')
+11.11.2025 19:13:44 Reinforce result: 'ao4-by51-'
+11.11.2025 19:13:44 Try reinforce 8 (side=0,units=75)
+11.11.2025 19:13:44 Reinforce result: 'by47-dv18-ay2-bb1-bg1-bc2-'
+11.11.2025 19:13:44 Reinforced
+11.11.2025 19:13:46 Update battle state
+11.11.2025 19:14:01 Update battle state
+11.11.2025 19:14:14 Battle state '3)by328-dv43-bc3-ay2-bb1-bg1-' / '3)by333-ao13-'
+11.11.2025 19:14:14 Try reinforce 9 (side=1,group=5575,units=75,initial='ap1751-bm3187-by4332-bb260-ay2884-bn566-ba782-bc1051-bo15-dv3045-ao88-bg1605-aw5-bu18-',reserve='ap1751-bm3186-by3961-bb260-ay2884-bn566-ba782-bc1051-bo15-dv3035-ao48-bg1600-aw5-bu18-')
+11.11.2025 19:14:14 Reinforce result: 'ao4-by51-'
+11.11.2025 19:14:14 Try reinforce 9 (side=0,units=75)
+11.11.2025 19:14:14 Reinforce result: 'by48-dv15-ay6-'
+11.11.2025 19:14:15 Reinforced
+11.11.2025 19:14:16 Update battle state
+11.11.2025 19:14:32 Update battle state
+11.11.2025 19:14:44 Battle state '3)by359-dv38-bc1-ay6-' / '3)by382-ao10-'
+11.11.2025 19:14:44 Try reinforce 10 (side=1,group=5575,units=75,initial='ap1751-bm3187-by4332-bb260-ay2884-bn566-ba782-bc1051-bo15-dv3045-ao88-bg1605-aw5-bu18-',reserve='ap1751-bm3186-by3910-bb260-ay2884-bn566-ba782-bc1051-bo15-dv3035-ao44-bg1600-aw5-bu18-')
+11.11.2025 19:14:44 Reinforce result: 'ay18-bg10-by15-ap1-dv3-'
+11.11.2025 19:14:44 Try reinforce 10 (side=0,units=75)
+11.11.2025 19:14:44 Reinforce result: 'by31-dv9-ap9-ay11-bb2-'
+11.11.2025 19:14:45 Reinforced
+11.11.2025 19:14:47 Update battle state
+11.11.2025 19:15:02 Update battle state
+11.11.2025 19:15:14 Battle state '3)ap9-by376-dv36-ay11-bb2-' / '3)by372-ap1-ay18-ao6-dv3-bg10-'
+11.11.2025 19:15:14 Try reinforce 11 (side=1,group=5575,units=75,initial='ap1751-bm3187-by4332-bb260-ay2884-bn566-ba782-bc1051-bo15-dv3045-ao88-bg1605-aw5-bu18-',reserve='ap1750-bm3186-by3895-bb260-ay2866-bn566-ba782-bc1051-bo15-dv3032-ao44-bg1590-aw5-bu18-')
+11.11.2025 19:15:14 Reinforce result: 'ao2-ay12-bg9-by18-ap3-'
+11.11.2025 19:15:14 Try reinforce 11 (side=0,units=75)
+11.11.2025 19:15:14 Reinforce result: 'by14-ap9-dv12-ay16-bb3-bg1-'
+11.11.2025 19:15:15 Reinforced
+11.11.2025 19:15:17 Update battle state
+11.11.2025 19:15:32 Update battle state
+11.11.2025 19:15:44 Battle state '3)ap9-by358-dv37-ay16-bb3-bg1-' / '3)by373-ap4-ay17-ao4-dv3-bg19-'
+11.11.2025 19:15:44 Try reinforce 12 (side=1,group=5575,units=75,initial='ap1751-bm3187-by4332-bb260-ay2884-bn566-ba782-bc1051-bo15-dv3045-ao88-bg1605-aw5-bu18-',reserve='ap1747-bm3186-by3877-bb260-ay2854-bn566-ba782-bc1051-bo15-dv3032-ao42-bg1581-aw5-bu18-')
+11.11.2025 19:15:44 Reinforce result: 'ao2-ay11-bg9-by18-ap3-bb1-'
+11.11.2025 19:15:44 Try reinforce 12 (side=0,units=75)
+11.11.2025 19:15:44 Reinforce result: 'by31-dv9-ap9-ay11-bb1-bg1-'
+11.11.2025 19:15:44 Reinforced
+11.11.2025 19:15:47 Update battle state
+11.11.2025 19:16:02 Update battle state
+11.11.2025 19:16:14 Battle state '3)ap10-by348-dv32-bb1-bg1-ay11-' / '3)bb1-by350-ap4-ay14-ao4-dv3-bg18-'
+11.11.2025 19:16:14 Try reinforce 13 (side=1,group=5575,units=75,initial='ap1751-bm3187-by4332-bb260-ay2884-bn566-ba782-bc1051-bo15-dv3045-ao88-bg1605-aw5-bu18-',reserve='ap1744-bm3186-by3859-bb259-ay2843-bn566-ba782-bc1051-bo15-dv3032-ao40-bg1572-aw5-bu18-')
+11.11.2025 19:16:14 Reinforce result: 'ao2-ay13-bg9-by18-ap1-'
+11.11.2025 19:16:14 Try reinforce 13 (side=0,units=75)
+11.11.2025 19:16:14 Reinforce result: 'by29-dv9-ap9-ay11-bb2-bg1-'
+11.11.2025 19:16:14 Reinforced
+11.11.2025 19:16:17 Update battle state
+11.11.2025 19:16:32 Update battle state
+11.11.2025 19:16:44 Battle state '3)ap10-by337-dv23-bb2-bg1-ay11-' / '3)by296-ap3-ay13-ao6-dv3-bg17-'
+11.11.2025 19:16:44 Try reinforce 14 (side=1,group=5575,units=75,initial='ap1751-bm3187-by4332-bb260-ay2884-bn566-ba782-bc1051-bo15-dv3045-ao88-bg1605-aw5-bu18-',reserve='ap1743-bm3186-by3841-bb259-ay2830-bn566-ba782-bc1051-bo15-dv3032-ao38-bg1563-aw5-bu18-')
+11.11.2025 19:16:44 Reinforce result: 'ao2-ay13-bg9-by18-ap1-'
+11.11.2025 19:16:44 Try reinforce 14 (side=0,units=75)
+11.11.2025 19:16:44 Reinforce result: 'by31-dv9-ap9-ay9-bb2-bg2-'
+11.11.2025 19:16:44 Reinforced
+11.11.2025 19:16:47 Update battle state
+11.11.2025 19:17:02 Update battle state
+11.11.2025 19:17:14 Battle state '3)ap9-by316-dv21-bb2-bg2-ay9-' / '3)by267-ap1-ay13-ao6-dv3-bg17-'
+11.11.2025 19:17:14 Try reinforce 15 (side=1,group=5575,units=75,initial='ap1751-bm3187-by4332-bb260-ay2884-bn566-ba782-bc1051-bo15-dv3045-ao88-bg1605-aw5-bu18-',reserve='ap1742-bm3186-by3823-bb259-ay2817-bn566-ba782-bc1051-bo15-dv3032-ao36-bg1554-aw5-bu18-')
+11.11.2025 19:17:14 Reinforce result: 'ao2-ay12-bg9-by18-ap3-'
+11.11.2025 19:17:14 Try reinforce 15 (side=0,units=75)
+11.11.2025 19:17:14 Reinforce result: 'by29-dv9-ap9-ay13-bg1-'
+11.11.2025 19:17:14 Reinforced
+11.11.2025 19:17:17 Update battle state
+11.11.2025 19:17:32 Update battle state
+11.11.2025 19:17:44 Battle state '3)ap9-by303-dv24-bg1-ay13-' / '3)by231-ap3-ay13-bg18-ao7-'
+11.11.2025 19:17:44 Try reinforce 16 (side=1,group=5575,units=75,initial='ap1751-bm3187-by4332-bb260-ay2884-bn566-ba782-bc1051-bo15-dv3045-ao88-bg1605-aw5-bu18-',reserve='ap1739-bm3186-by3805-bb259-ay2805-bn566-ba782-bc1051-bo15-dv3032-ao34-bg1545-aw5-bu18-')
+11.11.2025 19:17:44 Reinforce result: 'ao6-by39-'
+11.11.2025 19:17:44 Try reinforce 16 (side=0,units=75)
+11.11.2025 19:17:44 Reinforce result: 'by31-dv9-ap9-ay10-bb2-bg1-'
+11.11.2025 19:17:44 Reinforced
+11.11.2025 19:17:47 Update battle state
+11.11.2025 19:18:02 Update battle state
+11.11.2025 19:18:14 Battle state '3)ap9-by293-dv22-bb2-bg1-ay10-' / '3)ap2-by227-ay3-bg8-ao11-'
+11.11.2025 19:18:14 Try reinforce 17 (side=1,group=5575,units=75,initial='ap1751-bm3187-bb260-ay2884-bn566-ba782-bc1051-bo15-by4332-dv3045-ao88-bg1605-aw5-bu18-',reserve='ap1739-bm3186-bb259-ay2805-bn566-ba782-bc1051-bo15-by3766-dv3032-ao28-bg1545-aw5-bu18-')
+11.11.2025 19:18:14 Reinforce result: 'ao4-by51-'
+11.11.2025 19:18:14 Try reinforce 17 (side=0,units=75)
+11.11.2025 19:18:14 Reinforce result: 'by48-dv18-ay4-bc1-'
+11.11.2025 19:18:14 Reinforced
+11.11.2025 19:18:17 Update battle state
+11.11.2025 19:18:32 Update battle state
+11.11.2025 19:18:44 Battle state '3)by320-bc1-dv33-ay4-' / '3)by233-ao13-'
+11.11.2025 19:18:44 Try reinforce 18 (side=1,group=5575,units=75,initial='ap1751-bm3187-bb260-ay2884-bn566-ba782-bc1051-bo15-by4332-dv3045-ao88-bg1605-aw5-bu18-',reserve='ap1739-bm3186-bb259-ay2805-bn566-ba782-bc1051-bo15-by3715-dv3032-ao24-bg1545-aw5-bu18-')
+11.11.2025 19:18:44 Reinforce result: 'ao4-by51-'
+11.11.2025 19:18:44 Try reinforce 18 (side=0,units=75)
+11.11.2025 19:18:44 Reinforce result: 'by48-dv15-ay4-bb2-'
+11.11.2025 19:18:45 Reinforced
+11.11.2025 19:18:47 Update battle state
+11.11.2025 19:19:02 Update battle state
+11.11.2025 19:19:15 Battle state '3)by349-bc1-dv42-bb2-ay4-' / '3)by212-ao15-'
+11.11.2025 19:19:15 Try reinforce 19 (side=1,group=5575,units=75,initial='ap1751-bm3187-bb260-ay2884-bn566-ba782-bc1051-bo15-by4332-dv3045-ao88-bg1605-aw5-bu18-',reserve='ap1739-bm3186-bb259-ay2805-bn566-ba782-bc1051-bo15-by3664-dv3032-ao20-bg1545-aw5-bu18-')
+11.11.2025 19:19:15 Reinforce result: 'ao4-by51-'
+11.11.2025 19:19:15 Try reinforce 19 (side=0,units=75)
+11.11.2025 19:19:15 Reinforce result: 'by48-dv15-ay6-'
+11.11.2025 19:19:15 Reinforced
+11.11.2025 19:19:17 Update battle state
+11.11.2025 19:19:33 Update battle state
+11.11.2025 19:19:45 Battle state '3)by348-dv49-ay6-' / '3)by211-ao15-'
+11.11.2025 19:19:45 Try reinforce 20 (side=1,group=5575,units=75,initial='ap1751-bm3187-bb260-ay2884-bn566-ba782-bc1051-bo15-by4332-dv3045-ao88-bg1605-aw5-bu18-',reserve='ap1739-bm3186-bb259-ay2805-bn566-ba782-bc1051-bo15-by3613-dv3032-ao16-bg1545-aw5-bu18-')
+11.11.2025 19:19:45 Reinforce result: 'ao4-by51-'
+11.11.2025 19:19:45 Try reinforce 20 (side=0,units=75)
+11.11.2025 19:19:45 Reinforce result: 'by48-dv15-ay5-bb1-'
+11.11.2025 19:19:45 Reinforced
+11.11.2025 19:19:48 Update battle state
+11.11.2025 19:20:03 Update battle state
+11.11.2025 19:20:15 Battle state '3)by378-dv47-bb1-ay5-' / '3)by226-ao13-'
+11.11.2025 19:20:15 Try reinforce 21 (side=1,group=5575,units=75,initial='ap1751-bm3187-bb260-ay2884-bn566-ba782-bc1051-bo15-by4332-dv3045-ao88-bg1605-aw5-bu18-',reserve='ap1739-bm3186-bb259-ay2805-bn566-ba782-bc1051-bo15-by3562-dv3032-ao12-bg1545-aw5-bu18-')
+11.11.2025 19:20:15 Reinforce result: 'ay12-bg9-by30-ap1-bb1-'
+11.11.2025 19:20:15 Try reinforce 21 (side=0,units=75)
+11.11.2025 19:20:15 Reinforce result: 'by14-ap9-dv12-ay15-bb3-bg2-'
+11.11.2025 19:20:15 Reinforced
+11.11.2025 19:20:18 Update battle state
+11.11.2025 19:20:33 Update battle state
+11.11.2025 19:20:45 Battle state '3)ap9-by380-bb3-bg2-ay15-dv42-' / '3)bb1-ap1-by244-ay12-bg9-ao8-'
+11.11.2025 19:20:45 Try reinforce 22 (side=1,group=5575,units=75,initial='ap1751-bm3187-bb260-ay2884-bn566-ba782-bc1051-bo15-dv3045-by4332-ao88-bg1605-aw5-bu18-',reserve='ap1738-bm3186-bb258-ay2793-bn566-ba782-bc1051-bo15-dv3032-by3532-ao12-bg1536-aw5-bu18-')
+11.11.2025 19:20:45 Reinforce result: 'ao2-ay12-bg9-by18-ap3-'
+11.11.2025 19:20:45 Try reinforce 22 (side=0,units=75)
+11.11.2025 19:20:45 Reinforce result: 'by14-ap9-dv12-ay17-bb2-bg1-'
+11.11.2025 19:20:45 Reinforced
+11.11.2025 19:20:48 Update battle state
+11.11.2025 19:21:03 Update battle state
+11.11.2025 19:21:15 Battle state '3)ap11-by390-bb2-bg1-dv41-ay17-' / '3)ap4-by228-ay18-bg18-ao4-'
+11.11.2025 19:21:15 Try reinforce 23 (side=1,group=5575,units=75,initial='ap1751-bm3187-bb260-ay2884-bn566-ba782-bc1051-bo15-dv3045-by4332-ao88-bg1605-aw5-bu18-',reserve='ap1735-bm3186-bb258-ay2781-bn566-ba782-bc1051-bo15-dv3032-by3514-ao10-bg1527-aw5-bu18-')
+11.11.2025 19:21:15 Reinforce result: 'ay10-bg8-by39-'
+11.11.2025 19:21:15 Try reinforce 23 (side=0,units=75)
+11.11.2025 19:21:15 Reinforce result: 'by16-ap9-dv12-ay16-bb1-bg2-'
+11.11.2025 19:21:15 Reinforced
+11.11.2025 19:21:18 Update battle state
+11.11.2025 19:21:33 Update battle state
+11.11.2025 19:21:45 Battle state '3)ap11-by395-bb1-bg2-dv49-ay16-' / '3)ap2-by247-bg17-ay13-ao2-'
+11.11.2025 19:21:45 Try reinforce 24 (side=1,group=5575,units=75,initial='ap1751-bm3187-bb260-ay2884-bn566-ba782-bc1051-bo15-dv3045-by4332-ao88-bg1605-aw5-bu18-',reserve='ap1735-bm3186-bb258-ay2771-bn566-ba782-bc1051-bo15-dv3032-by3475-ao10-bg1519-aw5-bu18-')
+11.11.2025 19:21:45 Reinforce result: 'ay8-bg8-by40-ap3-'
+11.11.2025 19:21:45 Try reinforce 24 (side=0,units=75)
+11.11.2025 19:21:45 Reinforce result: 'by14-ap9-dv12-ay15-bb4-bg1-'
+11.11.2025 19:21:46 Reinforced
+11.11.2025 19:21:48 Update battle state
+11.11.2025 19:22:03 Update battle state
+11.11.2025 19:22:16 Battle state '3)ap15-by406-bb4-bg1-dv44-ay15-' / '3)ap3-by241-bg12-ao2-ay8-'
+11.11.2025 19:22:16 Try reinforce 25 (side=1,group=5575,units=75,initial='ap1751-bm3187-bb260-ay2884-bn566-ba782-bc1051-bo15-dv3045-by4332-ao88-bg1605-aw5-bu18-',reserve='ap1732-bm3186-bb258-ay2763-bn566-ba782-bc1051-bo15-dv3032-by3435-ao10-bg1511-aw5-bu18-')
+11.11.2025 19:22:16 Reinforce result: 'ay10-bg8-by39-'
+11.11.2025 19:22:16 Try reinforce 25 (side=0,units=75)
+11.11.2025 19:22:16 Reinforce result: 'by16-ap9-dv12-ay17-bb2-'
+11.11.2025 19:22:16 Reinforced
+11.11.2025 19:22:18 Update battle state
+11.11.2025 19:22:33 Update battle state
+11.11.2025 19:22:46 Battle state '3)ap10-by416-bb2-bg1-dv42-ay17-' / '3)by226-bg11-ao1-ay10-'
+11.11.2025 19:22:46 Try reinforce 26 (side=1,group=5575,units=78,initial='ap1751-bm3187-bb260-ay2884-bn566-ba782-bc1051-bo15-dv3045-by4332-ao88-bg1605-aw5-bu18-',reserve='ap1732-bm3186-bb258-ay2753-bn566-ba782-bc1051-bo15-dv3032-by3396-ao10-bg1503-aw5-bu18-')
+11.11.2025 19:22:46 Reinforce result: 'ay7-bg9-by45-ap1-'
+11.11.2025 19:22:46 Try reinforce 26 (side=0,units=75)
+11.11.2025 19:22:46 Reinforce result: 'by14-ap9-dv12-ay15-bb3-bg2-'
+11.11.2025 19:22:46 Reinforced
+11.11.2025 19:22:48 Update battle state
+11.11.2025 19:23:03 Update battle state
+11.11.2025 19:23:16 Battle state '3)ap10-by425-bb3-bg2-ay16-dv47-' / '3)ap1-by218-bg11-ay7-'
+11.11.2025 19:23:16 Try reinforce 27 (side=1,group=5575,units=89,initial='ap1751-bm3187-bb260-ay2884-bn566-ba782-bc1051-bo15-dv3045-by4332-ao88-bg1605-aw5-bu18-',reserve='ap1731-bm3186-bb258-ay2746-bn566-ba782-bc1051-bo15-dv3032-by3351-ao10-bg1494-aw5-bu18-')
+11.11.2025 19:23:16 Reinforce result: 'ay13-bg10-by42-ap1-'
+11.11.2025 19:23:16 Try reinforce 27 (side=0,units=75)
+11.11.2025 19:23:16 Reinforce result: 'by12-ap9-ay19-bb3-bg2-bc1-dv5-'
+11.11.2025 19:23:16 Reinforced
+11.11.2025 19:23:18 Update battle state
+11.11.2025 19:23:33 Update battle state
+11.11.2025 19:23:46 Battle state '3)ap12-by435-bc1-bb4-bg4-ay20-dv49-' / '3)ap1-by216-bg10-ay13-'
+11.11.2025 19:23:46 Try reinforce 28 (side=1,group=5575,units=96,initial='ap1751-bm3187-bb260-ay2884-bn566-ba782-bc1051-bo15-dv3045-by4332-ao88-bg1605-aw5-bu18-',reserve='ap1730-bm3186-bb258-ay2733-bn566-ba782-bc1051-bo15-dv3032-by3309-ao10-bg1484-aw5-bu18-')
+11.11.2025 19:23:46 Reinforce result: 'ay11-bg10-by50-ap2-bb1-'
+11.11.2025 19:23:46 Try reinforce 28 (side=0,units=75)
+11.11.2025 19:23:46 Reinforce result: 'by3-ap15-ay20-bb2-bg2-bc1-dv8-'
+11.11.2025 19:23:46 Reinforced
+11.11.2025 19:23:48 Update battle state
+11.11.2025 19:24:03 Update battle state
+11.11.2025 19:24:16 Battle state '3)by437-bc2-bb4-ap23-bg4-dv46-ay26-' / '3)ap2-by249-bg11-ay11-bb1-'
+11.11.2025 19:24:16 Try reinforce 29 (side=1,group=5575,units=93,initial='ap1751-bm3187-bb260-ay2884-bn566-ba782-bc1051-bo15-dv3045-by4332-ao88-bg1605-aw5-bu18-',reserve='ap1728-bm3186-bb257-ay2722-bn566-ba782-bc1051-bo15-dv3032-by3259-ao10-bg1474-aw5-bu18-')
+11.11.2025 19:24:16 Reinforce result: 'ay11-bg10-by48-ap3-'
+11.11.2025 19:24:16 Try reinforce 29 (side=0,units=75)
+11.11.2025 19:24:16 Reinforce result: 'by12-ap9-ay21-bb3-bc1-dv5-'
+11.11.2025 19:24:17 Reinforced
+11.11.2025 19:24:18 Update battle state
+11.11.2025 19:24:33 Update battle state
+11.11.2025 19:24:46 Battle state '3)by441-bc3-bb3-ap23-bg2-dv40-ay31-' / '3)ap5-by264-bg11-ay11-'
+11.11.2025 19:24:46 Try reinforce 30 (side=1,group=5575,units=88,initial='ap1751-bm3187-bb260-ay2884-bn566-ba782-bc1051-bo15-dv3045-by4332-ao88-bg1605-aw5-bu18-',reserve='ap1725-bm3186-bb257-ay2711-bn566-ba782-bc1051-bo15-dv3032-by3211-ao10-bg1464-aw5-bu18-')
+11.11.2025 19:24:46 Reinforce result: 'ay8-bg9-by54-'
+11.11.2025 19:24:46 Try reinforce 30 (side=0,units=75)
+11.11.2025 19:24:46 Reinforce result: 'by3-ap15-ay18-bb3-bg3-bc2-dv7-'
+11.11.2025 19:24:47 Reinforced
+11.11.2025 19:24:48 Update battle state
+11.11.2025 19:25:03 Update battle state
+11.11.2025 19:25:16 Battle state '3)by443-ap24-bc4-bb5-bg3-dv41-ay32-' / '3)by267-bg9-ay8-'
+11.11.2025 19:25:16 Try reinforce 31 (side=1,group=5575,units=97,initial='ap1751-bm3187-bb260-ay2884-bn566-ba782-bc1051-bo15-dv3045-by4332-ao88-bg1605-aw5-bu18-',reserve='ap1725-bm3186-bb257-ay2703-bn566-ba782-bc1051-bo15-dv3032-by3157-ao10-bg1455-aw5-bu18-')
+11.11.2025 19:25:16 Reinforce result: 'ay15-bg12-by41-ap2-'
+11.11.2025 19:25:16 Try reinforce 31 (side=0,units=75)
+11.11.2025 19:25:16 Reinforce result: 'by12-ap9-ay21-bb3-bc1-dv5-'
+11.11.2025 19:25:16 Reinforced
+11.11.2025 19:25:18 Update battle state
+11.11.2025 19:25:33 Update battle state
+11.11.2025 19:25:46 Battle state '3)by454-ap24-bc4-bb3-bg3-dv31-ay33-' / '3)ap2-by246-bg12-ay15-'
+11.11.2025 19:25:46 Try reinforce 32 (side=1,group=5575,units=96,initial='ap1751-bm3187-bb260-ay2884-bn566-ba782-bc1051-bo15-dv3045-by4332-ao88-bg1605-aw5-bu18-',reserve='ap1723-bm3186-bb257-ay2688-bn566-ba782-bc1051-bo15-dv3032-by3116-ao10-bg1443-aw5-bu18-')
+11.11.2025 19:25:46 Reinforce result: 'ay11-bg10-by50-ap2-bb1-'
+11.11.2025 19:25:46 Try reinforce 32 (side=0,units=75)
+11.11.2025 19:25:46 Reinforce result: 'by3-ap15-ay18-bb3-bg3-bc2-dv7-'
+11.11.2025 19:25:46 Reinforced
+11.11.2025 19:25:48 Update battle state
+11.11.2025 19:26:03 Update battle state
+11.11.2025 19:26:16 Battle state '3)by457-ap24-bb5-bg3-dv35-ay34-bc5-' / '3)ap3-by272-bg10-ay11-bb1-'
+11.11.2025 19:26:16 Try reinforce 33 (side=1,group=5575,units=95,initial='ap1751-bm3187-bb260-ay2884-bn566-ba782-bc1051-bo15-dv3045-by4332-ao88-bg1605-aw5-bu18-',reserve='ap1721-bm3186-bb256-ay2677-bn566-ba782-bc1051-bo15-dv3032-by3066-ao10-bg1433-aw5-bu18-')
+11.11.2025 19:26:16 Reinforce result: 'ay12-bg11-by49-'
+11.11.2025 19:26:16 Try reinforce 33 (side=0,units=75)
+11.11.2025 19:26:16 Reinforce result: 'by12-ap9-ay21-bb3-bc1-dv5-'
+11.11.2025 19:26:16 Reinforced
+11.11.2025 19:26:19 Update battle state
+11.11.2025 19:26:34 Update battle state
+11.11.2025 19:26:46 Battle state '3)by467-ap24-bb4-bg3-dv29-ay29-bc4-' / '2)ap2-by278-bg11-ay12-'
+11.11.2025 19:26:46 Try reinforce 34 (side=1,group=5575,units=90,initial='ap1751-bm3187-bb260-ay2884-bn566-ba782-bc1051-bo15-dv3045-by4332-ao88-bg1605-aw5-bu18-',reserve='ap1721-bm3186-bb256-ay2665-bn566-ba782-bc1051-bo15-dv3032-by3017-ao10-bg1422-aw5-bu18-')
+11.11.2025 19:26:46 Reinforce result: 'ay8-bg8-by57-ap1-'
+11.11.2025 19:26:46 Try reinforce 34 (side=0,units=75)
+11.11.2025 19:26:46 Reinforce result: 'by3-ap15-ay18-bb3-bg3-bc2-dv7-'
+11.11.2025 19:26:46 Reinforced
+11.11.2025 19:26:49 Update battle state
+11.11.2025 19:27:04 Update battle state
+11.11.2025 19:27:16 Battle state '3)by469-dv33-bb4-bg5-ap24-ay29-bc6-' / '2)ap1-by260-bg15-ay8-'
+11.11.2025 19:27:16 Try reinforce 35 (side=1,group=5575,units=100,initial='ap1751-bm3187-bb260-ay2884-bn566-ba782-bc1051-bo15-dv3045-by4332-ao88-bg1605-aw5-bu18-',reserve='ap1720-bm3186-bb256-ay2657-bn566-ba782-bc1051-bo15-dv3032-by2960-ao10-bg1414-aw5-bu18-')
+11.11.2025 19:27:16 Reinforce result: 'ay15-bg12-by42-ap4-'
+11.11.2025 19:27:16 Try reinforce 35 (side=0,units=75)
+11.11.2025 19:27:16 Reinforce result: 'by12-ap9-ay20-bb2-bg2-bc1-dv5-'
+11.11.2025 19:27:16 Reinforced
+11.11.2025 19:27:19 Update battle state
+11.11.2025 19:27:34 Update battle state
+11.11.2025 19:27:46 Battle state '3)by480-dv35-bb3-bg5-ap24-ay35-bc5-' / '2)ap4-by242-bg15-ay15-'
+11.11.2025 19:27:46 Try reinforce 36 (side=1,group=5575,units=108,initial='ap1751-bm3187-bb260-ay2884-bn566-ba782-bc1051-bo15-dv3045-by4332-ao88-bg1605-aw5-bu18-',reserve='ap1716-bm3186-bb256-ay2642-bn566-ba782-bc1051-bo15-dv3032-by2918-ao10-bg1402-aw5-bu18-')
+11.11.2025 19:27:46 Reinforce result: 'ay12-bg13-by57-ap1-'
+11.11.2025 19:27:46 Try reinforce 36 (side=0,units=75)
+11.11.2025 19:27:46 Reinforce result: 'by3-ap15-ay19-bb4-bg1-bc1-dv8-'
+11.11.2025 19:27:47 Reinforced
+11.11.2025 19:27:49 Update battle state
+11.11.2025 19:28:04 Update battle state
+11.11.2025 19:28:16 Battle state '3)by483-dv42-bb5-bg5-ap24-ay35-bc5-' / '2)ap4-by233-bg21-ay13-'
+11.11.2025 19:28:16 Try reinforce 37 (side=1,group=5575,units=113,initial='ap1751-bm3187-bb260-ay2884-bn566-ba782-bc1051-bo15-dv3045-by4332-ao88-bg1605-aw5-bu18-',reserve='ap1715-bm3186-bb256-ay2630-bn566-ba782-bc1051-bo15-dv3032-by2861-ao10-bg1389-aw5-bu18-')
+11.11.2025 19:28:16 Reinforce result: 'ay15-bg11-by58-ap1-bb1-'
+11.11.2025 19:28:16 Try reinforce 37 (side=0,units=75)
+11.11.2025 19:28:16 Reinforce result: 'by12-ap9-ay20-bb3-bg1-bc2-dv4-'
+11.11.2025 19:28:17 Reinforced
+11.11.2025 19:28:19 Update battle state
+11.11.2025 19:28:34 Update battle state
+11.11.2025 19:28:47 Battle state '3)by495-dv46-bb5-bg3-ap24-ay38-bc6-' / '2)ap2-by263-bg18-ay18-bb1-'
+11.11.2025 19:28:47 Try reinforce 38 (side=1,group=5575,units=108,initial='ap1751-bm3187-bb260-ay2884-bn566-ba782-bc1051-bo15-dv3045-by4332-ao88-bg1605-aw5-bu18-',reserve='ap1714-bm3186-bb255-ay2615-bn566-ba782-bc1051-bo15-dv3032-by2803-ao10-bg1378-aw5-bu18-')
+11.11.2025 19:28:47 Reinforce result: 'ay12-bg12-by57-ap3-'
+11.11.2025 19:28:47 Try reinforce 38 (side=0,units=75)
+11.11.2025 19:28:47 Reinforce result: 'by3-ap15-ay19-bb3-bg2-bc1-dv8-'
+11.11.2025 19:28:47 Reinforced
+11.11.2025 19:28:49 Update battle state
+11.11.2025 19:29:04 Update battle state
+11.11.2025 19:29:17 Battle state '3)by498-dv39-bb4-bg3-ap25-ay32-bc5-' / '2)ap3-by298-bg12-ay7-'
+11.11.2025 19:29:17 Try reinforce 39 (side=1,group=5575,units=102,initial='ap1751-bm3187-bb260-ay2884-bn566-ba782-bc1051-bo15-dv3045-by4332-ao88-bg1605-aw5-bu18-',reserve='ap1711-bm3186-bb255-ay2603-bn566-ba782-bc1051-bo15-dv3032-by2746-ao10-bg1366-aw5-bu18-')
+11.11.2025 19:29:17 Reinforce result: 'ao3-ay13-bg15-by27-ap1-'
+11.11.2025 19:29:17 Try reinforce 39 (side=0,units=75)
+11.11.2025 19:29:17 Reinforce result: 'by12-ap9-ay20-bb3-bg1-bc1-dv5-'
+11.11.2025 19:29:17 Reinforced
+11.11.2025 19:29:19 Update battle state
+11.11.2025 19:29:34 Update battle state
+11.11.2025 19:29:47 Battle state '3)bb4-by508-dv40-bg4-ap24-ay30-bc5-' / '2)ap1-by290-bg15-ao3-ay10-'
+11.11.2025 19:29:47 Try reinforce 40 (side=1,group=5575,units=98,initial='ap1751-bm3187-bb260-ay2884-bn566-ba782-bc1051-bo15-dv3045-by4332-ao88-bg1605-aw5-bu18-',reserve='ap1710-bm3186-bb255-ay2590-bn566-ba782-bc1051-bo15-dv3032-by2719-ao7-bg1351-aw5-bu18-')
+11.11.2025 19:29:47 Reinforce result: 'ao2-ay20-bg10-by21-ap3-bb1-'
+11.11.2025 19:29:47 Try reinforce 40 (side=0,units=75)
+11.11.2025 19:29:47 Reinforce result: 'by3-ap15-ay19-bb3-bg2-bc2-dv7-'
+11.11.2025 19:29:47 Reinforced
+11.11.2025 19:29:49 Update battle state
+11.11.2025 19:30:04 Update battle state
+11.11.2025 19:30:17 Battle state '3)bb5-by508-dv44-bg3-ap24-ay26-bc7-' / '2)ap3-by265-bg10-bb1-ao5-ay16-'
+11.11.2025 19:30:17 Try reinforce 41 (side=1,group=5575,units=99,initial='ap1751-bm3187-bb260-ay2884-bn566-ba782-bc1051-bo15-dv3045-by4332-ao88-bg1605-aw5-bu18-',reserve='ap1707-bm3186-bb254-ay2570-bn566-ba782-bc1051-bo15-dv3032-by2698-ao5-bg1341-aw5-bu18-')
+11.11.2025 19:30:17 Reinforce result: 'ao3-ay16-bg11-by23-ap4-'
+11.11.2025 19:30:17 Try reinforce 41 (side=0,units=75)
+11.11.2025 19:30:17 Reinforce result: 'by12-ap9-ay20-bb3-bg1-bc1-dv5-'
+11.11.2025 19:30:17 Reinforced
+11.11.2025 19:30:20 Update battle state
+11.11.2025 19:30:35 Update battle state
+11.11.2025 19:30:47 Battle state '3)bb5-by517-dv43-bg3-ap24-bc5-ay28-' / '2)ap4-by244-bg13-ao8-ay12-'
+11.11.2025 19:30:47 Try reinforce 42 (side=1,group=5575,units=105,initial='ap1751-bm3187-bb260-ay2884-bn566-ba782-bc1051-bo15-dv3045-by4332-ao88-bg1605-aw5-bu18-',reserve='ap1703-bm3186-bb254-ay2554-bn566-ba782-bc1051-bo15-dv3032-by2675-ao2-bg1330-aw5-bu18-')
+11.11.2025 19:30:47 Reinforce result: 'ay13-bg15-by49-'
+11.11.2025 19:30:47 Try reinforce 42 (side=0,units=75)
+11.11.2025 19:30:47 Reinforce result: 'by3-ap15-ay19-bb3-bg2-bc2-dv7-'
+11.11.2025 19:30:48 Reinforced
+11.11.2025 19:30:50 Update battle state
+11.11.2025 19:31:05 Update battle state
+11.11.2025 19:31:17 Battle state '3)bb3-by510-dv48-bg4-ap25-bc6-ay28-' / '2)by253-bg15-ao8-ay9-'
+11.11.2025 19:31:17 Try reinforce 43 (side=1,group=5575,units=103,initial='ap1751-bm3187-bb260-ay2884-bn566-ba782-bc1051-bo15-dv3045-by4332-ao88-bg1605-aw5-bu18-',reserve='ap1703-bm3186-bb254-ay2541-bn566-ba782-bc1051-bo15-dv3032-by2626-ao2-bg1315-aw5-bu18-')
+11.11.2025 19:31:17 Reinforce result: 'ao2-ay22-bg11-by18-ap5-bb1-'
+11.11.2025 19:31:17 Try reinforce 43 (side=0,units=75)
+11.11.2025 19:31:17 Reinforce result: 'by12-ap9-ay20-bb3-bg1-bc1-dv5-'
+11.11.2025 19:31:18 Reinforced
+11.11.2025 19:31:20 Update battle state
+11.11.2025 19:31:35 Update battle state
+11.11.2025 19:31:47 Battle state '3)bb4-by516-dv45-bg3-ap23-bc6-ay31-' / '2)ap5-by195-bg11-bb1-ao8-ay17-'
+11.11.2025 19:31:47 Try reinforce 44 (side=1,group=5575,units=120,initial='ap1751-bm3187-bb260-ay2884-bn566-ba782-bc1051-bo15-dv3045-by4332-bg1605-aw5-ao88-bu18-',reserve='ap1698-bm3186-bb253-ay2519-bn566-ba782-bc1051-bo15-dv3032-by2608-bg1304-aw5-bu18-')
+11.11.2025 19:31:47 Reinforce result: 'ay14-bg12-by64-ap2-bb1-'
+11.11.2025 19:31:47 Try reinforce 44 (side=0,units=75)
+11.11.2025 19:31:47 Reinforce result: 'by3-ap15-ay18-bb3-bg3-bc1-dv8-'
+11.11.2025 19:31:48 Reinforced
+11.11.2025 19:31:50 Update battle state
+11.11.2025 19:32:05 Update battle state
+11.11.2025 19:32:18 Battle state '3)bb6-by518-dv50-ap25-bg5-bc7-ay26-' / '2)ap2-by209-bg11-ao6-ay13-'
+11.11.2025 19:32:18 Try reinforce 45 (side=1,group=5575,units=126,initial='ap1751-bm3187-bb260-ay2884-bn566-ba782-bc1051-bo15-dv3045-by4332-bg1605-aw5-ao88-bu18-',reserve='ap1696-bm3186-bb252-ay2505-bn566-ba782-bc1051-bo15-dv3032-by2544-bg1292-aw5-bu18-')
+11.11.2025 19:32:18 Reinforce result: 'ay15-bg14-by66-ap2-'
+11.11.2025 19:32:18 Try reinforce 45 (side=0,units=75)
+11.11.2025 19:32:18 Reinforce result: 'by12-ap9-ay21-bb3-bc2-dv4-'
+11.11.2025 19:32:18 Reinforced
+11.11.2025 19:32:20 Update battle state
+11.11.2025 19:32:35 Update battle state
+11.11.2025 19:32:48 Battle state '3)bb6-by525-dv48-ap24-bg4-bc6-ay34-' / '2)ap2-by250-bg14-ao2-ay10-'
+11.11.2025 19:32:48 Try reinforce 46 (side=1,group=5575,units=126,initial='ap1751-bm3187-bb260-ay2884-bn566-ba782-bc1051-bo15-dv3045-by4332-bg1605-aw5-ao88-bu18-',reserve='ap1694-bm3186-bb252-ay2490-bn566-ba782-bc1051-bo15-dv3032-by2478-bg1278-aw5-bu18-')
+11.11.2025 19:32:48 Reinforce result: 'ay12-bg13-by76-'
+11.11.2025 19:32:48 Try reinforce 46 (side=0,units=59)
+11.11.2025 19:32:48 Reinforce result: 'ap8-ay16-bb1-bg3-bc1-bo1-dv9-'
+11.11.2025 19:32:48 Reinforced
+11.11.2025 19:32:50 Update battle state
+11.11.2025 19:33:05 Update battle state
+11.11.2025 19:33:18 Battle state '3)by524-bb2-dv49-bg6-ap18-bo1-bc5-ay31-' / '2)by295-bg14-ay6-'
+11.11.2025 19:33:18 Try reinforce 47 (side=1,group=5575,units=113,initial='ap1751-bm3187-bb260-ay2884-bn566-ba782-bc1051-bo15-dv3045-by4332-bg1605-aw5-ao88-bu18-',reserve='ap1694-bm3186-bb252-ay2478-bn566-ba782-bc1051-bo15-dv3032-by2402-bg1265-aw5-bu18-')
+11.11.2025 19:33:18 Reinforce result: 'ay20-bg14-by38-ap5-bb1-'
+11.11.2025 19:33:18 Try reinforce 47 (side=0,units=75)
+11.11.2025 19:33:18 Reinforce result: 'by3-ap13-ay21-bb4-bg1-bc2-dv5-'
+11.11.2025 19:33:18 Reinforced
+11.11.2025 19:33:20 Update battle state
+11.11.2025 19:33:35 Update battle state
+11.11.2025 19:33:48 Battle state '3)by525-bb5-dv48-bg4-ap21-bo1-bc6-ay33-' / '1)ap5-by289-bg14-ay12-bb1-'
+11.11.2025 19:33:48 Try reinforce 48 (side=1,group=5575,units=112,initial='ap1751-bm3187-bb260-ay2884-bn566-ba782-bc1051-bo15-dv3045-by4332-bg1605-aw5-ao88-bu18-',reserve='ap1689-bm3186-bb251-ay2458-bn566-ba782-bc1051-bo15-dv3032-by2364-bg1251-aw5-bu18-')
+11.11.2025 19:33:48 Reinforce result: 'by36-dv38-bg19-'
+11.11.2025 19:33:48 Try reinforce 48 (side=0,units=65)
+11.11.2025 19:33:48 Reinforce result: 'ap6-ay19-bb3-bg2-bc2-dv9-'
+11.11.2025 19:33:48 Reinforced
+11.11.2025 19:33:50 Update battle state
+11.11.2025 19:34:05 Update battle state
+11.11.2025 19:34:18 Battle state '3)by518-bb6-dv46-bg3-bo1-ap19-bc7-ay37-' / '1)dv38-by241-bg19-'
+11.11.2025 19:34:18 Try reinforce 49 (side=1,group=5575,units=122,initial='ap1751-bm3187-bb260-ay2884-bn566-ba782-bc1051-bo15-dv3045-by4332-bg1605-aw5-ao88-bu18-',reserve='ap1689-bm3186-bb251-ay2458-bn566-ba782-bc1051-bo15-dv2994-by2328-bg1232-aw5-bu18-')
+11.11.2025 19:34:18 Reinforce result: 'by45-dv39-bg19-'
+11.11.2025 19:34:18 Try reinforce 49 (side=0,units=67)
+11.11.2025 19:34:18 Reinforce result: 'ap7-ay21-bb3-bc2-dv10-'
+11.11.2025 19:34:18 Reinforced
+11.11.2025 19:34:21 Update battle state
+11.11.2025 19:34:36 Update battle state
+11.11.2025 19:34:48 Battle state '3)by514-bb6-dv54-bg3-bo1-ap20-bc9-ay38-' / '1)dv77-by209-bg25-'
+11.11.2025 19:34:48 Try reinforce 50 (side=1,group=5575,units=118,initial='ap1751-bm3187-bb260-ay2884-bn566-ba782-bc1051-bo15-dv3045-by4332-bg1605-aw5-ao88-bu18-',reserve='ap1689-bm3186-bb251-ay2458-bn566-ba782-bc1051-bo15-dv2955-by2283-bg1213-aw5-bu18-')
+11.11.2025 19:34:48 Reinforce result: 'by42-dv38-bg19-'
+11.11.2025 19:34:48 Try reinforce 50 (side=0,units=58)
+11.11.2025 19:34:48 Reinforce result: 'ap6-ay16-bb3-bg3-bc2-dv6-'
+11.11.2025 19:34:49 Reinforced
+11.11.2025 19:34:51 Update battle state
+11.11.2025 19:35:06 Update battle state
+11.11.2025 19:35:18 Battle state '3)by510-dv58-bg6-bb6-ap24-bc9-ay37-' / '1)dv115-by163-bg27-'
+11.11.2025 19:35:18 Try reinforce 51 (side=1,group=5575,units=122,initial='ap1751-bm3187-bb260-ay2884-bn566-ba782-bc1051-bo15-dv3045-by4332-bg1605-aw5-ao88-bu18-',reserve='ap1689-bm3186-bb251-ay2458-bn566-ba782-bc1051-bo15-dv2917-by2241-bg1194-aw5-bu18-')
+11.11.2025 19:35:18 Reinforce result: 'by44-dv40-bg19-'
+11.11.2025 19:35:18 Try reinforce 51 (side=0,units=51)
+11.11.2025 19:35:18 Reinforce result: 'ap5-ay16-bb2-bg1-bc1-dv7-'
+11.11.2025 19:35:19 Reinforced
+11.11.2025 19:35:21 Update battle state
+11.11.2025 19:35:36 Update battle state
+11.11.2025 19:35:49 Battle state '3)by510-dv63-bg5-bb5-ap26-bc10-ay32-' / '1)dv122-by171-bg28-'
+11.11.2025 19:35:49 Try reinforce 52 (side=1,group=5575,units=114,initial='ap1751-bm3187-bb260-ay2884-bn566-ba782-bc1051-bo15-dv3045-by4332-bg1605-aw5-ao88-bu18-',reserve='ap1689-bm3186-bb251-ay2458-bn566-ba782-bc1051-bo15-dv2877-by2197-bg1175-aw5-bu18-')
+11.11.2025 19:35:49 Reinforce result: 'by41-dv35-bg19-'
+11.11.2025 19:35:49 Try reinforce 52 (side=0,units=57)
+11.11.2025 19:35:49 Reinforce result: 'ap6-ay18-bb3-bc2-dv7-'
+11.11.2025 19:35:49 Reinforced
+11.11.2025 19:35:51 Update battle state
+11.11.2025 19:36:06 Update battle state
+11.11.2025 19:36:19 Battle state '3)by509-dv64-bg4-bb5-ap24-bc9-ay34-' / '1)dv116-by204-bg29-'
+11.11.2025 19:36:19 Try reinforce 53 (side=1,group=5575,units=104,initial='ap1751-bm3187-bb260-ay2884-bn566-ba782-bc1051-bo15-dv3045-by4332-bg1605-aw5-ao88-bu18-',reserve='ap1689-bm3186-bb251-ay2458-bn566-ba782-bc1051-bo15-dv2842-by2156-bg1156-aw5-bu18-')
+11.11.2025 19:36:19 Reinforce result: 'by38-dv34-bg16-'
+11.11.2025 19:36:19 Try reinforce 53 (side=0,units=58)
+11.11.2025 19:36:19 Reinforce result: 'ap5-ay17-bb2-bg3-bc1-dv8-'
+11.11.2025 19:36:19 Reinforced
+11.11.2025 19:36:21 Update battle state
+11.11.2025 19:36:36 Update battle state
+11.11.2025 19:36:49 Battle state '3)by509-dv64-bg6-bb5-ap19-bc8-ay39-' / '1)dv110-by237-bg22-'
+11.11.2025 19:36:49 Try reinforce 54 (side=1,group=5575,units=103,initial='ap1751-bm3187-bb260-ay2884-bn566-ba782-bc1051-bo15-dv3045-bg1605-by4332-aw5-ao88-bu18-',reserve='ap1689-bm3186-bb251-ay2458-bn566-ba782-bc1051-bo15-dv2808-bg1140-by2118-aw5-bu18-')
+11.11.2025 19:36:49 Reinforce result: 'by36-dv33-bg17-'
+11.11.2025 19:36:49 Try reinforce 54 (side=0,units=50)
+11.11.2025 19:36:49 Reinforce result: 'ap5-ay15-bb3-bc2-dv7-'
+11.11.2025 19:36:49 Reinforced
+11.11.2025 19:36:51 Update battle state
+11.11.2025 19:37:06 Update battle state
+11.11.2025 19:37:19 Battle state '3)by509-bg3-dv64-bb5-ap17-bc8-ay38-' / '1)by267-dv106-bg19-'
+11.11.2025 19:37:19 Try reinforce 55 (side=1,group=5575,units=93,initial='ap1751-bm3187-bb260-ay2884-bn566-ba782-bc1051-bo15-dv3045-bg1605-by4332-aw5-ao88-bu18-',reserve='ap1689-bm3186-bb251-ay2458-bn566-ba782-bc1051-bo15-dv2775-bg1123-by2082-aw5-bu18-')
+11.11.2025 19:37:19 Reinforce result: 'by34-dv29-bg15-'
+11.11.2025 19:37:19 Try reinforce 55 (side=0,units=60)
+11.11.2025 19:37:19 Reinforce result: 'ap7-ay17-bb2-bg3-bc2-dv7-'
+11.11.2025 19:37:19 Reinforced
+11.11.2025 19:37:21 Update battle state
+11.11.2025 19:37:36 Update battle state
+11.11.2025 19:37:49 Battle state '3)by508-bg6-dv65-bb5-ap18-bc7-ay36-' / '1)by292-dv98-bg16-'
+11.11.2025 19:37:49 Try reinforce 56 (side=1,group=5575,units=90,initial='ap1751-bm3187-bb260-ay2884-bn566-ba782-bc1051-bo15-dv3045-bg1605-by4332-aw5-ao88-bu18-',reserve='ap1689-bm3186-bb251-ay2458-bn566-ba782-bc1051-bo15-dv2746-bg1108-by2048-aw5-bu18-')
+11.11.2025 19:37:49 Reinforce result: 'by32-dv30-bg14-'
+11.11.2025 19:37:49 Try reinforce 56 (side=0,units=58)
+11.11.2025 19:37:49 Reinforce result: 'ap5-ay18-bb3-bg1-bc1-dv8-'
+11.11.2025 19:37:50 Reinforced
+11.11.2025 19:37:51 Update battle state
+11.11.2025 19:38:06 Update battle state
+11.11.2025 19:38:19 Battle state '3)by506-bg5-dv64-bb5-ap16-bc8-ay38-' / '1)by305-bg16-dv86-'
+11.11.2025 19:38:19 Try reinforce 57 (side=1,group=5575,units=89,initial='ap1751-bm3187-bb260-ay2884-bn566-ba782-bc1051-bo15-dv3045-bg1605-by4332-aw5-ao88-bu18-',reserve='ap1689-bm3186-bb251-ay2458-bn566-ba782-bc1051-bo15-dv2716-bg1094-by2016-aw5-bu18-')
+11.11.2025 19:38:19 Reinforce result: 'by33-dv28-bg14-'
+11.11.2025 19:38:19 Try reinforce 57 (side=0,units=60)
+11.11.2025 19:38:19 Reinforce result: 'ap6-ay18-bb3-bg1-bc2-dv8-'
+11.11.2025 19:38:20 Reinforced
+11.11.2025 19:38:21 Update battle state
+11.11.2025 19:38:36 Update battle state
+11.11.2025 19:38:49 Battle state '3)by503-bg5-dv63-bb6-ap16-bc9-ay38-' / '1)by308-bg17-dv75-'
+11.11.2025 19:38:49 Try reinforce 58 (side=1,group=5575,units=90,initial='ap1751-bm3187-bb260-ay2884-bn566-ba782-bc1051-bo15-dv3045-bg1605-by4332-aw5-ao88-bu18-',reserve='ap1689-bm3186-bb251-ay2458-bn566-ba782-bc1051-bo15-dv2688-bg1080-by1983-aw5-bu18-')
+11.11.2025 19:38:49 Reinforce result: 'by31-dv29-bg15-'
+11.11.2025 19:38:49 Try reinforce 58 (side=0,units=61)
+11.11.2025 19:38:49 Reinforce result: 'ap7-ay19-bb1-bg2-bc2-dv8-'
+11.11.2025 19:38:50 Reinforced
+11.11.2025 19:38:52 Update battle state
+11.11.2025 19:39:07 Update battle state
+11.11.2025 19:39:20 Battle state '3)by500-bg4-dv66-bb4-ap17-bc9-ay44-' / '1)by291-bg15-dv76-'
+11.11.2025 19:39:20 Try reinforce 59 (side=1,group=5575,units=99,initial='ap1751-bm3187-bb260-ay2884-bn566-ba782-bc1051-bo15-dv3045-bg1605-by4332-aw5-ao88-bu18-',reserve='ap1689-bm3186-bb251-ay2458-bn566-ba782-bc1051-bo15-dv2659-bg1065-by1952-aw5-bu18-')
+11.11.2025 19:39:20 Reinforce result: 'by36-dv31-bg16-'
+11.11.2025 19:39:20 Try reinforce 59 (side=0,units=54)
+11.11.2025 19:39:20 Reinforce result: 'ap5-ay16-bb4-bc2-dv7-'
+11.11.2025 19:39:20 Reinforced
+11.11.2025 19:39:22 Update battle state
+11.11.2025 19:39:37 Update battle state
+11.11.2025 19:39:50 Battle state '3)by497-bg3-dv68-bb7-ap18-bc10-ay44-' / '1)by292-bg16-dv74-'
+11.11.2025 19:39:50 Try reinforce 60 (side=1,group=5575,units=101,initial='ap1751-bm3187-bb260-ay2884-bn566-ba782-bc1051-bo15-dv3045-bg1605-by4332-aw5-ao88-bu18-',reserve='ap1689-bm3186-bb251-ay2458-bn566-ba782-bc1051-bo15-dv2628-bg1049-by1916-aw5-bu18-')
+11.11.2025 19:39:50 Reinforce result: 'by36-dv33-bg16-'
+11.11.2025 19:39:50 Try reinforce 60 (side=0,units=49)
+11.11.2025 19:39:50 Reinforce result: 'ap5-ay15-bb2-bg1-bc1-dv7-'
+11.11.2025 19:39:50 Reinforced
+11.11.2025 19:39:52 Update battle state
+11.11.2025 19:40:07 Update battle state
+11.11.2025 19:40:20 Battle state '3)by492-bg4-dv71-bb6-ap16-bc9-ay34-' / '1)by297-dv76-bg16-'
+11.11.2025 19:40:20 Try reinforce 61 (side=1,group=5575,units=90,initial='ap1751-bm3187-bb260-ay2884-bn566-ba782-bc1051-bo15-dv3045-bg1605-by4332-aw5-ao88-bu18-',reserve='ap1689-bm3186-bb251-ay2458-bn566-ba782-bc1051-bo15-dv2595-bg1033-by1880-aw5-bu18-')
+11.11.2025 19:40:20 Reinforce result: 'by34-dv28-bg14-'
+11.11.2025 19:40:20 Try reinforce 61 (side=0,units=74)
+11.11.2025 19:40:20 Reinforce result: 'by7-ap12-ay19-bb3-bg2-bc1-dv6-'
+11.11.2025 19:40:20 Reinforced
+11.11.2025 19:40:22 Update battle state
+11.11.2025 19:40:37 Update battle state
+11.11.2025 19:40:50 Battle state '3)by495-bg6-dv73-bb6-ap21-bc8-ay36-' / '1)by296-dv74-bg14-'
+11.11.2025 19:40:50 Try reinforce 62 (side=1,group=5575,units=98,initial='ap1751-bm3187-bb260-ay2884-bn566-ba782-bc1051-bo15-dv3045-bg1605-by4332-aw5-ao88-bu18-',reserve='ap1689-bm3186-bb251-ay2458-bn566-ba782-bc1051-bo15-dv2567-bg1019-by1846-aw5-bu18-')
+11.11.2025 19:40:50 Reinforce result: 'by34-dv32-bg16-'
+11.11.2025 19:40:50 Try reinforce 62 (side=0,units=57)
+11.11.2025 19:40:50 Reinforce result: 'ap5-ay17-bb3-bg1-bc2-bo1-dv7-'
+11.11.2025 19:40:50 Reinforced
+11.11.2025 19:40:52 Update battle state
+11.11.2025 19:41:07 Update battle state
+11.11.2025 19:41:20 Battle state '3)by474-bg4-dv68-bb6-bo1-ap22-bc9-ay38-' / '1)by275-dv79-bg16-'
+11.11.2025 19:41:20 Try reinforce 63 (side=1,group=5575,units=94,initial='ap1751-bm3187-bb260-ay2884-bn566-ba782-bc1051-bo15-dv3045-bg1605-by4332-aw5-ao88-bu18-',reserve='ap1689-bm3186-bb251-ay2458-bn566-ba782-bc1051-bo15-dv2535-bg1003-by1812-aw5-bu18-')
+11.11.2025 19:41:20 Reinforce result: 'by34-dv30-bg15-'
+11.11.2025 19:41:20 Try reinforce 63 (side=0,units=75)
+11.11.2025 19:41:20 Reinforce result: 'by8-ap13-ay19-bb3-bg2-bc1-dv5-'
+11.11.2025 19:41:20 Reinforced
+11.11.2025 19:41:22 Update battle state
+11.11.2025 19:41:37 Update battle state
+11.11.2025 19:41:50 Battle state '3)by455-bg6-dv63-bb6-bo1-ap30-bc7-ay43-' / '1)by272-dv77-bg16-'
+11.11.2025 19:41:50 Try reinforce 64 (side=1,group=5575,units=95,initial='ap1751-bm3187-bb260-ay2884-bn566-ba782-bc1051-bo15-dv3045-bg1605-by4332-aw5-ao88-bu18-',reserve='ap1689-bm3186-bb251-ay2458-bn566-ba782-bc1051-bo15-dv2505-bg988-by1778-aw5-bu18-')
+11.11.2025 19:41:50 Reinforce result: 'by35-dv30-bg15-'
+11.11.2025 19:41:50 Try reinforce 64 (side=0,units=75)
+11.11.2025 19:41:50 Reinforce result: 'by7-ap12-ay20-bb3-bg1-bc2-dv6-'
+11.11.2025 19:41:51 Reinforced
+11.11.2025 19:41:52 Update battle state
+11.11.2025 19:42:07 Update battle state
+11.11.2025 19:42:20 Battle state '3)by443-bg6-dv63-bb6-bo1-ap32-bc9-ay47-' / '1)by252-dv63-bg18-'
+11.11.2025 19:42:20 Try reinforce 65 (side=1,group=5575,units=105,initial='ap1751-bm3187-bb260-ay2884-bn566-ba782-bc1051-bo15-dv3045-bg1605-by4332-aw5-ao88-bu18-',reserve='ap1689-bm3186-bb251-ay2458-bn566-ba782-bc1051-bo15-dv2475-bg973-by1743-aw5-bu18-')
+11.11.2025 19:42:20 Reinforce result: 'by37-dv34-bg17-'
+11.11.2025 19:42:20 Try reinforce 65 (side=0,units=75)
+11.11.2025 19:42:20 Reinforce result: 'by12-ay24-bb3-bg3-dv3-'
+11.11.2025 19:42:21 Reinforced
+11.11.2025 19:42:22 Update battle state
+11.11.2025 19:42:37 Update battle state
+11.11.2025 19:42:51 Battle state '3)by433-bg7-dv63-bb7-bo1-ap25-bc7-ay55-' / '1)by262-dv79-bg18-'
+11.11.2025 19:42:51 Try reinforce 66 (side=1,group=5575,units=96,initial='ap1751-bm3187-bb260-ay2884-bn566-ba782-bc1051-bo15-dv3045-bg1605-by4332-aw5-ao88-bu18-',reserve='ap1689-bm3186-bb251-ay2458-bn566-ba782-bc1051-bo15-dv2441-bg956-by1706-aw5-bu18-')
+11.11.2025 19:42:51 Reinforce result: 'by35-dv31-bg15-'
+11.11.2025 19:42:51 Try reinforce 66 (side=0,units=75)
+11.11.2025 19:42:51 Reinforce result: 'by10-ay24-bb4-bg2-ba1-bc1-dv3-'
+11.11.2025 19:42:51 Reinforced
+11.11.2025 19:42:53 Update battle state
+11.11.2025 19:43:08 Update battle state
+11.11.2025 19:43:21 Battle state '3)ba1-by431-bg8-dv62-bb9-bo1-ap12-bc7-ay61-' / '1)by269-dv73-bg17-'
+11.11.2025 19:43:21 Try reinforce 67 (side=1,group=5575,units=98,initial='ap1751-bm3187-bb260-ay2884-bn566-ba782-bc1051-bo15-dv3045-bg1605-by4332-aw5-ao88-bu18-',reserve='ap1689-bm3186-bb251-ay2458-bn566-ba782-bc1051-bo15-dv2410-bg941-by1671-aw5-bu18-')
+11.11.2025 19:43:21 Reinforce result: 'by35-dv31-bg16-'
+11.11.2025 19:43:21 Try reinforce 67 (side=0,units=75)
+11.11.2025 19:43:21 Reinforce result: 'by12-ay24-bb4-bg2-ba1-dv2-'
+11.11.2025 19:43:21 Reinforced
+11.11.2025 19:43:23 Update battle state
+11.11.2025 19:43:38 Update battle state
+11.11.2025 19:43:51 Battle state '3)ba2-by442-dv55-bb9-ap1-bc6-ay60-bg8-' / '1)by271-dv67-bg17-'
+11.11.2025 19:43:51 Try reinforce 68 (side=1,group=5575,units=96,initial='ap1751-bm3187-bb260-ay2884-bn566-ba782-bc1051-bo15-dv3045-bg1605-by4332-aw5-ao88-bu18-',reserve='ap1689-bm3186-bb251-ay2458-bn566-ba782-bc1051-bo15-dv2379-bg925-by1636-aw5-bu18-')
+11.11.2025 19:43:51 Reinforce result: 'by35-dv31-bg15-'
+11.11.2025 19:43:51 Try reinforce 68 (side=0,units=75)
+11.11.2025 19:43:51 Reinforce result: 'by10-ay25-bb3-bg2-ba1-bc1-dv3-'
+11.11.2025 19:43:51 Reinforced
+11.11.2025 19:43:53 Update battle state
+11.11.2025 19:44:08 Update battle state
+11.11.2025 19:44:21 Battle state '3)ba3-by449-dv49-bb7-bc5-ay60-bg7-' / '1)by284-dv56-bg16-'
+11.11.2025 19:44:21 Try reinforce 69 (side=1,group=5575,units=94,initial='ap1751-bm3187-bb260-ay2884-bn566-ba782-bc1051-bo15-dv3045-bg1605-by4332-aw5-ao88-bu18-',reserve='ap1689-bm3186-bb251-ay2458-bn566-ba782-bc1051-bo15-dv2348-bg910-by1601-aw5-bu18-')
+11.11.2025 19:44:21 Reinforce result: 'by34-dv30-bg15-'
+11.11.2025 19:44:21 Try reinforce 69 (side=0,units=75)
+11.11.2025 19:44:21 Reinforce result: 'by11-ay24-bb4-bg2-bc1-dv3-'
+11.11.2025 19:44:23 Update battle state
+11.11.2025 19:44:23 Finish battle (replay='2025_11_11/6232af142b84258eab4042ddf67d4ae3a3ff1d00',result=1)
