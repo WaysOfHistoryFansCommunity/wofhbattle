@@ -1,14 +1,19 @@
+import { BinaryReader } from "../../core/helpers/BinaryReaderHelper";
+
 export function parseReplay(buffer) 
 {
-    const view = new DataView(buffer.buffer);
-    let offset = 0;
+    const reader = new BinaryReader(buffer);
+
+    const littleEndian = reader.readUint16();
+    console.log(littleEndian);
+    const SIGNATURE = reader.readString(); 
+    
 
     return {
-        id: '',
-        player: { id: 0, name: '' },
-        city: { id: 0, name: '' },
-        country: { id: 0, name: '' },
-        domain: '',
-        waves: [],
+        player: {id: 0, name: 'Noname'},
+        city: {id: 0, name: 'Noname'}, 
+        country: {id: 0, name: 'Noname', flag: '-.gif'},
+        domain: 'ru69.waysofhistory.com', 
+        waves: []
     };
 }

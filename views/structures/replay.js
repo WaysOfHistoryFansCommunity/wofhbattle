@@ -1,10 +1,9 @@
-import { parseReplay } from "../modules/ReplayParser";
+import { parseReplay } from "../modules/ReplayParser.js";
 
 export class Replay 
 {
-    constructor({id = 0, player = {id: 0, name: ''}, city = {id: 0, name: ''}, country = {id: 0, name: '', flag: '-.gif'}, domain = 'ru69.waysofhistory.com', waves = []})
+    constructor({player = {id: 0, name: 'Noname'}, city = {id: 0, name: 'Noname'}, country = {id: 0, name: 'Noname', flag: '-.gif'}, domain = 'ru69.waysofhistory.com', waves = []})
     {
-        this.id = id;
         this.player = player;
         this.city = city;
         this.country = country;
@@ -13,12 +12,12 @@ export class Replay
         this.wavesCount = this.waves.length;
     }
 
-    static fromFile(filename)
+    static async fromFile(filename)
     {
-        
+        return this.fromBinary(await window.api.readFileBinary(filename));
     } 
 
-    static fromBinary(buffer)
+    static async fromBinary(buffer)
     {
         const data = parseReplay(buffer);
         return new Replay(data);
