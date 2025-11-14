@@ -11,10 +11,10 @@ const ACTUAL_PROJECTINFO_FILENAME = '0c400414_18';
 
 export class Replay 
 {
-    constructor({player = {id: 0, name: 'Noname'}, city = {id: 0, name: 'Noname'}, country = {id: 0, name: 'Noname', flag: '-.gif'}, scene = {defaultGFilepath: 'project/wofh1_4/scenes/defaultG', defaultVFilepath: 'project/wofh1_4/scenes/defaultV'},domain = 'ru69.waysofhistory.com', waves = []})
+    constructor({account = {id: 0, name: 'Noname', gender: 1, race: 1}, town = {id: 0, name: 'Noname'}, country = {id: 0, name: 'Noname', flag: '-.gif'}, scene = {defaultGFilepath: 'project/wofh1_4/scenes/defaultG', defaultVFilepath: 'project/wofh1_4/scenes/defaultV'},domain = 'ru69.waysofhistory.com', waves = []})
     {
-        this.player = player;
-        this.city = city;
+        this.account = account;
+        this.town = town;
         this.country = country;
         this.scene = scene;
         this.domain = domain;
@@ -97,12 +97,23 @@ export class Replay
         if(!compareArrays(ACTUAL_UNKNOWN_CHECK_BYTES_3, UNKNOWN_CHECK_BYTES_3)) throw new Error("ERROR process parse replay, unknown check bytes 3 is mismath.");
         console.log('CHECK UNKNOWN BYTES 3 PASSED');
 
+        //Check 'data' signature(?)
+        const actualDataBlockName = 'data';
+        const dataBlockName = reader.readString(actualDataBlockName.length);
+        if(actualDataBlockName != dataBlockName) throw new Error("ERROR process parse replay, data block name is mismath.");
+        
+        //Skip 1 byte 04
+        reader.skip(1);
+        const jsonMainReplayDataLength = reader.readUint32();
+        const jsonMainReplayData =  reader.readJson(jsonMainReplayDataLength);
+        console.log(jsonMainReplayData);
+
         return new Replay({
-            player: {id: 0, name: 'Noname'},
-            city: {id: 0, name: 'Noname'}, 
+            account: {id: jsonMainReplayData.account[0], name: jsonMainReplayData.account[1], gender: jsonMainReplayData.account[2], race: jsonMainReplayData.account[3]},
+            town: {id: jsonMainReplayData.town[0], name: jsonMainReplayData.town[1]}, 
             scene: {defaultGFilepath: defaultGFilepathInfo, defaultVFilepath: defaultVFilepathInfo },
-            country: {id: 0, name: 'Noname', flag: '-.gif'},
-            domain: 'ru69.waysofhistory.com', 
+            country: {id: jsonMainReplayData.country[0], name: jsonMainReplayData.country[1], flag: jsonMainReplayData.account[2]},
+            domain: jsonMainReplayData.domain, 
             waves: []
         });
     }
