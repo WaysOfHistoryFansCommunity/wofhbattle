@@ -8,6 +8,12 @@ export class BinaryReader
         this.view = new DataView(this.buffer.buffer);
         this.offset = 0;
         this.decoder = new TextDecoder("utf-8");
+        this.endian = true; // LE
+    }
+
+    setEndian(endian = true) 
+    {
+        this.endian = endian;
     }
 
     get position() 
@@ -43,11 +49,13 @@ export class BinaryReader
 
     peekInt8() 
     {
+        if (this.offset + 1 > this.buffer.length) throw new RangeError("EOF");
         return this.view.getInt8(this.offset);
     }
 
     readInt8() 
     {
+        if (this.offset + 1 > this.buffer.length) throw new RangeError("EOF");
         const result = this.view.getInt8(this.offset);
         this.offset += 1;
         return result; 
@@ -55,11 +63,13 @@ export class BinaryReader
 
     peekUint8()
     {
+        if (this.offset + 1 > this.buffer.length) throw new RangeError("EOF");
         return this.view.getUint8(this.offset);
     }
 
     readUint8()
     {
+        if (this.offset + 1 > this.buffer.length) throw new RangeError("EOF");
         const result = this.view.getUint8(this.offset);
         this.offset += 1;
         return result;
@@ -67,60 +77,70 @@ export class BinaryReader
 
     peekInt16() 
     {
-        return this.view.getInt16(this.offset);
+        if (this.offset + 2 > this.buffer.length) throw new RangeError("EOF");
+        return this.view.getInt16(this.offset, endian, this.endian);
     }
 
     readInt16() 
     {
-        const result = this.view.getInt16(this.offset);
+        if (this.offset + 2 > this.buffer.length) throw new RangeError("EOF");
+        const result = this.view.getInt16(this.offset, endian, this.endian);
         this.offset += 2;
         return result;
     }
 
     peekUint16()
     {
-        return this.view.getUint16(this.offset);
+        if (this.offset + 2 > this.buffer.length) throw new RangeError("EOF");
+        return this.view.getUint16(this.offset, this.endian);
     }
 
     readUint16()
     {
-        const result = this.view.getUint16(this.offset);
+        if (this.offset + 2 > this.buffer.length) throw new RangeError("EOF");
+        const result = this.view.getUint16(this.offset, this.endian);
         this.offset += 2;
         return result;
     }
 
     peekInt32() 
     {
-        return this.view.getInt32(this.offset);
+        if (this.offset + 4 > this.buffer.length) throw new RangeError("EOF");
+        return this.view.getInt32(this.offset, this.endian);
     }
 
     readInt32() 
     {
-        const result = this.view.getInt32(this.offset);
+        if (this.offset + 4 > this.buffer.length) throw new RangeError("EOF");
+        const result = this.view.getInt32(this.offset, this.endian);
         this.offset += 4;
         return result;
     }
 
     peekUint32()
     {
-        return this.view.getUint32(this.offset);
+        if (this.offset + 4 > this.buffer.length) throw new RangeError("EOF");
+        return this.view.getUint32(this.offset, this.endian);
     }
 
     readUint32()
     {
-        const result = this.view.getUint32(this.offset);
+        if (this.offset + 4 > this.buffer.length) throw new RangeError("EOF");
+        const result = this.view.getUint32(this.offset, this.endian);
         this.offset += 4;
         return result;
     }
 
     peekFloat32() 
     {
-        return this.view.getFloat32(this.offset, true);
+        if (this.offset + 4 > this.buffer.length) throw new RangeError("EOF");
+        return this.view.getFloat32(this.offset, this.endian);
     }
 
     readFloat32() 
     {
-        const result = this.view.getFloat32(this.offset, true);
+        if (this.offset + 4 > this.buffer.length) throw new RangeError("EOF");
+        const result = this.view.getFloat32(this.offset, this.endian);
         this.offset += 4;
         return result;
     }
@@ -129,19 +149,25 @@ export class BinaryReader
     {
         if (typeof len === "undefined")
         {
-            len = this.readUint8();
+            len = this.peekUint8();
         }
-
-        const bytes = this.buffer.subarray(this.offset, this.offset + len);
+        if (this.offset + len > this.buffer.length) throw new RangeError("EOF");
+        const bytes = this.buffer.subarray(this.offset + 1, this.offset + 1 + len);
         const str = this.decoder.decode(bytes);
         return str;
     }
 
     readString(len) 
     {
-        const result = peekString(len);
+        if (typeof len === "undefined")
+        {
+            len = this.readUint8();
+        }
+        if (this.offset + len > this.buffer.length) throw new RangeError("EOF");
+        const bytes = this.buffer.subarray(this.offset, this.offset + len);
+        const str = this.decoder.decode(bytes);
         this.offset += len;
-        return result;
+        return str;
     }
 
     peekJson(len)
@@ -174,11 +200,13 @@ export class BinaryReader
 
     peekSubBytes(len) 
     {
+        if (this.offset + len > this.buffer.length) throw new RangeError("EOF");
         return this.buffer.subarray(this.offset, this.offset + len);
     }
 
     readSubBuffer(len) 
     {
+        if (this.offset + len > this.buffer.length) throw new RangeError("EOF");
         const bytes = this.buffer.subarray(this.offset, this.offset + len);
         this.offset += len;
         return bytes;
