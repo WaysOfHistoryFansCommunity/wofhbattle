@@ -32,12 +32,12 @@ export class BinaryReader
         return this.buffer.length - this.offset;
     }
 
-    skip(bytes) 
+    skip(bytes = 1) 
     {
         this.position += bytes;
     }
 
-    back(bytes) 
+    back(bytes = 1) 
     {
         this.position -= bytes;
     }
