@@ -13,7 +13,7 @@ app.whenReady().then(() =>
     createMainWindow();
 
     ipcMain.handle('read-dir', (_, dirname) => fs.readdirSync(path.resolve(dirname)));
-    ipcMain.handle('read-file-binary', (_, filename) => Uint8Array(fs.readFileSync(path.resolve(filename))));
+    ipcMain.handle('read-file-binary', (_, filename) => new Uint8Array(fs.readFileSync(path.resolve(filename))));
     ipcMain.handle('read-file', (_, filename) => fs.readFileSync(path.resolve(filename), 'utf8'));
     ipcMain.handle('write-file', (_, filename, data) => fs.writeFileSync(path.resolve(filename), data));
     ipcMain.handle('create-window', (_, { url, title, width, height, favicon, resizable, maximizable, minimizable, fullscreenable }) => createNewWindow(url, title, width, height, favicon, resizable, maximizable, minimizable, fullscreenable));

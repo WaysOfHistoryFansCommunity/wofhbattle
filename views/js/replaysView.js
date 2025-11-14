@@ -46,7 +46,7 @@ console.log(replayFiles);
 
 for (const replayId of replayFiles) 
 {
-    const replay = await Replay.fromFile(replayId);
+    const replay = await Replay.fromFile('replays/'+replayId);
     replays[replayId] = replay;
 
     //const replayComponent = new ReplayComponent(replay);

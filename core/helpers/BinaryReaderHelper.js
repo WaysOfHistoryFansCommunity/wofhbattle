@@ -198,7 +198,7 @@ export class BinaryReader
         }
     }
 
-    peekSubBytes(len) 
+    peekSubBuffer(len) 
     {
         if (this.offset + len > this.buffer.length) throw new RangeError("EOF");
         return this.buffer.subarray(this.offset, this.offset + len);
