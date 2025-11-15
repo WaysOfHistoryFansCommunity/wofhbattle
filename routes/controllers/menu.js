@@ -16,7 +16,7 @@ document.querySelector('.button-run-replays').addEventListener('click', () =>
 {
     window.api.createWindow(
     {
-        url: 'pages/replays.html',
+        url: 'routes/views/replays.html',
         title: 'Список Повторов',
         width: 980,
         height: 800,
@@ -30,7 +30,7 @@ document.querySelector('.button-run-simulator').addEventListener('click', () =>
 {
     window.api.createWindow(
     {
-        url: 'pages/simulator.html',
+        url: 'routes/views/simulator.html',
         title: 'Симулятор боя (АЛЬФА)',
         width: 995,
         height: 750,
@@ -44,7 +44,7 @@ document.querySelector('.button-run-settings').addEventListener('click', () =>
 {
     window.api.createWindow(
     {
-        url: 'pages/settings.html',
+        url: 'routes/views/settings.html',
         title: 'Настройки',
         width: 800,
         height: 600,
