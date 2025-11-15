@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="css/main.css">
+        <link rel="stylesheet" href="css/replays.css">
+    </head>
+    <body>
+        <div class="wnd-wrp wnd-replays-wrp" style="width: 100%;height: 100%;">
+            <div class="wnd wnd-replays -active" style="width: 100%;height: 100%;">
+                <div class="wnd-borders-wrp">
+                    <div class="wnd-brd wnd-brd-t"></div>
+                    <div class="wnd-brd wnd-brd-b"></div>
+                    <div class="wnd-brd wnd-brd-l"></div>
+                    <div class="wnd-brd wnd-brd-r"></div>
+                    <div class="wnd-brd wnd-brd-tl"></div>
+                    <div class="wnd-brd wnd-brd-tr"></div>
+                    <div class="wnd-brd wnd-brd-bl"></div>
+                    <div class="wnd-brd wnd-brd-br"></div>
+                    <div class="wnd-brd wnd-brd-c"></div>
+                </div>
+                <div class="wnd-header-wrp">Список повторов</div>
+                <div class="wnd-cont-wrp">
+                    <div class="view-replays">
+                        <div class="tabs tabs-wrp">
+                            <a class="tabs-btn js-tabLink -active" data-tab="list"><span class="tabs-title">Перечень</span></a
+                            ><a class="tabs-btn js-tabLink" data-tab="edit"><span class="tabs-title">Редактирование</span></a>
+                        </div>
+                        <div class="tabs-cont">
+                            <div class="tab-wrp replays-list-wrp">
+                                <div class="view-replays-list js-scroll-wrp __scrollWrp" style="height: 778px" data-isbc-id="25">
+                                    <div class="__scroll" data-isbc-y-lay="outside" data-isbc-y-pos="right" data-isbc-y-hidden="">
+                                        <div class="__scrollbar-y">
+                                            <div data-isbc-btn="inc"></div>
+                                            <div class="__scrollbarTrack"></div>
+                                            <div class="__scrollbarThumb" style="height: 0px"></div>
+                                            <div data-isbc-btn="dec"></div>
+                                        </div>
+                                        <div class="__scrollArea">
+                                            <div class="__scrollCont replaysContainer">
+                                                <div
+                                                    class="view-replays-listItem -addNewReplay view-replays-common -com-rounded -com-shadow-black -com-shadowEffect"
+                                                    data-title="Перейти к созданию нового шаблона повтора"
+                                                    aria-labelledby="tooltip-voiceHelperCont"
+                                                    tabindex="-1"
+                                                >
+                                                    Создать новый шаблон повтора
+                                                    <div class="view-replays-addIcon -addNewReplay view-replays-addIcon"></div>
+                                                </div>
+                                                <div
+                                                    class="view-replays-listItem -addNewReplay view-replays-common -com-rounded -com-shadow-black -com-shadowEffect"
+                                                    data-title="Перейти к созданию нового шаблона повтора"
+                                                    aria-labelledby="tooltip-voiceHelperCont"
+                                                    tabindex="-1"
+                                                >
+                                                    Загрузить повтор
+                                                    <div class="view-replays-addIcon -addNewReplay view-replays-addIcon"></div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="wnd-shadow-wrp"></div>
+            </div>
+        </div>
+        <script src="js/replaysController.js" type="module"></script>
+    </body>
+</html>

@@ -4,7 +4,7 @@ document.querySelector('.button-run-playbattle').addEventListener('click', async
     console.log('Из буфера:', clipboardText);
     /*window.api.createWindow(
     {
-        url: 'views/replays.html',
+        url: 'pages/replays.html',
         title: 'Пути Истории Список Повторов',
         width: 1200,
         height: 900,
@@ -16,7 +16,7 @@ document.querySelector('.button-run-replays').addEventListener('click', () =>
 {
     window.api.createWindow(
     {
-        url: 'views/replays.html',
+        url: 'pages/replays.html',
         title: 'Список Повторов',
         width: 980,
         height: 800,
@@ -30,7 +30,7 @@ document.querySelector('.button-run-simulator').addEventListener('click', () =>
 {
     window.api.createWindow(
     {
-        url: 'views/simulator.html',
+        url: 'pages/simulator.html',
         title: 'Симулятор боя (АЛЬФА)',
         width: 995,
         height: 750,
@@ -44,7 +44,7 @@ document.querySelector('.button-run-settings').addEventListener('click', () =>
 {
     window.api.createWindow(
     {
-        url: 'views/settings.html',
+        url: 'pages/settings.html',
         title: 'Настройки',
         width: 800,
         height: 600,

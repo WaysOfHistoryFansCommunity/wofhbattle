@@ -220,7 +220,7 @@
     font-weight:bold;
     color:#000
 }
-.view-replays-editMain-deleteTactic,
+.view-replays-editMain-deleteReplay,
 .view-replays-editMain-saveTacticName,
 .view-replays-editMain-cancelTacticName {
   display:none;
@@ -234,13 +234,13 @@
 .view-replays-editMain-cancelTacticName {
   right:-60px
 }
-.view-replays-editMain-tacticNameWrp:hover .view-replays-editMain-deleteTactic,
+.view-replays-editMain-tacticNameWrp:hover .view-replays-editMain-deleteReplay,
 .view-replays-editMain-tacticNameWrp.-nameEditing .view-replays-editMain-saveTacticName,
 .view-replays-editMain-tacticNameWrp.-nameEditing .view-replays-editMain-cancelTacticName {
   display:block
 }
-.view-replays-editMain-tacticNameWrp.-active.-nameEditing .view-replays-editMain-deleteTactic,
-.view-replays-editMain-oneTactic+.view-replays-editMain-tacticNameWrp.-active .view-replays-editMain-deleteTactic {
+.view-replays-editMain-tacticNameWrp.-active.-nameEditing .view-replays-editMain-deleteReplay,
+.view-replays-editMain-oneTactic+.view-replays-editMain-tacticNameWrp.-active .view-replays-editMain-deleteReplay {
   display:none
 }
 .view-replays-editMain-tacticData {
@@ -1266,11 +1266,11 @@
   position:absolute;
   cursor:pointer
 }
-.view-replays-listItemOption.-deleteTactic {
+.view-replays-listItemOption.-deleteReplay {
   top:0;
   right:0
 }
-.view-replays-listItemOption.-editTactic {
+.view-replays-listItemOption.-editReplay {
   top:0;
   left:1px
 }
@@ -1282,7 +1282,7 @@
 .view-replays-listItem.-active .view-replays-listItemOption {
   display:block
 }
-.view-replays-editMain-oneTactic+.view-replays-listItem.-active .view-replays-listItemOption.-deleteTactic {
+.view-replays-editMain-oneTactic+.view-replays-listItem.-active .view-replays-listItemOption.-deleteReplay {
   display:none
 }
 .view-replays-listItem.-addNewTactic {

@@ -1,5 +1,5 @@
-import { compareArrays } from "../../core/helpers/ArrayHelper.js";
-import { BinaryReader } from "../../core/helpers/BinaryReaderHelper.js";
+import { compareArrays } from "../helpers/ArrayHelper.js";
+import { BinaryReader } from "../helpers/BinaryReaderHelper.js";
 
 
 const ACTUAL_PROJECT_SIGNATURE = 'wofh1_4';
@@ -11,13 +11,16 @@ const ACTUAL_PROJECTINFO_FILENAME = '0c400414_18';
 
 export class Replay 
 {
-    constructor({account = {id: 0, name: 'Noname', gender: 1, race: 1}, town = {id: 0, name: 'Noname'}, country = {id: 0, name: 'Noname', flag: '-.gif'}, scene = {defaultGFilepath: 'project/wofh1_4/scenes/defaultG', defaultVFilepath: 'project/wofh1_4/scenes/defaultV'},domain = 'ru69.waysofhistory.com', waves = []})
+    constructor({buildings = [0, 0, 0, 0, 0, 0, 0, 0, 0], account = {id: 0, name: 'Noname', gender: 1, race: 1}, town = {id: 0, name: 'Noname'}, country = {id: 0, name: 'Noname', flag: '?'}, scene = {defaultGFilepath: 'project/wofh1_4/scenes/defaultG', defaultVFilepath: 'project/wofh1_4/scenes/defaultV'}, domain = 'ru69.waysofhistory.com', map = 'map1', speed = 1, waves = []})
     {
+        this.buildings = buildings ;
         this.account = account;
         this.town = town;
         this.country = country;
         this.scene = scene;
         this.domain = domain;
+        this.map = map;
+        this.speed = speed;
         this.waves = waves;
         this.wavesCount = this.waves.length;
     }
@@ -108,12 +111,16 @@ export class Replay
         const jsonMainReplayData =  reader.readJson(jsonMainReplayDataLength);
         console.log(jsonMainReplayData);
 
-        return new Replay({
-            account: {id: jsonMainReplayData.account[0], name: jsonMainReplayData.account[1], gender: jsonMainReplayData.account[2], race: jsonMainReplayData.account[3]},
-            town: {id: jsonMainReplayData.town[0], name: jsonMainReplayData.town[1]}, 
-            scene: {defaultGFilepath: defaultGFilepathInfo, defaultVFilepath: defaultVFilepathInfo },
-            country: {id: jsonMainReplayData.country[0], name: jsonMainReplayData.country[1], flag: jsonMainReplayData.account[2]},
-            domain: jsonMainReplayData.domain, 
+        return new Replay(
+        {
+            buildings: jsonMainReplayData.buildings,
+            account: { id: jsonMainReplayData.data.account[0], name: jsonMainReplayData.data.account[1], gender: jsonMainReplayData.data.account[2], race: jsonMainReplayData.data.account[3] },
+            town: { id: jsonMainReplayData.data.town[0], name: jsonMainReplayData.data.town[1] }, 
+            scene: { defaultGFilepath: defaultGFilepathInfo, defaultVFilepath: defaultVFilepathInfo },
+            country: { id: jsonMainReplayData.data.country[0], name: jsonMainReplayData.data.country[1], flag: jsonMainReplayData.data.country[2] },
+            domain: jsonMainReplayData.data.domain,
+            map: jsonMainReplayData.map,
+            speed: jsonMainReplayData.speed,
             waves: []
         });
     }

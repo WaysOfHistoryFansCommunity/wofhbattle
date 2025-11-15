@@ -40,7 +40,7 @@ function createMainWindow()
         },
     });
 
-    mainWindow.loadFile('views/menu.html');
+    mainWindow.loadFile('pages/menu.html');
 }
 
 function createNewWindow(url, title = 'Window', width = 1200, height = 800, favicon = 'favicon.ico', resizable = true, minimizable = true, maximizable = true, fullscreenable = false) 
