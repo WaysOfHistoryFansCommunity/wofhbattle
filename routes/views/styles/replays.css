@@ -12,7 +12,7 @@
     width:24px;
     height:23px;
     cursor:pointer;
-    background:url(../../img/gui/superatlas-3.png);
+    background:url(../../../img/gui/superatlas-3.png);
     background-position:-1052px -153px
 }
 .view-replays-addIconBig 
@@ -23,7 +23,7 @@
     width:39px;
     height:39px;
     cursor:pointer;
-    background:url(../../img/gui/superatlas-3.png);
+    background:url(../../../img/gui/superatlas-3.png);
     background-position:-1077px -153px
 }
 .view-replays-common.-com-fsize-16 
@@ -32,11 +32,11 @@
 }
 .view-replays-common.-com-bg 
 {
-    background:url(../../img/gui/trash/gui/tbl/tblrow1.png)
+    background:url(../../../img/gui/trash/gui/tbl/tblrow1.png)
 }
 .view-replays-common.-com-bg-light 
 {
-    background:url(../../img/gui/trash/gui/tbl/tblrow0.png)
+    background:url(../../../img/gui/trash/gui/tbl/tblrow0.png)
 }
 .view-replays-common.-com-rounded 
 {
@@ -155,7 +155,7 @@
     height:30px;
     position:relative
 }
-.view-replays-editMain-addNewTactic 
+.view-replays-editMain-addNewReplay
 {
     position:absolute;
     top:3px;
@@ -163,10 +163,10 @@
     width:24px;
     height:23px;
     cursor:pointer;
-    background:url(../../img/gui/superatlas-3.png);
+    background:url(../../../img/gui/superatlas-3.png);
     background-position:-1052px -153px
 }
-.view-replays-editMain-addNewTactic.-adding 
+.view-replays-editMain-addNewReplay.-adding 
 {
     cursor:default;
     opacity:.7
@@ -427,7 +427,7 @@
   margin:auto;
   width:48px;
   height:10px;
-  background:url(../../img/gui/superatlas-3.png);
+  background:url(../../../img/gui/superatlas-3.png);
   background-position:-929px -185px
 }
 .view-replays-editMain-ruleSorter:after {
@@ -474,7 +474,7 @@
   width:29px;
   height:32px;
   margin:auto 0;
-  background:url(../../img/gui/superatlas-3.png);
+  background:url(../../../img/gui/superatlas-3.png);
   background-position:-1117px -153px
 }
 .view-replays-editMain-reserve2Wrp {
@@ -686,7 +686,7 @@
   left:4px;
   width:29px;
   height:29px;
-  background:url(../../img/gui/buttons/window_buttons-a-2.png);
+  background:url(../../../img/gui/buttons/window_buttons-a-2.png);
   background-position:-3px -64px;
   border:none
 }
@@ -697,7 +697,7 @@
   height:46px;
   left:210px;
   bottom:15px;
-  background:url(../../img/gui/tactic/arrows_to_units.png)
+  background:url(../../../img/gui/tactic/arrows_to_units.png)
 }
 .view-replays-editWave-armyTemplateDrop {
   left:650px;
@@ -908,7 +908,7 @@
   height:46px;
   top:8px;
   left:30px;
-  background:url(../../img/gui/tactic/arrows_to_units.png) 79px 0px
+  background:url(../../../img/gui/tactic/arrows_to_units.png) 79px 0px
 }
 .view-replays-editWave-addUnitTemplateHintText {
   position:absolute;
@@ -1033,7 +1033,7 @@
   font-size:10px;
   color:#fff;
   cursor:pointer;
-  background:url(../../img/gui/tactic/template_units_bg-a.png) repeat
+  background:url(../../../img/gui/tactic/template_units_bg-a.png) repeat
 }
 .replays-editWave-tagName {
   display:inline-block
@@ -1214,16 +1214,13 @@
 .view-replays-listItem {
   position:relative;
   display:inline-block;
-  width:214px;
+  width:290px;
   height:80px;
   margin:5px;
   padding:5px;
   text-align:center;
   float:left;
   cursor:pointer
-}
-.view-replays-listItem.-active {
-  cursor:default
 }
 .view-replays-listItemInfo {
   display:inline-block;
@@ -1274,7 +1271,7 @@
   top:0;
   left:1px
 }
-.view-replays-listItemOption.-useTactic {
+.view-replays-listItemOption.-playReplay {
   bottom:2px;
   width:inherit;
   cursor:default
@@ -1285,12 +1282,12 @@
 .view-replays-editMain-oneTactic+.view-replays-listItem.-active .view-replays-listItemOption.-deleteReplay {
   display:none
 }
-.view-replays-listItem.-addNewTactic {
+.view-replays-listItem.-addNewReplay {
   font-size:14px;
   cursor:pointer;
   background:rgba(200,200,200,.5)
 }
-.view-replays-listItem .-addNewTactic.view-replays-addIcon {
+.view-replays-listItem .-addNewReplay.view-replays-addIcon {
   top:0;
   left:0;
   right:0;

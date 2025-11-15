@@ -13,42 +13,101 @@ function playReplay(replay)
     return `${baseUrl}?${params.toString()}`;
 }*/
 
+
+
 import { ReplayComponent } from '../components/replayComponent.js';
 import { Replay } from '../../core/structures/Replay.js';
 
-let replaysContainer = document.querySelector('.replaysContainer');
-let replayFiles = await window.api.readDir('replays/');
-console.log(replayFiles);
+class ReplayInstancesManager
+{
+    constructor(replaysContainer = '.mainReplaysContainer')
+    {
+        this._replaysInstances = {};
+        this._currentReplayInstance = null;
+        this._selectedReplayInstance = null;
 
-let replaysInstances = {};
-let currentReplay = null;
-let selectedReplay = null;
+        this._replaysContainer = document.querySelector(replaysContainer);
+        if (!this._replaysContainer)
+        {
+            throw new Error('ReplaysController ReplayInstancesManager instance: Replays container not set.');
+        }
+    }
+    async loadFromDir(dirname)
+    {
+        this._replayIds = await window.api.readDir(dirname);
+        
+    }
+
+    get replaysContainer()
+    {
+        return this._replaysContainer;
+    }
+
+    set replaysContainer(replaysContainer)
+    {
+        this._replaysContainer = replaysContainer;
+    }
+
+    async render()
+    {
+        if(!this._replayIds) throw new Error("ReplaysController ReplayInstancesManager render replayIds is empty.");
+        
+        for (const id of await this._replayIds) 
+        {
+            try 
+            {
+                const replayInstance = new ReplayInstance(id, this);
+                await replayInstance.load();
+                this._replaysInstances[id] = replayInstance;
+                await replayInstance.render(this._replaysContainer);
+            } 
+            catch (error) 
+            {
+                console.error(`Failed to load replay ${id}:`, error);
+            }
+        }
+    }
+    deleteInstanceCallback(id)
+    {
+        delete this._replaysInstances[id];
+    }
+
+    destroy() 
+    {
+        Object.values(this._replaysInstances).forEach(instance => instance.destroy());
+        this._replaysInstances = {};
+        this._currentReplayInstance = null;
+        this._selectedReplayInstance = null;
+    }
+}
 
 class ReplayInstance 
 {
-    constructor(id) 
+    constructor(id, replayInstancesManager) 
     {
-        this.id = id;
+        this._id = id;
+        this._data = {};
+        this._component = null;
+        this._replayInstancesManager = replayInstancesManager;
     }
 
     async load()
     {
-        this.data = await Replay.fromFile('replays/' + filename);
-        this.component = new ReplayComponent(this.data, 
+        this._data = await Replay.fromFile('replays/' + this._id);
+        this._component = new ReplayComponent(this._id, this._data, 
         {
-            'play-replay': this.onPlay,
-            'edit-replay': this.onEdit,
-            'delete-replay': this.onDestroy
+            'play-replay': () => this.onPlay(),
+            'edit-replay': () => this.onEdit(),
+            'delete-replay': () => this.onDestroy()
         });
-        
-        replayComponents[filename] = replayComponent;
-
-        
     }
 
-    render(parent) 
+    async render() 
     {
-        replaysContainer.appendChild(replayComponent.render());
+        if (this._replayInstancesManager.replaysContainer && this._component) 
+        {
+            this._replayInstancesManager.replaysContainer.appendChild(await this._component.render());
+        }
     }
 
     onPlay()
@@ -63,15 +122,18 @@ class ReplayInstance
 
     onDestroy() 
     {
-        this.component.destroy();
-        this.data = null;
+        this.destroy();
+    }
+
+    destroy()
+    {
+        this._component?.destroy();
+        this._data = null;
+        this._replayInstancesManager?.deleteInstanceCallback(this._id);
     }
 }
 
-for (const filename of replayFiles) 
-{
-    const replayInstance = new ReplayInstance(filename);
-    await replayInstance.load();
-    replaysInstances[filename] = replayInstance;
-    replayInstance.render();
-}
+const mainReplayInstancesManager = new ReplayInstancesManager();
+
+await mainReplayInstancesManager.loadFromDir('replays/');
+await mainReplayInstancesManager.render();

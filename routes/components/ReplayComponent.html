@@ -1,4 +1,4 @@
-<div class="view-replays-listItem view-replays-common -com-bg -com-rounded -com-shadow -com-shadowEffect" data-action="hover-replay-info">
+<div class="view-replays-listItem view-replays-common -com-bg -com-rounded -com-shadow -com-shadowEffect" data-click-action="open-replay-info">
     <div class="view-replays-listItemInfo">
         <div
             class="view-replays-listItemName lenLim"
@@ -10,7 +10,7 @@
                         data-clipboard-text="58b5a7b71faa663c955c9816225960f648f9cf02">
                         <span class="clipboard-tag -sel js-clipboard-tag">58b5a7b71faa663c955c9816225960f648f9cf02</span>
                         &nbsp;
-                        <button class="clipboard-button" data-action="clipboard-replay-name">
+                        <button class="clipboard-button" data-click-action="copy-replay-name">
                             <span class="clipboard-button-text">Скопировать</span>&nbsp;
                             <span
                                 class="clipboard-status js-clipboard-status">
@@ -31,14 +31,14 @@
     <div
         class="view-replays-listItemOption -editReplay button2 -type-menu"
         data-title="Перейти к редактированию шаблона этой тактики"
-        data-action="edit-replay">
+        data-click-action="edit-replay">
     </div>
     <div
         class="view-replays-listItemOption -deleteReplay button2 -type-delete"
         data-title="Удалить шаблон этой тактики"
-        data-action="delete-replay">
+        data-click-action="delete-replay">
     </div>
-    <div class="view-replays-listItemOption" data-action="play-replay">
+    <div class="view-replays-listItemOption -playReplay" data-click-action="play-replay">
         <button class="button1 -type-green">Воспроизвести</button>
     </div>
 </div>

@@ -1,4 +1,4 @@
-import { compareArrays } from "../helpers/ArrayHelper.js";
+import { ArrayHelper } from "../helpers/ArrayHelper.js";
 import { BinaryHelper } from "../helpers/BinaryHelper.js";
 
 
@@ -46,13 +46,16 @@ export class Replay
         // ---- HEADER ----
 
         const endian = reader.readUint16();
-        if (endian === 0x0001)  reader.setEndian(true); //LE
-        else if (endian === 0x0100) reader.setEndian(false); //BE
+        if (endian === 0x0001)  reader.endian = true; //LE
+        else if (endian === 0x0100) reader.endian = false; //BE
         else throw new Error("Invalid endian marker");
         
-
         //Check signature
-        const SIGNATURE = reader.readString();
+        const SIGNATURE_LENGTH = reader.readUint8();
+        console.log('SIGNATURE_LENGTH: ', SIGNATURE_LENGTH);
+        if(SIGNATURE_LENGTH != ACTUAL_PROJECT_SIGNATURE.length) throw new Error("ERROR process parse replay, signature length is mismath.");
+
+        const SIGNATURE = reader.readString(SIGNATURE_LENGTH);
         console.log('SIGNATURE: ', SIGNATURE);
         if(SIGNATURE != ACTUAL_PROJECT_SIGNATURE) throw new Error("ERROR process parse replay, signature is mismath.");
         //Check version
@@ -67,7 +70,7 @@ export class Replay
         console.log('ACTUAL UNKNOWN CHECK BYTES 1: ', ACTUAL_UNKNOWN_CHECK_BYTES_1, ACTUAL_UNKNOWN_CHECK_BYTES_1.length);
         const UNKNOWN_CHECK_BYTES_1  = reader.readSubBuffer(ACTUAL_UNKNOWN_CHECK_BYTES_1.length);
         console.log('CHECK UNKNOWN BYTES 1: ', UNKNOWN_CHECK_BYTES_1);
-        if(!compareArrays(ACTUAL_UNKNOWN_CHECK_BYTES_1, UNKNOWN_CHECK_BYTES_1)) throw new Error("ERROR process parse replay, unknown check bytes 1 is mismath.");
+        if(!ArrayHelper.compareArrays(ACTUAL_UNKNOWN_CHECK_BYTES_1, UNKNOWN_CHECK_BYTES_1)) throw new Error("ERROR process parse replay, unknown check bytes 1 is mismath.");
         console.log('CHECK UNKNOWN BYTES 1 PASSED');
 
         //Check factions and map info file 0c400414_18
@@ -82,7 +85,7 @@ export class Replay
         console.log('ACTUAL UNKNOWN CHECK BYTES 2: ', ACTUAL_UNKNOWN_CHECK_BYTES_2, ACTUAL_UNKNOWN_CHECK_BYTES_2.length);
         const UNKNOWN_CHECK_BYTES_2  = reader.readSubBuffer(ACTUAL_UNKNOWN_CHECK_BYTES_2.length);
         console.log('CHECK UNKNOWN BYTES 2: ', UNKNOWN_CHECK_BYTES_2  );
-        if(!compareArrays(ACTUAL_UNKNOWN_CHECK_BYTES_2, UNKNOWN_CHECK_BYTES_2)) throw new Error("ERROR process parse replay, unknown check bytes 2 is mismath.");
+        if(!ArrayHelper.compareArrays(ACTUAL_UNKNOWN_CHECK_BYTES_2, UNKNOWN_CHECK_BYTES_2)) throw new Error("ERROR process parse replay, unknown check bytes 2 is mismath.");
         console.log('CHECK UNKNOWN BYTES 2 PASSED');
 
         //Read scene info
@@ -97,7 +100,7 @@ export class Replay
         console.log('ACTUAL UNKNOWN CHECK BYTES 3: ', ACTUAL_UNKNOWN_CHECK_BYTES_3, ACTUAL_UNKNOWN_CHECK_BYTES_3.length);
         const UNKNOWN_CHECK_BYTES_3  = reader.readSubBuffer(ACTUAL_UNKNOWN_CHECK_BYTES_3.length);
         console.log('CHECK UNKNOWN BYTES 3: ', UNKNOWN_CHECK_BYTES_3  );
-        if(!compareArrays(ACTUAL_UNKNOWN_CHECK_BYTES_3, UNKNOWN_CHECK_BYTES_3)) throw new Error("ERROR process parse replay, unknown check bytes 3 is mismath.");
+        if(!ArrayHelper.compareArrays(ACTUAL_UNKNOWN_CHECK_BYTES_3, UNKNOWN_CHECK_BYTES_3)) throw new Error("ERROR process parse replay, unknown check bytes 3 is mismath.");
         console.log('CHECK UNKNOWN BYTES 3 PASSED');
 
         //Check 'data' signature(?)
