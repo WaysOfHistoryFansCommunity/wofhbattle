@@ -1,4 +1,4 @@
-export class BinaryReader 
+export class BinaryHelper
 {
     constructor(buffer) 
     {
@@ -78,13 +78,13 @@ export class BinaryReader
     peekInt16() 
     {
         if (this.offset + 2 > this.buffer.length) throw new RangeError("EOF");
-        return this.view.getInt16(this.offset, endian, this.endian);
+        return this.view.getInt16(this.offset, this.endian);
     }
 
     readInt16() 
     {
         if (this.offset + 2 > this.buffer.length) throw new RangeError("EOF");
-        const result = this.view.getInt16(this.offset, endian, this.endian);
+        const result = this.view.getInt16(this.offset, this.endian);
         this.offset += 2;
         return result;
     }

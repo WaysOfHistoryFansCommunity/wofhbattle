@@ -1,5 +1,5 @@
 import { compareArrays } from "../helpers/ArrayHelper.js";
-import { BinaryReader } from "../helpers/BinaryReaderHelper.js";
+import { BinaryHelper } from "../helpers/BinaryHelper.js";
 
 
 const ACTUAL_PROJECT_SIGNATURE = 'wofh1_4';
@@ -41,7 +41,7 @@ export class Replay
     }
     static async fromBinary(buffer)
     {
-        const reader = new BinaryReader(buffer);
+        const reader = new BinaryHelper(buffer);
 
         // ---- HEADER ----
 
